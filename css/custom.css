@@ -37,7 +37,8 @@
     background: #0683FF !important;
     border-radius: 15px !important;
     color: #fff !important;
-    font-size: calc(100% - 5px) !important;);
+    font-size: calc(100% - 5px) !important;
+);
 }
 
 .gradiant_button_custom {
@@ -49,6 +50,7 @@
 .gradiant_button_custom:hover {
     background: transparent !important;
     border-color: #06C4FF;
+    color: #06C4FF !important;
 }
 
 .scroll_down_custom {
@@ -131,22 +133,28 @@
 i {
     color: #06C4FF !important;
 }
-.small-icon{
+
+.small-icon {
     color: #06C4FF !important;
 }
+
 /*// footer*/
 i {
     color: #06C4FF !important;
 }
-.small-icon{
+
+.small-icon {
     color: #06C4FF !important;
 }
-footer{
+
+footer {
     background: rgba(6, 196, 255, 0.1) !important;
 }
-.img-border-small-fix{
-    border-color: #06C4FF!important;
+
+.img-border-small-fix {
+    border-color: #06C4FF !important;
 }
-hr{
-    border-color: #06C4FF!important;
+
+hr {
+    border-color: #06C4FF !important;
 }
