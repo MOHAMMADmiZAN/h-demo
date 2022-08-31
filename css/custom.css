@@ -183,3 +183,6 @@ hr {
     font-size: 10px!important;
     text-transform: capitalize;
 }
+.cd-words-wrapper::after{
+    width: 0!important;
+}
