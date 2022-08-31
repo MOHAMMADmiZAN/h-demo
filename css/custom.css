@@ -176,3 +176,9 @@ footer {
 hr {
     border-color: #06C4FF !important;
 }
+.featureTitle{
+    font-size: 21px!important;
+}
+.featureContent{
+    font-size: 10px!important;
+}
