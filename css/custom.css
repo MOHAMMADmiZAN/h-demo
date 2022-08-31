@@ -181,4 +181,5 @@ hr {
 }
 .featureContent{
     font-size: 10px!important;
+    text-transform: capitalize;
 }
