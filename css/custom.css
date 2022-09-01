@@ -78,6 +78,7 @@
 
 .gradiant_button_custom:hover {
     border: none;
+    color: white;
 }
 
 .scroll_down_custom {
