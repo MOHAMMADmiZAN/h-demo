@@ -300,6 +300,8 @@ $(document).ready(function () {
         itemsMobile: [700, 1],
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
     });
+
+
     /*==============================================================*/
     //Sliders owlCarousel - END CODE
     /*==============================================================*/
