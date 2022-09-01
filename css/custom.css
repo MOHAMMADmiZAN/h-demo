@@ -190,6 +190,29 @@
     color: #06c4ff !important;
     font-size: 20px !important;
 }
+.block_8_input {
+    position: relative;
+    margin-top: 20px;
+}
+.block_8_input input{
+    border-radius: 40px !important;
+    padding: 10px 15px !important;
+}
+.block_8_input i{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #06c4ff !important;
+}
+
+.block_9_question{
+    font-family: "Source Serif Pro", serif !important;
+    font-size: 14px;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #000A2A !important;
+}
 
 /*// viewz center aling//*/
 .view_center_align_custom {
