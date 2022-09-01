@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
+}
+
 .a-product {
     border: 3px solid #06C4FF;
     padding: 15px;
@@ -34,19 +39,42 @@
 }
 
 .header_text_custom {
-    background: -webkit-linear-gradient(90deg, #0614ff, #0683ff 35%, #fa057f);
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 32px;
+    /*background: -webkit-linear-gradient(90deg, #06c4ff, #0683ff 35%, #fa057f);*/
+    background: -webkit-linear-gradient(#06c4ff, #0683ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-);
 }
-.btn-mt-20{
-    margin-top: 20px;
+
+.header_2d {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+    font-size: 18px !important;
+
+}
+
+.typeEffect i {
+    font-family: "Source Serif Pro", serif !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff!important;
+    text-align: center;
+}
+
+.btn-mt-20 {
+    margin-top: 30px;
 }
 
 .gradiant_button_custom {
-    background: linear-gradient(90deg, #0614ff, #0683ff 35%, #fa057f) !important;
-    border-radius: 15px !important;
-    border-color: #06C4FF !important;
+    min-width: 161px;
+    height: 50px;
+    background: linear-gradient(90deg, #0614ff, #0683ff, #fa057f) !important;
+    border-radius: 25px !important;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .gradiant_button_custom:hover {
@@ -66,11 +94,44 @@
     background-size: cover;
 }
 
-.cover_background_custom {
-    background: rgba(0, 10, 42, 0.5) !important;
-    background-size: cover;
+.cover_bg{
+    background: #e8f6fe!important;
+}
+.block_2_title{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#06c4ff , #0683ff, #fa057f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.block_2_text{
+    font-family: "Source Serif Pro", serif !important;
+    font-size: 14px;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    color: #000A2A!important;
 }
 
+.block_3_title{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 600;
+    color: #0683ff;
+    margin-top: 20px;
+}
+.block_3_text{
+    font-family: "Source Serif Pro", serif !important;
+    font-size: 14px;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    color: #000A2A!important;
+}
+.block_4_title{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 600;
+    color: #06c4ff;
+    margin-top: 20px;
+}
 /*// viewz center aling//*/
 .view_center_align_custom {
     text-align: center !important;
@@ -85,19 +146,23 @@
     border-radius: 15px !important;
 }
 
-.h1_customSize{
-    font-size: 25px!important;
+.h1_customSize {
+    font-size: 25px !important;
 }
-.p-40{
-    padding: 40px!important;
+
+.p-40 {
+    padding: 40px !important;
 }
-.benefitContent{
+
+.benefitContent {
     display: flex;
 }
-.benefitContent .item{
+
+.benefitContent .item {
     padding: 0 5px;
 }
-.benefitContent .item span{
+
+.benefitContent .item span {
     font-size: 11px;
 }
 
@@ -176,13 +241,16 @@ footer {
 hr {
     border-color: #06C4FF !important;
 }
-.featureTitle{
-    font-size: 21px!important;
+
+.featureTitle {
+    font-size: 21px !important;
 }
-.featureContent{
-    font-size: 10px!important;
+
+.featureContent {
+    font-size: 10px !important;
     text-transform: capitalize;
 }
-.cd-words-wrapper::after{
-    width: 0!important;
+
+.cd-words-wrapper::after {
+    width: 0 !important;
 }
