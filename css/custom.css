@@ -76,11 +76,9 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/*.gradiant_button_custom:hover {*/
-/*    background: transparent !important;*/
-/*    border-color: #06C4FF;*/
-/*    color: #06C4FF !important;*/
-/*}*/
+.gradiant_button_custom:hover {
+    border: none;
+}
 
 .scroll_down_custom {
     background: #06C4FF !important;
