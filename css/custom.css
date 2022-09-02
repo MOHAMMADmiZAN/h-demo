@@ -3,6 +3,10 @@
     src: url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 .a-product {
     border: 3px solid #06C4FF;
     padding: 15px;
@@ -117,7 +121,7 @@
 .block_3_title {
     font-family: 'Nunito Sans', sans-serif !important;
     font-weight: 600;
-    color: #0683ff;
+    color: #0683ff !important;
     margin-top: 20px;
 }
 
@@ -385,4 +389,133 @@ hr {
 
 .cd-words-wrapper::after {
     width: 0 !important;
+}
+
+
+/*// about page custom css/*/
+.about_block_2_snd_Header {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 600;
+    color: #06c4ff !important;
+    font-size: 20px !important;
+}
+
+.about_block_2_P {
+    font-family: "Source Serif Pro", serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #000A2A !important;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+.p-mt {
+    margin-top: 20px !important;
+}
+
+.about_common_header {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 600;
+    color: #000A2A !important;
+    font-size: 16px !important;
+    padding: 5px;
+    position: relative;
+
+}
+
+.about_common_header::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+    width: 30px;
+    height: 2px;
+    background: #06c4ff !important;
+}
+
+.about_block_3_box_row {
+    display: flex;
+    justify-content: stretch;
+}
+
+.about_block_3_box {
+    background: #000A2A;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+
+.about_block_3_box_title {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 600;
+    color: #06c4ff !important;
+    font-size: 16px !important;
+    padding: 5px;
+    position: relative;
+}
+
+.about_block_3_box_p {
+    font-family: "Source Serif Pro", serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #FFFFFF !important;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+.about_block_3_box i {
+    font-size: 50px !important;
+}
+
+#our-service i {
+    font-size: 50px !important;
+}
+
+#our-team {
+    background: #000A2A !important;
+}
+
+#our-team .team-member {
+    background: #000A2A !important;
+}
+
+/*.prev {*/
+/*    display: block;*/
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    line-height: 40px;*/
+/*    border-radius: 50%;*/
+/*    position: absolute;*/
+/*    top: -45px;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*    transition: 0.4s;*/
+
+/*}*/
+
+/*.next {*/
+/*    display: block;*/
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    line-height: 40px;*/
+/*    border-radius: 50%;*/
+/*    position: absolute;*/
+/*    bottom: -57px;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*    transition: 0.4s;*/
+
+/*}*/
+
+.slick-slide {
+    outline: none;
+}
+
+.slick-slide img {
+    display: inline-block;
 }
