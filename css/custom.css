@@ -175,7 +175,8 @@
     color: #06c4ff !important;
     font-size: 20px !important;
 }
-.block_5_slider_text{
+
+.block_5_slider_text {
     font-family: "Source Serif Pro", serif !important;
     font-size: 14px;
     font-weight: 400 !important;
@@ -190,15 +191,18 @@
     color: #06c4ff !important;
     font-size: 20px !important;
 }
+
 .block_8_input {
     position: relative;
     margin-top: 20px;
 }
-.block_8_input input{
+
+.block_8_input input {
     border-radius: 40px !important;
     padding: 10px 15px !important;
 }
-.block_8_input i{
+
+.block_8_input i {
     position: absolute;
     top: 50%;
     right: 10px;
@@ -206,7 +210,7 @@
     color: #06c4ff !important;
 }
 
-.block_9_question{
+.block_9_question {
     font-family: "Source Serif Pro", serif !important;
     font-size: 14px;
     font-weight: 400 !important;
@@ -237,6 +241,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .benefitTitle {
     font-family: 'Nunito Sans', sans-serif !important;
     font-weight: 600;
@@ -245,7 +250,8 @@
     margin-bottom: 20px;
     margin-top: 5px;
 }
-.benefitContent .items{
+
+.benefitContent .items {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,19 +266,50 @@
     font-size: 11px;
 }
 
+.price_box_custom {
+    transition: 0.4s;
+}
+
+.price_box_custom:hover {
+    background: #000A2A !important;
+}
+
+.price_box_custom:hover .section_price_title_custom {
+    background: #000A2A !important;
+}
+
+.price_box_custom:hover .pricing-price, .price_box_custom:hover .price-tenure {
+    color: #06c4ff !important;
+}
+
+.price_box_custom:hover .pricing-price::after {
+    border-top: 2px solid #06c4ff !important;
+}
+
+.price_box_custom:hover .pricing-features ul li {
+    color: #FFFFFF !important;
+}
+
+.price_box_custom:hover .pricing-action a {
+    min-width: 161px;
+    background: linear-gradient(90deg, #0614ff, #0683ff, #fa057f) !important;
+    border-radius: 25px !important;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
 .font_color_custom {
     color: #06C4FF !important;
 }
 
 .blue_btn_custom {
+    min-width: 161px;
     background: #06C4FF !important;
     border-radius: 15px !important;
     border-color: #FFFFFF !important;
 }
 
-.section_bg_color_custom {
-    background: #000A2A !important;
-}
 
 .section_border_radius_custom {
     border-radius: 15px !important;
