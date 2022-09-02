@@ -437,14 +437,35 @@ hr {
 
 .about_block_3_box_row {
     display: flex;
-    justify-content: stretch;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
+
+/*@media screen and (max-width: 425px) {*/
+/*    .about_block_3_box_row {*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*}*/
+
 
 .about_block_3_box {
     background: #000A2A;
     border-radius: 15px;
     margin: 5px;
+    width: 22%;
+}
+
+@media screen and (max-width: 768px) {
+    .about_block_3_box {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about_block_3_box {
+        width: 80%;
+    }
 }
 
 .about_block_3_box_title {
