@@ -72,6 +72,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 30px;
 }
 
+.section_bg_color_custom {
+    background: #000A2A !important;
+}
+
 .gradiant_button_custom {
     min-width: 161px;
     background: linear-gradient(90deg, #0614ff, #0683ff, #fa057f) !important;
@@ -421,6 +425,7 @@ hr {
     font-size: 16px !important;
     padding: 5px;
     position: relative;
+    display: inline-block;
 
 }
 
