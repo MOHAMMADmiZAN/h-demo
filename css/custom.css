@@ -437,6 +437,7 @@ hr {
 .about_block_3_box_row {
     display: flex;
     justify-content: stretch;
+    flex-wrap: wrap;
 }
 
 .about_block_3_box {
@@ -512,10 +513,10 @@ hr {
 
 /*}*/
 
-.slick-slide {
-    outline: none;
-}
+/*.slick-slide {*/
+/*    outline: none;*/
+/*}*/
 
-.slick-slide img {
-    display: inline-block;
-}
+/*.slick-slide img {*/
+/*    display: inline-block;*/
+/*}*/
