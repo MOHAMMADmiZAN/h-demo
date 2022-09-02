@@ -428,9 +428,10 @@ hr {
     content: "";
     position: absolute;
     bottom: 3px;
-    left: 5px;
+    left: 50%;
     width: 30px;
     height: 2px;
+    transform: translateX(-50%);
     background: #06c4ff !important;
 }
 
