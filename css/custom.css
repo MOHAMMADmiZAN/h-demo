@@ -438,7 +438,7 @@ hr {
 .about_block_3_box_row {
     display: flex;
     justify-content: stretch;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .about_block_3_box {
