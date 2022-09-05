@@ -19,6 +19,9 @@
     <!--    //  google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap"
           rel="stylesheet">
+
+    <!--    // video js //-->
+    <link href="https://vjs.zencdn.net/7.20.2/video-js.css" rel="stylesheet"/>
     <!-- animation -->
     <link href="css/animate.css" rel="stylesheet"/>
     <!-- bootstrap -->
@@ -223,25 +226,26 @@
     <div class="container-fluid margin-five no-margin-bottom no-padding">
         <div class="row no-margin">
             <!-- tab -->
-            <div class="col-md-12 col-sm-12 center-col text-center no-padding">
-                <!-- tab navigation -->
-
-                <!-- end tab navigation -->
+            <div class="col-lg-12 col-md-12 col-sm-12 center-col text-center no-padding">
                 <!-- tab content section -->
                 <div class="tab-content">
                     <!-- tab content -->
-                    <div class="text-center center-col tab-pane fade in active">
+                    <div class="text-center center-col tab-pane fade in active ">
                         <div class="tab-pane fade in">
-                            <div class="col-lg-6 col-md-6 no-padding corporate-standards-img cover-background position-relative"
-                                 style="background-image:url('images/corporate-06.jpg');">
-                                <div class="opacity-medium bg-dark-gray cover_background_custom"></div>
-                                <p class="title-small text-uppercase corporate-standards-title white-text letter-spacing-7">
-                                    <span class="title-extra-large no-letter-spacing yellow-text block_4_content_media_number">01</span><br><span
-                                        class="block_4_content_media_title">Art
-                                    & Design</span>
-                                </p>
+                            <div class="col-lg-6 col-md-6 col-sm-12 position-relative">
+                                <!--                                <div class="opacity-medium bg-dark-gray cover_background_custom"></div>-->
+                                <!--                                <p class="title-small text-uppercase corporate-standards-title white-text letter-spacing-7">-->
+                                <!--                                    <span class="title-extra-large no-letter-spacing yellow-text block_4_content_media_number">01</span><br><span-->
+                                <!--                                        class="block_4_content_media_title">Art-->
+                                <!--                                    & Design</span>-->
+                                <!--                                </p>-->
+                                <video autoplay class="videoStyle" loop muted poster="images/video-bg1.jpg"
+                                       preload="auto">
+                                    <source src="video/01%20Art%20%20Design.webm" type="video/mp4">
+                                    <source src="video/01%20Art%20%20Design.webm" type="video/webm">
+                                </video>
                             </div>
-                            <div class="col-lg-6 col-md-6 corporate-standards-text sm-margin-lr-four sm-margin-top-four xs-padding-tb-ten p-40">
+                            <div class="col-lg-6 col-md-6 col-sm-12 corporate-standards-text sm-margin-lr-four sm-margin-top-four xs-padding-tb-ten p-40">
                                 <div class="img-border-small-fix border-gray"></div>
                                 <i class="icon-picture large-icon yellow-text font_color_custom"></i>
                                 <h1 class="margin-ten no-margin-bottom block_4_content_text_title">AR your ART with
@@ -251,14 +255,14 @@
                                     image of your artwork into an AR experience including a number of frame templates
                                     that can be used from our library.</p>
                                 <a class="text-small highlight-link text-uppercase bg-black white-text blue_btn_custom"
-                                   href="about.html#our-service">Read More <i
+                                   href="about.html#art">Read More <i
                                         class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="text-center center-col tab-pane fade in active ">
                         <div class="tab-pane fade in">
-                            <div class="col-lg-6 col-md-6 corporate-standards-text sm-margin-lr-four sm-margin-top-four xs-padding-tb-ten p-40">
+                            <div class="col-lg-6 col-md-6 col-sm-12 corporate-standards-text sm-margin-lr-four sm-margin-top-four xs-padding-tb-ten p-40">
                                 <div class="img-border-small-fix border-gray"></div>
                                 <i class="icon-picture large-icon yellow-text font_color_custom"></i>
                                 <h1 class="margin-ten no-margin-bottom block_4_content_text_title">Make sure your
@@ -271,32 +275,42 @@
                                     With Viewz you can give your clients the real-time experience of the entire floor.
                                 </p>
                                 <a class="text-small highlight-link text-uppercase bg-black white-text blue_btn_custom"
-                                   href="about.html#our-service">Read More <i
+                                   href="about.html#floor">Read More <i
                                         class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
                             </div>
-                            <div class="col-lg-6 col-md-6 no-padding corporate-standards-img cover-background position-relative"
-                                 style="background-image:url('images/corporate-06.jpg');">
-                                <div class="opacity-medium bg-dark-gray cover_background_custom"></div>
-                                <p class="title-small text-uppercase corporate-standards-title white-text letter-spacing-7">
-                                    <span class="title-extra-large no-letter-spacing yellow-text block_4_content_media_number">02</span><br><span
-                                        class="block_4_content_media_title">Flooring
-                                    products</span>
-                                </p>
-                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 position-relative text-center">
+                                <!--                                <div class="opacity-medium bg-dark-gray cover_background_custom"></div>-->
+                                <!--                                <p class="title-small text-uppercase corporate-standards-title white-text letter-spacing-7">-->
+                                <!--                                    <span class="title-extra-large no-letter-spacing yellow-text block_4_content_media_number">02</span><br><span-->
+                                <!--                                        class="block_4_content_media_title">Flooring-->
+                                <!--                                    products</span>-->
+                                <!--                                </p>-->
+                                <!--                            </div>-->
 
+                                <video autoplay class="videoStyle" loop muted poster="images/video-bg1.jpg"
+                                       preload="auto">
+                                    <source src="video/02%20Flooring%20Products.mp4" type="video/mp4">
+                                    <source src="video/02%20Flooring%20Products.webm" type="video/webm">
+                                </video>
+
+                            </div>
                         </div>
                     </div>
                     <div class="text-center center-col tab-pane fade in active">
                         <div class="tab-pane fade in">
-                            <div class="col-lg-6 col-md-6 no-padding corporate-standards-img cover-background position-relative"
-                                 style="background-image:url('images/corporate-06.jpg');">
-                                <div class="opacity-medium bg-dark-gray cover_background_custom"></div>
-                                <p class="title-small text-uppercase corporate-standards-title white-text letter-spacing-7">
-                                    <span class="title-extra-large no-letter-spacing yellow-text block_4_content_media_number">03</span><br>
-                                    <span class="block_4_content_media_title"> Wall Coverings</span>
-                                </p>
+                            <div class="col-lg-6 col-md-6 col-sm-12  position-relative">
+                                <!--                                <div class="opacity-medium bg-dark-gray cover_background_custom"></div>-->
+                                <!--                                <p class="title-small text-uppercase corporate-standards-title white-text letter-spacing-7">-->
+                                <!--                                    <span class="title-extra-large no-letter-spacing yellow-text block_4_content_media_number">03</span><br>-->
+                                <!--                                    <span class="block_4_content_media_title"> Wall Coverings</span>-->
+                                <!--                                </p>-->
+                                <video autoplay class="videoStyle" loop muted poster="images/video-bg1.jpg"
+                                       preload="auto">
+                                    <source src="video/03%20Wall%20Coverings-.mp4" type="video/mp4">
+                                    <source src="video/03%20Wall%20Coverings-.webm" type="video/webm">
+                                </video>
                             </div>
-                            <div class="col-lg-6 col-md-6 corporate-standards-text sm-margin-lr-four sm-margin-top-four xs-padding-tb-ten p-40">
+                            <div class="col-lg-6 col-md-6 col-sm-12 corporate-standards-text sm-margin-lr-four sm-margin-top-four xs-padding-tb-ten p-40">
                                 <div class="img-border-small-fix border-gray"></div>
                                 <i class="icon-picture large-icon yellow-text font_color_custom"></i>
                                 <h1 class="margin-ten no-margin-bottom block_4_content_text_title">The ultimate try
@@ -309,14 +323,14 @@
                                     into a full wallpaper AR experience, which will help your clients see exactly how it
                                     would look like in reality. </p>
                                 <a class="text-small highlight-link text-uppercase bg-black white-text blue_btn_custom"
-                                   href="about.html#our-service">Read More <i
+                                   href="about.html#wall">Read More <i
                                         class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="text-center center-col tab-pane fade in active ">
                         <div class="tab-pane fade in">
-                            <div class="col-lg-6 col-md-6 corporate-standards-text sm-margin-lr-four sm-margin-top-four xs-padding-tb-ten p-40">
+                            <div class="col-lg-6 col-md-6 col-sm-12 corporate-standards-text sm-margin-lr-four sm-margin-top-four xs-padding-tb-ten p-40">
                                 <div class="img-border-small-fix border-gray"></div>
                                 <i class="icon-picture large-icon yellow-text font_color_custom"></i>
                                 <h1 class="margin-ten no-margin-bottom block_4_content_text_title">Transform your
@@ -330,34 +344,35 @@
                                     and reduce returns..
                                 </p>
                                 <a class="text-small highlight-link text-uppercase bg-black white-text blue_btn_custom"
-                                   href="about.html#our-service">Read More <i
+                                   href="about.html#furniture">Read More <i
                                         class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
                             </div>
-                            <div class="col-lg-6 col-md-6 no-padding corporate-standards-img cover-background position-relative"
-                                 style="background-image:url('images/corporate-06.jpg');">
-                                <div class="opacity-medium bg-dark-gray cover_background_custom"></div>
-                                <p class="title-small text-uppercase corporate-standards-title white-text letter-spacing-7">
-                                    <span class="title-extra-large no-letter-spacing yellow-text block_4_content_media_number">04</span><br><span
-                                        class="block_4_content_media_title">
-                                    Furniture
-                                    industry
-                                </span>
-                                </p>
+                            <div class="col-lg-6 col-md-6 col-sm-12 position-relative">
+                                <!--                                <div class="opacity-medium bg-dark-gray cover_background_custom"></div>-->
+                                <!--                                <p class="title-small text-uppercase corporate-standards-title white-text letter-spacing-7">-->
+                                <!--                                    <span class="title-extra-large no-letter-spacing yellow-text block_4_content_media_number">04</span><br><span-->
+                                <!--                                        class="block_4_content_media_title">-->
+                                <!--                                    Furniture-->
+                                <!--                                    industry-->
+                                <!--                                </span>-->
+                                <!--                                </p>-->
+                                <video autoplay class="videoStyle" loop muted poster="images/video-bg1.jpg"
+                                       preload="auto">
+                                    <source src="video/04%20Furniture%20industry.mp4" type="video/mp4">
+                                    <source src="video/04%20Furniture%20industry.webm" type="video/webm">
+                                </video>
                             </div>
 
                         </div>
                     </div>
-                    <!-- end tab content -->
                     <!-- tab content -->
-
-
-                    <!-- end tab content -->
                 </div>
                 <!-- end tab content section -->
             </div>
             <!-- end tab -->
         </div>
     </div>
+
 </section>
 <!--    box-one start-->
 <section class="wow fadeIn bg-white">
@@ -909,6 +924,8 @@
 <!-- hamburger menu-->
 <script src="js/classie.js" type="text/javascript"></script>
 <script src="js/hamburger-menu.js" type="text/javascript"></script>
+<!--// video js //-->
+<script src="https://vjs.zencdn.net/7.20.2/video.min.js"></script>
 <!-- setting -->
 <script src="js/main.js" type="text/javascript"></script>
 </body>

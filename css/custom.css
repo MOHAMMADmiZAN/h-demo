@@ -3,6 +3,13 @@
     src: url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -143,7 +150,20 @@ h1, h2, h3, h4, h5, h6, p {
     color: #06c4ff !important;
     margin-top: 20px;
     font-size: 25px !important;
+    position: relative;
 }
+
+.block_4_title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #06c4ff;
+}
+
 
 .block_4_content_text_title {
     font-family: "Nunito Sans", sans-serif !important;
@@ -256,7 +276,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #06c4ff !important;
     font-size: 16px !important;
     margin-bottom: 20px;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
 .benefitContent .items {
@@ -546,4 +566,21 @@ hr {
 
 /*.slick-slide img {*/
 /*    display: inline-block;*/
+/*}*/
+
+/*// video style*/
+.videoStyle {
+    max-width: 600px;
+    min-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /*border: 3px solid #06c4ff;*/
+    outline: none;
+    /*border-radius: 15px;*/
+
+
+}
+
+/*.mt5{*/
+/*    margin-top: 5px !important;*/
 /*}*/
