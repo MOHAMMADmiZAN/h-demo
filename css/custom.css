@@ -354,10 +354,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .blue_btn_custom {
-    min-width: 161px;
+    min-width: 161px !important;
     background: #06C4FF !important;
     border-radius: 25px !important;
     border-color: #FFFFFF !important;
+    display: inline-block;
+    max-width: 170px;
+    text-align: center;
 }
 
 .blue_btn_custom:hover {
@@ -605,6 +608,14 @@ hr {
 
 
 }
+
+.block_4_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
 
 /*.mt5{*/
 /*    margin-top: 5px !important;*/
