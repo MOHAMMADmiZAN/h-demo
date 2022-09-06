@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 25px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
-    color: #000A2A !important;
+    color: white !important;
 }
 
 .block_4_title {
@@ -357,7 +357,6 @@ h1, h2, h3, h4, h5, h6, p {
     min-width: 161px !important;
     background: #06C4FF !important;
     border-radius: 25px !important;
-    border-color: #FFFFFF !important;
     display: inline-block;
     max-width: 170px;
     text-align: center;
