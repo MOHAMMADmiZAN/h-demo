@@ -1880,3 +1880,6 @@ $(document).ready(function () {
 //         // instead of a settings object
 //     ]
 // });
+
+
+console.log(document.querySelectorAll('.a-product .ar-button-small'))
