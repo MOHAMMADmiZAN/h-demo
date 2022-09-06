@@ -6273,6 +6273,7 @@ figure:hover img {
     padding: 30px 0;
 }
 
+
 .pricing-title h3 {
     font-size: 20px;
     font-weight: 400;
@@ -6323,7 +6324,7 @@ figure:hover img {
 }
 
 .pricing-box {
-    background-color: #fff;
+    background: transparent;
     border-right: 1px solid rgba(0, 0, 0, 0.075);
     position: relative;
     text-align: center;
