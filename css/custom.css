@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .pricing-box {
-    background: linear-gradient(0deg, #06c4ff, rgba(6, 196, 255, 0.05), transparent) !important;
+    background: linear-gradient(0deg, #06c4ff, rgba(6, 196, 255, 0.05) 75%, #000A2A) !important;
 }
 
 .pricing-price {
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .pricing-box:hover {
-    background: linear-gradient(0deg, #fa057f, rgba(250, 5, 127, 0.05), transparent) !important;
+    background: linear-gradient(0deg, #fa057f, rgba(250, 5, 127, 0.05) 75%, #000A2A) !important;
     border-color: #fa057f !important;
 }
 
