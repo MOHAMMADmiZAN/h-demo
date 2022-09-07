@@ -298,42 +298,68 @@ h1, h2, h3, h4, h5, h6, p {
 
 .benefitContent {
     display: flex;
-    flex-direction: column;
     margin-top: 30px;
 }
 
-/*.benefitTitle {*/
-/*    font-family: 'Nunito' !important;*/
-/*    font-weight: 600;*/
-/*    color: #06c4ff !important;*/
-/*    font-size: 25px !important;*/
-/*    margin-bottom: 20px;*/
-/*    margin-top: 30px;*/
-/*}*/
+.benefitTitle {
+    font-family: 'Nunito', serif !important;
+    font-weight: 600;
+    color: #000A2A !important;
+    font-size: 25px !important;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
 
 .benefitContent .items {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 20px;
+    padding: 10px;
+
 }
 
 .benefitContent .item {
-    padding: 0 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .benefitContent .item i {
-    font-size: 20px;
-    color: #06c4ff;
+    font-size: 30px;
+    color: #ffffff !important;
+    font-weight: 900 !important;
 }
 
 .benefitContent .item span {
     font-family: 'Nunito', serif !important;
-    font-size: 25px !important;
+    font-size: 20px !important;
     font-weight: 600;
-    color: #000A2A !important;
+    text-align: justify;
+    margin-left: 10px;
 
 }
+
+.benefitContentCol {
+    background: linear-gradient(to bottom, #000A2A 35%, #06c4ff);
+    padding: 10px 0;
+    margin: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.topBorderLeftRadius {
+    border-top-left-radius: 30px;
+}
+
+.topBorderRightRadius {
+    border-top-right-radius: 30px;
+}
+
+.borderTop5 {
+    border-top: 5px solid #ffffff;
+}
+
 
 .pricingContent {
     background: #000A2A !important;
