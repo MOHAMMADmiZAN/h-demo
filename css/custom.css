@@ -699,6 +699,12 @@ hr {
     /*align-items: center;*/
 }
 
+.block_4_video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*.mt5{*/
 /*    margin-top: 5px !important;*/
