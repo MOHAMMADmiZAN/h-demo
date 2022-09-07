@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .fqe {
-    background: linear-gradient(0deg, #000A2A, #000A2A, #06c4ff) !important;
+    background: linear-gradient(0deg, #000A2A, #000A2A 55%, #06c4ff) !important;
     padding: 100px 0 !important;
 }
 
