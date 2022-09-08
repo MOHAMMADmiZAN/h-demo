@@ -404,14 +404,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .fqe {
-    background: #000A2A !important;
-    padding: 100px 0 !important;
+    padding: 50px 0 !important;
 }
 
 .fqe h1 {
     font-family: Nunito, serif !important;
     font-weight: 700 !important;
-    font-size: 50px !important;
+    font-size: 45px !important;
     line-height: 1.5 !important;
 
 }
@@ -518,7 +517,9 @@ i {
 }
 
 footer {
-    background: #000A2A !important;
+
+    background: url("/img/Asset-4.png") center no-repeat;
+    background-size: cover;
     color: #FFFFFF !important;
 }
 
@@ -733,7 +734,7 @@ hr {
 
 #about_3rd_block .fstRow .fstRowTitle h1 {
     font-family: 'Nunito', serif !important;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 45px;
     line-height: 1.2;
     color: #000A2A !important;
