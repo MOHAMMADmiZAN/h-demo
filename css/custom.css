@@ -741,6 +741,9 @@ hr {
     margin-top: 10px;
 }
 
+.scroll-down img {
+    width: 30px;
+}
 /*.parallaxSection{*/
 /*    background-attachment: fixed;*/
 /*    background-position: center;*/
