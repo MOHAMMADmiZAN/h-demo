@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: block;
     position: relative;
     width: 100% !important;
-    height: 100% !important;
+    height: 450px !important;
     /*max-height: 350px !important;*/
     /*min-height: 350px !important;*/
 }
@@ -145,14 +145,14 @@ h1, h2, h3, h4, h5, h6, p {
 .block_3_title {
     font-family: 'Nunito', serif !important;
     font-weight: 700 !important;
-    font-size: 50px !important;
+    font-size: 32px !important;
     color: #06C4FF !important;
     margin-top: 20px;
 }
 
 .block_3_text {
     font-family: "Source Serif Pro", serif !important;
-    font-size: 25px !important;
+    font-size: 16px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
     color: white !important;
@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .fqe {
-    background: linear-gradient(0deg, #000A2A, #000A2A 55%, #06c4ff) !important;
+    background: #000A2A !important;
     padding: 100px 0 !important;
 }
 
