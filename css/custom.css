@@ -594,7 +594,7 @@ hr {
 #about_header {
     min-height: 500px;
     /*background: linear-gradient(to bottom, #ffffff 80%,  rgba(0, 10, 42, 0.1)) !important;*/
-    padding: 120px 0 0 120px !important;
+    padding: 120px 0 !important;
     background: url('../img/views-About-page01.png') no-repeat;
     background-size: cover;
 
