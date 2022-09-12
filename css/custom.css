@@ -924,6 +924,7 @@ hr {
 
 #about_3rd_block .sndRow .sndRowImg img {
     max-width: 600px;
+    width: 100%;
 }
 
 #about_3rd_block .sndRow .sndRowContent {
