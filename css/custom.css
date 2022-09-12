@@ -918,6 +918,9 @@ hr {
     object-fit: cover;
 }
 
+#about_3rd_block .sndRow .sndRowImg img {
+    max-width: 600px;
+}
 
 #about_3rd_block .sndRow .sndRowContent {
     padding: 50px;
