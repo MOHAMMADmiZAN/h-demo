@@ -1840,7 +1840,7 @@ $(document).ready(function () {
 });
 
 
-// slick slider for about page
+// slick slider for index page
 // $('.slider').slick({
 //     dots: false,
 //     infinite: true,
@@ -1882,4 +1882,48 @@ $(document).ready(function () {
 // });
 
 
-console.log(document.querySelectorAll('.a-product .ar-button-small'))
+// /// variables////
+// const win = $(window);
+// const html_body = $('html, body');
+// const stk = $('.st-menu');
+// const b2b = $('.back-top');
+// const c_stk = 'stiky';
+// const bdy = $('body');
+//
+//
+// //stiky-header//
+// win.scroll(() => win.scrollTop() > 300 ? stk.addClass(c_stk) : stk.removeClass(c_stk));
+//
+//
+// // animation scroll js
+// $('.nav-item a').on('click', function () {
+//     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+//         let target = $(this.hash);
+//         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+//         if (target.length) {
+//             html_body.animate({
+//                 scrollTop: target.offset().top - 88
+//             }, 1500);
+//             return false;
+//         }
+//
+//     }
+// });
+// accordion-start
+const items = document.querySelectorAll(".accordion button");
+console.log(items);
+
+function toggleAccordion() {
+    const itemToggle = this.getAttribute('aria-expanded');
+
+    for (let i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+    }
+
+    if (itemToggle === 'false') {
+        this.setAttribute('aria-expanded', 'true');
+    }
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
+// accordion-end

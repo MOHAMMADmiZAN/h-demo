@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .a-product {
     display: block;
     position: relative;
@@ -44,7 +48,32 @@ h1, h2, h3, h4, h5, h6, p {
 /*// View Header*/
 .nav_item_custom li a {
     color: #06C4FF !important;
+    font-family: 'Nunito', serif !important;
+    font-size: 16px !important;
+    position: relative;
+    padding: 10px;
 
+
+}
+
+.nav_item_custom li a::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #06C4FF;
+    visibility: hidden;
+}
+
+.nav_item_custom li a:hover::after {
+    visibility: visible;
+}
+
+.shrink-nav {
+    background: rgba(0, 10, 42, 0.8) !important;
 }
 
 .shop_cart_custom a, .shop_cart_custom i, .shop_cart_custom div {
@@ -96,6 +125,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 25px !important;
     border: none;
     font-family: 'Nunito', serif;
+    padding: 10px 15px;
 }
 
 .gradiant_button_custom:hover {
@@ -162,9 +192,10 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Nunito', serif !important;
     font-weight: 700 !important;
     color: #06c4ff !important;
-    margin-top: 20px;
+    margin: 70px 0;
     font-size: 45px !important;
     position: relative;
+
 }
 
 .block_4_title::after {
@@ -203,7 +234,9 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5 !important;
     color: #000A2A !important;
     margin-bottom: 20px;
+    text-align: left;
 }
+
 
 .block_4_content_media_number {
     font-family: "Source Serif Pro", serif !important;
@@ -223,6 +256,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .block_5 {
     background: #000A2A !important;
+    padding: 120px 0;
 }
 
 .block_5_img img {
@@ -366,6 +400,11 @@ h1, h2, h3, h4, h5, h6, p {
 .pricingContent {
     background: #000A2A !important;
     color: #FFFFFF;
+    padding: 120px 0;
+}
+
+.pricing {
+    margin-top: 50px;
 }
 
 .price_box_custom {
@@ -402,6 +441,108 @@ h1, h2, h3, h4, h5, h6, p {
 .price_box_custom:hover {
     background: #000A2A !important;
 }
+
+#ques {
+    padding: 120px 0;
+}
+
+.accordion {
+    margin-top: 50px;
+}
+
+.accordion .accordion-item {
+    border-left: 2px solid #06c4ff;
+    box-shadow: 10px 10px 52px -17px #000A2A;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+.accordion-title {
+    font-family: 'Nunito', serif !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: black;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    background: #06c4ff;
+    border-radius: 50%;
+
+}
+
+.accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 3px;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+}
+
+.accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 10px;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: opacity 200ms linear, max-height 200ms linear;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+    font-family: 'Nunito', serif !important;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
 
 .fqe {
     padding: 50px 0 !important;
@@ -604,7 +745,7 @@ hr {
 #about_header .h1Solid {
     font-family: 'Nunito', serif !important;
     font-weight: 700 !important;
-    font-size: 45px !important;
+    font-size: 45px;
     line-height: 1.2 !important;
     color: #06C4FF !important;
 }
@@ -612,7 +753,7 @@ hr {
 .h1Stoke {
     font-family: 'Nunito', serif !important;
     font-weight: 700 !important;
-    font-size: 45px !important;
+    font-size: 45px;
     line-height: 1.2 !important;
     -webkit-text-stroke: 1px #06c4ff;
     -webkit-text-fill-color: transparent;
@@ -646,8 +787,7 @@ hr {
 }
 
 #about_viewz {
-    min-height: 500px;
-    padding: 50px 0 !important;
+    padding: 120px 0 !important;
     width: 100%;
     background: url('../img/Asset 3.png') no-repeat;
     background-size: cover;
@@ -698,9 +838,6 @@ hr {
     background: #000A2A;
 }
 
-.about_viewz_content {
-    padding: 120px 0 50px 0;
-}
 
 .about_viewz_Content_Title h1 {
     font-family: 'Nunito', serif !important;
@@ -778,9 +915,9 @@ hr {
 }
 
 #about_3rd_block .sndRow .sndRowImg {
-    width: 600px;
     object-fit: cover;
 }
+
 
 #about_3rd_block .sndRow .sndRowContent {
     padding: 50px;
@@ -877,10 +1014,10 @@ hr {
 
 #why_viewz .fstRow .fstRowTitle h3 {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 25px !important;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #06C4FF;
     text-align: left;
 
 }
@@ -890,7 +1027,7 @@ hr {
     font-weight: 700;
     font-size: 35px;
     line-height: 1.2;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     text-align: left;
     margin-top: 5px;
 
@@ -898,18 +1035,18 @@ hr {
 
 #why_viewz .sndRow h1 {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 45px !important;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #06C4FF;
     text-align: center;
 }
 
 #why_viewz .sndRow p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500 !important;
-    font-size: 20px !important;
-    line-height: 1.2 !important;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     color: #FFFFFF;
     text-align: center;
     margin-top: 30px;
@@ -958,17 +1095,17 @@ hr {
 
 #why_viewz .thrdRow .item .itemText h3 {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 18px !important;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #06C4FF;
 }
 
 #why_viewz .thrdRow .item .itemText p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500 !important;
-    font-size: 14px !important;
-    line-height: 1.2 !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
     color: #FFFFFF;
     text-align: center;
     margin-top: 30px;
@@ -981,11 +1118,11 @@ hr {
 }
 
 #viewz_solution .fstRowTitle h1 {
-    font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 45px !important;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-family: 'Nunito', serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #06C4FF;
     text-align: center;
 
 
@@ -1038,10 +1175,10 @@ hr {
 
 #viewz_solution .sndRow .itemText h3 {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 30px !important;
-    line-height: 1.2 !important;
-    color: #FFFFFF !important;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #FFFFFF;
     text-align: left;
     margin-top: 10px;
     position: relative;
@@ -1061,9 +1198,9 @@ hr {
 
 #viewz_solution .sndRow .itemText p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500 !important;
-    font-size: 14px !important;
-    line-height: 1.5 !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
     margin-top: 30px;
@@ -1092,10 +1229,10 @@ hr {
 
 #viewz_team .fstRowTitle h1 {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 45px !important;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #06C4FF;
     text-align: center;
 }
 
@@ -1106,9 +1243,9 @@ hr {
 
 #viewz_team .sndRow .team-name {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
+    font-weight: 700 !important;;
     font-size: 25px !important;
-    line-height: 1.2 !important;
+    line-height: 1.2;
     color: #06c4ff !important;
     text-align: center;
     margin-top: 10px;
@@ -1116,20 +1253,20 @@ hr {
 
 #viewz_team .sndRow .team-post {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500 !important;
-    font-size: 20px !important;
-    line-height: 1.2 !important;
-    color: #FFFFFF !important;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #FFFFFF;
     text-align: center;
     margin-top: 10px;
 }
 
 #viewz_partner .fstRowTitle h1 {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 45px !important;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #06C4FF;
     text-align: center;
 }
 

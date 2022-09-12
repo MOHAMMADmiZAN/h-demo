@@ -25,7 +25,10 @@
     <!-- animation -->
     <link href="css/animate.css" rel="stylesheet"/>
     <!-- bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <!--    <link href="css/bootstrap.css" rel="stylesheet"/>-->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" rel="stylesheet">
+
     <!-- et line icon -->
     <link href="css/et-line-icons.css" rel="stylesheet"/>
     <!-- font-awesome icon -->
@@ -58,38 +61,36 @@
 </head>
 <body>
 <!-- navigation panel -->
-<nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-border-bottom"
-     role="navigation" style="color: #06C4FF">
+<nav class="navbar navbar-expand-lg  sticky-nav">
     <div class="container-fluid">
-        <div class="row">
-            <!-- logo -->
-            <div class="col-lg-2 pull-left"><a class="logo-light" href=""><img alt="" class="logo" src="img/logo.png"/></a><a
-                    class="logo-dark" href=""><img alt="" class="logo" src="img/logo.png"/></a></div>
-            <!-- end logo -->
-            <!-- toggle navigation -->
-            <div class="navbar-header col-sm-8 col-xs-2 pull-right">
-                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span
-                        class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
-                        class="icon-bar"></span> <span class="icon-bar"></span></button>
-            </div>
-            <!-- toggle navigation end -->
-            <!-- main menu -->
-            <div class="col-lg-10 accordion-menu text-right">
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right panel-group nav_item_custom" id="accordion"
-                        style="margin-right: 30px">
-                        <!-- menu item -->
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Viewz</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <!-- end menu item -->
-                        <!-- end menu item -->
-                    </ul>
-                </div>
-            </div>
-            <!-- end main menu -->
+        <a class="navbar-brand" href="#">
+            <img alt="Logo" class="d-inline-block align-text-top" src="img/logo.png">
+        </a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto nav_item_custom me-4">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -114,7 +115,7 @@
                                         <b>No coding</b>
                                         <b>Compatible with any browser</b>
                                     </span><br>
-                            <a class="highlight-button-dark btn btn-small button xs-margin-bottom-five gradiant_button_custom btn-mt-20"
+                            <a class=" btn btn-primary  button xs-margin-bottom-five gradiant_button_custom btn-mt-20"
                                href="#">Get
                                 started for free</a>
                         </h1>
@@ -234,7 +235,7 @@
             <!-- end section title -->
         </div>
     </div>
-    <div class="container-fluid margin-five no-margin-bottom">
+    <div class="container-fluid no-margin-bottom">
         <div class="row no-margin">
             <!-- tab -->
             <div class="col-lg-12 col-md-12 col-sm-12  text-center">
@@ -344,102 +345,112 @@
 </section>
 <!--    box-one start-->
 <section class="wow fadeIn block_5">
-    <div class="carousel slide carousel-slide" id="myCarousel3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-sm-10 center-col text-center margin-ten no-margin-top xs-margin-bottom-seven">
-                    <h6 class="no-margin-top margin-ten xs-margin-bottom-seven"><strong
-                            class="white-text block_4_title">Features</strong></h6>
-                </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center xs-margin-bottom-seven">
+                <h6 class="xs-margin-bottom-seven"><strong
+                        class="white-text block_4_title">Features</strong></h6>
             </div>
-            <!-- features grid -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="row">
-                        <!-- features item -->
-                        <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
-                            <div class="block_5_img">
-                                <img alt="Convenient%20-%20Cyan.svg" src="./SVG/Convenient%20-%20Cyan.svg">
-                            </div>
-                            <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
-                                Convenient</h5>
-                            <span class="approach-details white-text block_5_slider_text"> You can launch it from social media, email marketing or directly from your website.</span>
-                        </div>
-                        <!-- end features item -->
-                        <!-- features item -->
-                        <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
-                            <div class="block_5_img">
-                                <img alt="Analytics%20-%20Cyan.svg" src="./SVG/Analytics%20-%20Cyan.svg">
-                            </div>
-                            <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
-                                Analytics/ Web
-                                data</h5>
-                            <span class="approach-details white-text block_5_slider_text">Analytics to Track the performance of your projects and consumer behavior with the built-in analytics system</span>
-                        </div>
-                        <!-- end features item -->
-                        <!-- features item -->
-                        <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
-                            <div class="block_5_img">
-                                <img alt="Personalized%20Branding%20-%20Cyan.svg"
-                                     src="./SVG/Personalized%20Branding%20-%20Cyan.svg">
-                            </div>
-                            <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
-                                Personalized
-                                branding</h5>
-                            <span class="approach-details white-text block_5_slider_text">nBranded QR code, custom URL with your name / company name, and an I-Frame that you can embed to your online gallery website or e-commerce store.</span>
-                        </div>
-                        <!-- end features item -->
-                        <!-- features item -->
-
-                        <!-- end features item -->
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row">
-                        <!-- features item -->
-                        <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
-                            <div class="block_5_img">
-                                <img alt="Ultimate%20Compatibility%20-%20Cyan.svg"
-                                     src="./SVG/Ultimate%20Compatibility%20-%20Cyan.svg">
-                            </div>
-                            <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
-                                Ultimate Compatibility</h5>
-                            <span class="approach-details white-text block_5_slider_text">Viewz is compatible with both iOS and Android operating systems.</span>
-                        </div>
-                        <!-- end features item -->
-                        <!-- features item -->
-                        <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
-                            <div class="block_5_img">
-                                <img alt="Wall%20and%20floor%20product%20visualizer%20-%20Cyan.svg"
-                                     src="./SVG/Wall%20and%20floor%20product%20visualizer%20-%20Cyan.svg">
-                            </div>
-                            <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
-                                Wall and floor product
-                                visualizer </h5>
-                            <span class="approach-details white-text block_5_slider_text">Viewz allows your customers to select their favorite floor product and try it on their entire floor before buying it.</span>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
-                            <div class="block_5_img">
-                                <img alt="Easy%20for%20user%20and%20customer%20-%20Cyan.svg"
-                                     src="./SVG/Easy%20for%20user%20and%20customer%20-%20Cyan.svg">
-                            </div>
-                            <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
-                                Easy for user and
-                                customer </h5>
-                            <span class="approach-details white-text block_5_slider_text">User- friendly dashboard, easy to follow steps, just drag, drop, test, and publish. Also, Viewz has extremely low barriers to use for customers, can be accessed via native smartphone camera and mobile web browser.</span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- end features grid -->
         </div>
-        <!-- Controls -->
-        <a class="left carousel-control" data-slide="prev" href="#myCarousel3"> <i class="fa-solid fa-angles-left"></i>
-        </a> <a class="right carousel-control" data-slide="next" href="#myCarousel3"> <i
-            class="fa-solid fa-angles-right"></i>
-    </a>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <div class="carousel slide" data-bs-ride="carousel" id="myCarousel3">
+                <div class="container">
+                    <div class="carousel-inner">
+                        <div class="carousel-item item active" data-bs-interval="10000">
+                            <div class="row">
+                                <!-- features item -->
+                                <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
+                                    <div class="block_5_img">
+                                        <img alt="Convenient%20-%20Cyan.svg" src="./SVG/Convenient%20-%20Cyan.svg">
+                                    </div>
+                                    <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
+                                        Convenient</h5>
+                                    <span class="approach-details white-text block_5_slider_text"> You can launch it from social media, email marketing or directly from your website.</span>
+                                </div>
+                                <!-- end features item -->
+                                <!-- features item -->
+                                <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
+                                    <div class="block_5_img">
+                                        <img alt="Analytics%20-%20Cyan.svg" src="./SVG/Analytics%20-%20Cyan.svg">
+                                    </div>
+                                    <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
+                                        Analytics/ Web
+                                        data</h5>
+                                    <span class="approach-details white-text block_5_slider_text">Analytics to Track the performance of your projects and consumer behavior with the built-in analytics system</span>
+                                </div>
+                                <!-- end features item -->
+                                <!-- features item -->
+                                <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
+                                    <div class="block_5_img">
+                                        <img alt="Personalized%20Branding%20-%20Cyan.svg"
+                                             src="./SVG/Personalized%20Branding%20-%20Cyan.svg">
+                                    </div>
+                                    <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
+                                        Personalized
+                                        branding</h5>
+                                    <span class="approach-details white-text block_5_slider_text">nBranded QR code, custom URL with your name / company name, and an I-Frame that you can embed to your online gallery website or e-commerce store.</span>
+                                </div>
+                                <!-- end features item -->
+                                <!-- features item -->
+
+                                <!-- end features item -->
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row">
+                                <!-- features item -->
+                                <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
+                                    <div class="block_5_img">
+                                        <img alt="Ultimate%20Compatibility%20-%20Cyan.svg"
+                                             src="./SVG/Ultimate%20Compatibility%20-%20Cyan.svg">
+                                    </div>
+                                    <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
+                                        Ultimate Compatibility</h5>
+                                    <span class="approach-details white-text block_5_slider_text">Viewz is compatible with both iOS and Android operating systems.</span>
+                                </div>
+                                <!-- end features item -->
+                                <!-- features item -->
+                                <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
+                                    <div class="block_5_img">
+                                        <img alt="Wall%20and%20floor%20product%20visualizer%20-%20Cyan.svg"
+                                             src="./SVG/Wall%20and%20floor%20product%20visualizer%20-%20Cyan.svg">
+                                    </div>
+                                    <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
+                                        Wall and floor product
+                                        visualizer </h5>
+                                    <span class="approach-details white-text block_5_slider_text">Viewz allows your customers to select their favorite floor product and try it on their entire floor before buying it.</span>
+                                </div>
+
+                                <div class="col-md-4 col-sm-6 text-center margin-four xs-no-margin-top xs-margin-bottom-five">
+                                    <div class="block_5_img">
+                                        <img alt="Easy%20for%20user%20and%20customer%20-%20Cyan.svg"
+                                             src="./SVG/Easy%20for%20user%20and%20customer%20-%20Cyan.svg">
+                                    </div>
+                                    <h5 class="white-text margin-ten no-margin-bottom xs-margin-top-four block_5_slider_title">
+                                        Easy for user and
+                                        customer </h5>
+                                    <span class="approach-details white-text block_5_slider_text">User- friendly dashboard, easy to follow steps, just drag, drop, test, and publish. Also, Viewz has extremely low barriers to use for customers, can be accessed via native smartphone camera and mobile web browser.</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#myCarousel3"
+                            type="button">
+                        <i class="fa-solid fa-angles-left"></i>
+                    </button>
+                    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#myCarousel3"
+                            type="button">
+                        <i class="fa-solid fa-angles-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -455,55 +466,60 @@
                 <!-- page title tagline -->
 
                 <div class="benefitContent row">
-                    <div class="col-lg-6 benefitContentCol topBorderLeftRadius">
-                        <div class="items">
-                            <div class="item">
-                                <i class="fa-solid fa-check"></i>
-                                <span class="white-text">AR your product in fast and easy way no app no updates</span>
+                    <div class="col-lg-6">
+                        <div class="benefitContentCol topBorderLeftRadius">
+                            <div class="items">
+                                <div class="item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="white-text">AR your product in fast and easy way no app no updates</span>
+                                </div>
+                            </div>
+                            <div class="items borderTop5">
+                                <div class="item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="white-text">Ensure your customers get a great seamless user experience</span>
+                                </div>
+                            </div>
+                            <div class="items borderTop5">
+                                <div class="item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="white-text">Adapting modern technology to scale your business and give it a futuristic look</span>
+                                </div>
+                            </div>
+                            <div class="items borderTop5">
+                                <div class="item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="white-text">Attract the millennial and generation z shoppers, which are the most online shoppers</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="items borderTop5">
-                            <div class="item">
-                                <i class="fa-solid fa-check"></i>
-                                <span class="white-text">Ensure your customers get a great seamless user experience</span>
-                            </div>
-                        </div>
-                        <div class="items borderTop5">
-                            <div class="item">
-                                <i class="fa-solid fa-check"></i>
-                                <span class="white-text">Adapting modern technology to scale your business and give it a futuristic look</span>
-                            </div>
-                        </div>
-                        <div class="items borderTop5">
-                            <div class="item">
-                                <i class="fa-solid fa-check"></i>
-                                <span class="white-text">Attract the millennial and generation z shoppers, which are the most online shoppers</span>
-                            </div>
-                        </div>
+
                     </div>
-                    <div class="col-lg-6 benefitContentCol topBorderRightRadius">
-                        <div class="items">
-                            <div class="item">
-                                <i class="fa-solid fa-check"></i>
-                                <span class="white-text">Offering unique shopping experience that will promote customer loyalty</span>
+                    <div class="col-lg-6">
+                        <div class="benefitContentCol topBorderRightRadius">
+                            <div class="items">
+                                <div class="item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="white-text">Offering unique shopping experience that will promote customer loyalty</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="items borderTop5">
-                            <div class="item">
-                                <i class="fa-solid fa-check"></i>
-                                <span class="white-text">Increase the demand for your products and boost your sales</span>
+                            <div class="items borderTop5">
+                                <div class="item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="white-text">Increase the demand for your products and boost your sales</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="items borderTop5">
-                            <div class="item">
-                                <i class="fa-solid fa-check"></i>
-                                <span class="white-text">Distinguish your products from your competitors and reinforce brand image</span>
+                            <div class="items borderTop5">
+                                <div class="item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="white-text">Distinguish your products from your competitors and reinforce brand image</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="items borderTop5">
-                            <div class="item">
-                                <i class="fa-solid fa-check"></i>
-                                <span class="white-text">Reducing your products promoting cost</span>
+                            <div class="items borderTop5">
+                                <div class="item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="white-text">Reducing your products promoting cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -518,13 +534,13 @@
 <section class="wow fadeIn bg-gray pricingContent">
     <div class="container">
         <div class="row">
-            <div class="col-md-7 col-sm-10 center-col text-center margin-ten no-margin-top xs-margin-bottom-seven">
-                <h6 class="no-margin-top margin-ten xs-margin-bottom-seven"><strong class="block_4_title">Our
-                    Plans</strong></h6>
+            <div class="col-md-12 col-sm-12  text-center xs-margin-bottom-seven">
+                <h6 class="xs-margin-bottom-seven"><strong class="block_4_title">Our Plans</strong></h6>
             </div>
         </div>
-        <div class="row">
-            <div class="pricing">
+        <div class="pricing">
+            <div class="row">
+
                 <!-- features item -->
                 <div class="col-md-3 sm-margin-bottom-five sm-no-margin-top p-2">
                     <div class="pricing-box section_border_radius_custom section_price_custom_border price_box_custom ">
@@ -633,139 +649,206 @@
 </section>
 <!--    box-one-stop-->
 
-<section class="wow fadeIn">
+<section class="wow fadeIn" id="ques">
+    <div class="row">
+        <div class="col-lg-12"><p class="font-weight-600 black-text text-center">
+            <span class="block_4_title">FAQs</span>
+        </p></div>
+    </div>
     <div class="container">
+        <!--        <div class="row">-->
+        <!--            <div class="col-md-12 col-sm-12">-->
+
+        <!--                <div class="panel-group toggles-style3 no-border mt-5">-->
+        <!--                    &lt;!&ndash; faq item &ndash;&gt;-->
+        <!--                    <div class="panel panel-default viewz_fqe_border_colour" id="collapse-one">-->
+        <!--                        <div class="panel-heading" id="headingOne" role="tablist">-->
+        <!--                            <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link1"><h4-->
+        <!--                                    class="panel-title">What is Viewz studio<span-->
+        <!--                                    class="pull-right"><i class="fa fa-plus"></i></span></h4></a>-->
+        <!--                        </div>-->
+        <!--                        <div class="panel-collapse collapse" id="collapse-one-link1">-->
+        <!--                            <div class="panel-body block_9_question">-->
+        <!--                                It is a Web AR, an app-less augmented reality content creating solution, that-->
+        <!--                                enables you to augment your products instantly without the need for app downloading-->
+        <!--                                or coding knowledge. They can be integrated to any web browser. Users can access web-->
+        <!--                                AR by clicking a link or scanning a QR code to open the items on your website.-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+
+        <!--                    <div class="panel panel-default viewz_fqe_border_colour">-->
+        <!--                        <div class="panel-heading" id="headingTwo" role="tablist">-->
+        <!--                            <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link2"><h4-->
+        <!--                                    class="panel-title">Do I need any coding skills to use Viewz<span-->
+        <!--                                    class="pull-right"><i-->
+        <!--                                    class="fa fa-plus"></i></span></h4></a>-->
+        <!--                        </div>-->
+        <!--                        <div class="panel-collapse collapse" id="collapse-one-link2">-->
+        <!--                            <div class="panel-body block_9_question">-->
+        <!--                                Not at all, all you have to do is to drag and drop your 2D images, test, adjust,-->
+        <!--                                publish, and you are done.-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="panel panel-default viewz_fqe_border_colour">-->
+        <!--                        <div class="panel-heading" id="heading-three" role="tablist">-->
+        <!--                            <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link3"><h4-->
+        <!--                                    class="panel-title">Can I publish AR experience for free<span-->
+        <!--                                    class="pull-right"><i-->
+        <!--                                    class="fa fa-plus"></i></span></h4></a>-->
+        <!--                        </div>-->
+        <!--                        <div class="panel-collapse collapse" id="collapse-one-link3">-->
+        <!--                            <div class="panel-body block_9_question">-->
+        <!--                                Yes, you can get a basic plan for this. This license is limited to prototypes and-->
+        <!--                                demonstrations (it cannot be used for commercial purposes) for 15 days only. To-->
+        <!--                                publish an experience for commercial use, you need to subscribe to one of our-->
+        <!--                                packages.-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="panel panel-default viewz_fqe_border_colour">-->
+        <!--                        <div class="panel-heading" id="heading-four" role="tablist">-->
+        <!--                            <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link4"><h4-->
+        <!--                                    class="panel-title">How do I subscribe<span-->
+        <!--                                    class="pull-right"><i-->
+        <!--                                    class="fa fa-plus"></i></span></h4></a>-->
+        <!--                        </div>-->
+        <!--                        <div class="panel-collapse collapse" id="collapse-one-link4">-->
+        <!--                            <div class="panel-body block_9_question">-->
+        <!--                                Just signup with your email to subscribe-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="panel panel-default viewz_fqe_border_colour">-->
+        <!--                        <div class="panel-heading" id="heading-five" role="tablist">-->
+        <!--                            <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link5"><h4-->
+        <!--                                    class="panel-title">Can I upgrade my subscription, and how<span-->
+        <!--                                    class="pull-right"><i-->
+        <!--                                    class="fa fa-plus"></i></span></h4></a>-->
+        <!--                        </div>-->
+        <!--                        <div class="panel-collapse collapse" id="collapse-one-link5">-->
+        <!--                            <div class="panel-body block_9_question">-->
+        <!--                                Yes, you can to go to the subscription page and from there you can upgrade your-->
+        <!--                                subscription-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="panel panel-default viewz_fqe_border_colour">-->
+        <!--                        <div class="panel-heading" id="heading-six" role="tablist">-->
+        <!--                            <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link6"><h4-->
+        <!--                                    class="panel-title">Can I cancel my subscription at any time<span-->
+        <!--                                    class="pull-right"><i-->
+        <!--                                    class="fa fa-plus"></i></span></h4></a>-->
+        <!--                        </div>-->
+        <!--                        <div class="panel-collapse collapse" id="collapse-one-link6">-->
+        <!--                            <div class="panel-body block_9_question">-->
+        <!--                                Yes-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="panel panel-default viewz_fqe_border_colour">-->
+        <!--                        <div class="panel-heading" id="heading-seven" role="tablist">-->
+        <!--                            <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link7"><h4-->
+        <!--                                    class="panel-title">Can I get a refund<span-->
+        <!--                                    class="pull-right"><i-->
+        <!--                                    class="fa fa-plus"></i></span></h4></a>-->
+        <!--                        </div>-->
+        <!--                        <div class="panel-collapse collapse" id="collapse-one-link7">-->
+        <!--                            <div class="panel-body block_9_question">-->
+        <!--                                No, refund is not possible-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="panel panel-default viewz_fqe_border_colour">-->
+        <!--                        <div class="panel-heading" id="heading-eight" role="tablist">-->
+        <!--                            <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link8"><h4-->
+        <!--                                    class="panel-title">Where are the assets stored<span-->
+        <!--                                    class="pull-right"><i-->
+        <!--                                    class="fa fa-plus"></i></span></h4></a>-->
+        <!--                        </div>-->
+        <!--                        <div class="panel-collapse collapse" id="collapse-one-link8">-->
+        <!--                            <div class="panel-body block_9_question">-->
+        <!--                                AWS servers in multiple locations-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                    &lt;!&ndash; end faq item &ndash;&gt;-->
+
+
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
         <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="col-md-12 col-sm-12 no-padding">
-                    <div class="margin-ten no-margin-top sm-margin-bottom-seven">
-                        <p class="font-weight-600 black-text text-center">
-                            <span class="block_4_title">FAQs</span>
-
-                        </p>
+            <div class="col-lg-12">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button aria-expanded="false" id="accordion-button-1"><span class="accordion-title">What is Viewz studio</span><span
+                                aria-hidden="true" class="icon"></span></button>
+                        <div class="accordion-content">
+                            <p>It is a Web AR, a no app augmented reality content creating solution enables you to
+                                augment your products instantly without the need for app downloading or coding
+                                knowledge. They can be integrated to any web browser. Users can access web AR by
+                                clicking a link or scanning a QR code to open the items on your website. </p>
+                        </div>
                     </div>
-                    <div class="panel-group toggles-style3 no-border">
-                        <!-- faq item -->
-                        <div class="panel panel-default viewz_fqe_border_colour" id="collapse-one">
-                            <div class="panel-heading" id="headingOne" role="tablist">
-                                <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link1"><h4
-                                        class="panel-title">What is Viewz studio<span
-                                        class="pull-right"><i class="fa fa-plus"></i></span></h4></a>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse-one-link1">
-                                <div class="panel-body block_9_question">
-                                    It is a Web AR, an app-less augmented reality content creating solution, that
-                                    enables you to augment your products instantly without the need for app downloading
-                                    or coding knowledge. They can be integrated to any web browser. Users can access web
-                                    AR by clicking a link or scanning a QR code to open the items on your website.
-                                </div>
-                            </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" id="accordion-button-2"><span class="accordion-title">Do I need any coding skills to use Viewz</span><span
+                                aria-hidden="true" class="icon"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Not at all, all you have to do is to drag and drop your 2D images, test, adjust, publish,
+                                and you are done. </p>
                         </div>
-
-                        <div class="panel panel-default viewz_fqe_border_colour">
-                            <div class="panel-heading" id="headingTwo" role="tablist">
-                                <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link2"><h4
-                                        class="panel-title">Do I need any coding skills to use Viewz<span
-                                        class="pull-right"><i
-                                        class="fa fa-plus"></i></span></h4></a>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse-one-link2">
-                                <div class="panel-body block_9_question">
-                                    Not at all, all you have to do is to drag and drop your 2D images, test, adjust,
-                                    publish, and you are done.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default viewz_fqe_border_colour">
-                            <div class="panel-heading" id="heading-three" role="tablist">
-                                <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link3"><h4
-                                        class="panel-title">Can I publish AR experience for free<span
-                                        class="pull-right"><i
-                                        class="fa fa-plus"></i></span></h4></a>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse-one-link3">
-                                <div class="panel-body block_9_question">
-                                    Yes, you can get a basic plan for this. This license is limited to prototypes and
-                                    demonstrations (it cannot be used for commercial purposes) for 15 days only. To
-                                    publish an experience for commercial use, you need to subscribe to one of our
-                                    packages.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default viewz_fqe_border_colour">
-                            <div class="panel-heading" id="heading-four" role="tablist">
-                                <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link4"><h4
-                                        class="panel-title">How do I subscribe<span
-                                        class="pull-right"><i
-                                        class="fa fa-plus"></i></span></h4></a>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse-one-link4">
-                                <div class="panel-body block_9_question">
-                                    Just signup with your email to subscribe
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default viewz_fqe_border_colour">
-                            <div class="panel-heading" id="heading-five" role="tablist">
-                                <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link5"><h4
-                                        class="panel-title">Can I upgrade my subscription, and how<span
-                                        class="pull-right"><i
-                                        class="fa fa-plus"></i></span></h4></a>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse-one-link5">
-                                <div class="panel-body block_9_question">
-                                    Yes, you can to go to the subscription page and from there you can upgrade your
-                                    subscription
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default viewz_fqe_border_colour">
-                            <div class="panel-heading" id="heading-six" role="tablist">
-                                <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link6"><h4
-                                        class="panel-title">Can I cancel my subscription at any time<span
-                                        class="pull-right"><i
-                                        class="fa fa-plus"></i></span></h4></a>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse-one-link6">
-                                <div class="panel-body block_9_question">
-                                    Yes
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default viewz_fqe_border_colour">
-                            <div class="panel-heading" id="heading-seven" role="tablist">
-                                <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link7"><h4
-                                        class="panel-title">Can I get a refund<span
-                                        class="pull-right"><i
-                                        class="fa fa-plus"></i></span></h4></a>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse-one-link7">
-                                <div class="panel-body block_9_question">
-                                    No, refund is not possible
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default viewz_fqe_border_colour">
-                            <div class="panel-heading" id="heading-eight" role="tablist">
-                                <a data-parent="#collapse-one" data-toggle="collapse" href="#collapse-one-link8"><h4
-                                        class="panel-title">Where are the assets stored<span
-                                        class="pull-right"><i
-                                        class="fa fa-plus"></i></span></h4></a>
-                            </div>
-                            <div class="panel-collapse collapse" id="collapse-one-link8">
-                                <div class="panel-body block_9_question">
-                                    AWS servers in multiple locations
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end faq item -->
-
-
                     </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" id="accordion-button-3"><span class="accordion-title">Can I publish AR experience for free</span><span
+                                aria-hidden="true" class="icon"></span></button>
+                        <div class="accordion-content">
+                            <p>Yes, you can get a basic plan for this. This license is limited to prototypes and
+                                demonstrations (it cannot be used for commercial purposes) for 15 days only. To publish
+                                an experience for commercial use, you need to subscribe to one of our packages. </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" id="accordion-button-4"><span class="accordion-title">How do I subscribe</span><span
+                                aria-hidden="true" class="icon"></span></button>
+                        <div class="accordion-content">
+                            <p>Just signup with your email to subscribe.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" id="accordion-button-5"><span class="accordion-title">Can I upgrade my subscription, and how</span><span
+                                aria-hidden="true" class="icon"></span></button>
+                        <div class="accordion-content">
+                            <p>Yes, you can to go to the subscription page and from there you can upgrade your
+                                subscription</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" id="accordion-button-6"><span class="accordion-title">Can I cancel my subscription at any time</span><span
+                                aria-hidden="true" class="icon"></span></button>
+                        <div class="accordion-content">
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" id="accordion-button-7"><span class="accordion-title">Can I get a refund</span><span
+                                aria-hidden="true" class="icon"></span></button>
+                        <div class="accordion-content">
+                            <p>No, refund is not possible</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" id="accordion-button-8"><span class="accordion-title">Where are the assets stored</span><span
+                                aria-hidden="true" class="icon"></span></button>
+                        <div class="accordion-content">
+                            <p>AWS servers in multiple locations</p>
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
-
         </div>
     </div>
 </section>
@@ -900,7 +983,14 @@
 <!-- javascript libraries / javascript files set #1 -->
 <script src="js/jquery.min.js" type="text/javascript"></script>
 <script src="js/modernizr.js" type="text/javascript"></script>
-<script src="js/bootstrap.js" type="text/javascript"></script>
+<!--<script src="js/bootstrap.js" type="text/javascript"></script>-->
+<script crossorigin="anonymous"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+
 <script src="js/bootstrap-hover-dropdown.js" type="text/javascript"></script>
 <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
 <script src="js/skrollr.min.js" type="text/javascript"></script>

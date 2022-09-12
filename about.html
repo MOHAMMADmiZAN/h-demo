@@ -29,7 +29,9 @@
     <!-- animation -->
     <link href="css/animate.css" rel="stylesheet"/>
     <!-- bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <!--    <link href="css/bootstrap.css" rel="stylesheet"/>-->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" rel="stylesheet">
     <!-- et line icon -->
     <link href="css/et-line-icons.css" rel="stylesheet"/>
     <!-- font-awesome icon -->
@@ -61,41 +63,40 @@
     <![endif]-->
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-white nav-border-bottom"
-     role="navigation" style="color: #06C4FF">
+<nav class="navbar navbar-expand-lg  sticky-nav">
     <div class="container-fluid">
-        <div class="row">
-            <!-- logo -->
-            <div class="col-lg-2 pull-left"><a class="logo-light" href=""><img alt="" class="logo" src="img/logo.png"/></a><a
-                    class="logo-dark" href=""><img alt="" class="logo" src="img/logo.png"/></a></div>
-            <!-- end logo -->
-            <!-- toggle navigation -->
-            <div class="navbar-header col-sm-8 col-xs-2 pull-right">
-                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span
-                        class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
-                        class="icon-bar"></span> <span class="icon-bar"></span></button>
-            </div>
-            <!-- toggle navigation end -->
-            <!-- main menu -->
-            <div class="col-lg-10 accordion-menu text-right">
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right panel-group nav_item_custom" id="accordion"
-                        style="margin-right: 30px">
-                        <!-- menu item -->
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Viewz</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <!-- end menu item -->
-                        <!-- end menu item -->
-                    </ul>
-                </div>
-            </div>
-            <!-- end main menu -->
+        <a class="navbar-brand" href="#">
+            <img alt="Logo" class="d-inline-block align-text-top" src="img/logo.png">
+        </a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto nav_item_custom me-4">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
+
 <!-- head section start -->
 <section id="about_header">
     <div class="container text-center">
@@ -114,7 +115,7 @@
     <div class="container text-center">
 
         <div class="row about_viewz_content">
-            <div class="col-lg-8 text-center">
+            <div class="col-lg-8 col-md-8 col-sm-8 text-center">
                 <div class="about_viewz_Content_Title">
                     <h1>About Viewz</h1>
                     <h3>"A seamless, reliable, and efficient web AR studio for an immersive, interactive, and attractive
@@ -129,7 +130,7 @@
                         retailers looking to engage consumers across the digital and the physical channels</p>
                 </div>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-4 col-sm-4 col-md-4 text-center">
                 <div class="about_viewz_Content_img">
                     <img alt="Asset%202.png" src="img/Asset%202.png">
                 </div>
@@ -143,7 +144,7 @@
 <section id="about_3rd_block">
     <div class="container">
         <div class="row fstRow">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-sm-8 col-md-6">
                 <img alt="dots(02).png" class="dots" src="img/dots.png" width="55">
                 <div class="fstRowTitle">
                     <h3>You did the hard work to create the best website, let Viewz transform it to </h3>
@@ -154,10 +155,10 @@
     </div>
     <div class="container-fluid no-padding">
         <div class="row sndRow">
-            <div class="col-lg-6 sndRowImg">
+            <div class="col-lg-6 sndRowImg col-md-6 col-sm-6">
                 <img alt="aboutSelling" src="img/aboutSelling.png">
             </div>
-            <div class="col-lg-6 sndRowContent">
+            <div class="col-lg-6 sndRowContent col-md-6 col-sm-6">
                 <p>Viewz web AR seamlessly connect with your website, allowing you to convert your products into AR
                     effortlessly with its user-friendly dashboard, which will help you showcase your product in an
                     immersive way and provide an engaging shopping experience for your shoppers.</p>
@@ -170,13 +171,13 @@
     </div>
     <div class="container">
         <div class="row thrdRow">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 ">
                 <p>to pull the image’s data of flat products and retrieve it with a 3D model and”Try It in Your Space”
                     experience. Also simply you can drag and drop an image to create a customized experience that
                     generates exports, batch processing, analytics, and 3D configurators, combined with an intuitive,
                     easy-to-use interface that will help you augment your products at scale in a snap</p>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12">
                 <div class="thrdRowHi_Light">
                     <h3>Mission</h3>
                     <img alt="" src="img/dots%20(2).png">
@@ -198,10 +199,10 @@
 <section id="why_viewz">
     <div class="container">
         <div class="row fstRow">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-4">
                 <img alt="line.png" src="/img/line.png">
             </div>
-            <div class="col-lg-6 fstRowTitle">
+            <div class="col-lg-6 col-md-6 fstRowTitle col-sm-8">
                 <h3>One-time effort,</h3>
                 <h1>All-time gains</h1>
             </div>
@@ -209,7 +210,7 @@
     </div>
     <div class="container">
         <div class="row sndRow">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <h1>Why Viewz?</h1>
                 <p>Viewz web AR is designed to make selling your products process faster and more profitable for you,
                     and shopping experience more fun, easy and convenient for your customers</p>
@@ -219,7 +220,7 @@
             </div>
         </div>
         <div class="row thrdRow">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="item">
                     <div class="itemIcon">
                         <img alt="" src="img/SVG/Asset%201.svg">
@@ -236,7 +237,7 @@
 
 
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="item">
                     <div class="itemIcon">
                         <img alt="" src="img/SVG/Asset%202.svg">
@@ -251,7 +252,7 @@
 
 
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="item">
                     <div class="itemIcon">
                         <img alt="" src="img/SVG/Asset%203.svg">
@@ -266,7 +267,7 @@
 
 
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="item">
                     <div class="itemIcon">
                         <img alt="" src="img/SVG/Asset%204.svg">
@@ -296,7 +297,7 @@
             </div>
         </div>
         <div class="row sndRow">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12">
                 <div class="item">
                     <div class="itemIcon">
                         <img alt="" src="img/SVG/Asset%206.svg">
@@ -312,7 +313,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12">
                 <div class="item item_left" style="margin-top: 30px">
                     <div class="itemText">
                         <h3>Floor products</h3>
@@ -331,7 +332,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12">
                 <div class="item" style="margin-top: 30px">
                     <div class="itemIcon">
                         <img alt="" src="img/SVG/Asset%205.svg">
@@ -353,7 +354,7 @@
             </div>
         </div>
         <div class="row thrdRow">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12">
                 <button class="thrdRowBtn">
                     Get started for free
                 </button>
@@ -365,7 +366,7 @@
 <section id="viewz_team">
     <div class="container">
         <div class="row fstRow">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12">
                 <div class="fstRowTitle">
                     <h1>Our Team</h1>
                 </div>
@@ -571,7 +572,14 @@
 <!-- javascript libraries / javascript files set #1 -->
 <script src="js/jquery.min.js" type="text/javascript"></script>
 <script src="js/modernizr.js" type="text/javascript"></script>
-<script src="js/bootstrap.js" type="text/javascript"></script>
+<!--<script src="js/bootstrap.js" type="text/javascript"></script>-->
+<script crossorigin="anonymous"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+
 <script src="js/bootstrap-hover-dropdown.js" type="text/javascript"></script>
 <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
 <script src="js/skrollr.min.js" type="text/javascript"></script>
@@ -610,6 +618,7 @@
 <script src="js/classie.js" type="text/javascript"></script>
 <script src="js/hamburger-menu.js" type="text/javascript"></script>
 <!-- setting -->
+
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
 <script src="js/main.js" type="text/javascript"></script>
 </body>
