@@ -1927,3 +1927,14 @@ function toggleAccordion() {
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
 // accordion-end
+
+
+$('.navbar-collapse ul li a').click(() => $('.navbar-toggler:visible').click());
+let navbarCollapse = document.querySelector('.navbar-toggler');
+navbarCollapse.addEventListener('click', function (e) {
+
+    document.getElementById('navbarSupportedContent').classList.toggle('show');
+    document.querySelector('.show').style.bgColor = 'red';
+
+
+})

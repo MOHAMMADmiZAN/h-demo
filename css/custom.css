@@ -73,7 +73,11 @@ a {
 }
 
 .shrink-nav {
-    background: rgba(0, 10, 42, 0.8) !important;
+    background: rgba(0, 10, 42) !important;
+}
+
+.navbar button {
+    margin-right: 50px;
 }
 
 .shop_cart_custom a, .shop_cart_custom i, .shop_cart_custom div {
@@ -1309,3 +1313,9 @@ hr {
 /*.parallaxBackgroundImg{*/
 /*    background-image: url("../images/parallax-img6.jpg");*/
 /*}*/
+.show {
+    display: block;
+    background: #000A2A;
+    width: 100%;
+    text-align: center;
+}
