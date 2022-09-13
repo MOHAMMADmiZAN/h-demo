@@ -4797,6 +4797,10 @@
         font-size: 16px !important;
     }
 
+    #viewz_solution h1 {
+        font-size: 35px !important;
+    }
+
     #why_viewz .fstRow {
         top: -30px;
     }
@@ -4815,6 +4819,10 @@
 
     #why_viewz .thrdRow .item .itemText p {
         font-size: 10px !important;
+    }
+
+    .fqe h1 {
+        font-size: 35px !important;
     }
 }
 
