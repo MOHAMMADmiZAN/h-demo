@@ -1225,11 +1225,9 @@ hr {
     max-width: 600px;
 }
 
-#viewz_solution .thrdRow .thrdRowBtn {
+#viewz_solution .thrdRowBtn {
     padding: 10px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     font-family: 'Nunito', serif !important;
     font-weight: 600 !important;
     font-size: 18px !important;
@@ -1238,6 +1236,11 @@ hr {
     background: #06c4ff;
     border-radius: 30px;
     margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
 }
 
 #viewz_team {
