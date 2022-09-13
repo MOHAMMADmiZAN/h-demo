@@ -739,7 +739,6 @@ hr {
 }
 
 #about_header {
-    min-height: 500px;
     /*background: linear-gradient(to bottom, #ffffff 80%,  rgba(0, 10, 42, 0.1)) !important;*/
     padding: 120px 0 0 0 !important;
     background: url('../img/views-About-page01.png') no-repeat;
@@ -1069,6 +1068,7 @@ hr {
     margin-top: 40px;
 }
 
+
 #why_viewz .thrdRow .item {
     padding: 50px 0;
     text-align: center;
@@ -1076,6 +1076,7 @@ hr {
     background-size: cover;
     border-radius: 30px;
     position: relative;
+    border: 1px solid #06c4ff;
 }
 
 #why_viewz .thrdRow .item .itemIcon {
@@ -1151,6 +1152,7 @@ hr {
 .itemSnd {
     background: url("../img/solutionBack2.svg") left no-repeat !important;
     padding: 50px;
+    background-size: cover;
 
 }
 

@@ -4824,12 +4824,16 @@
     .fqe h1 {
         font-size: 35px !important;
     }
+
+    #viewz_partner h1 {
+        font-size: 35px !important;
+    }
+
+    #viewz_team h1 {
+        font-size: 35px !important;
+    }
 }
 
-
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
 
 @media only screen and ( max-width: 991px) {
     .h1Solid, .h1Stoke {
@@ -4854,3 +4858,78 @@
 
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .about_viewz_content {
+        justify-content: center;
+    }
+
+    .about_viewz_Content_img {
+        margin-top: 20px;
+    }
+
+    #why_viewz .fstRow .fstRowTitle {
+        border-left: none !important;
+
+    }
+
+    #why_viewz .fstRow .fstRowTitle h1, #why_viewz .fstRow .fstRowTitle h3 {
+        text-align: center;
+    }
+
+    #why_viewz .thrdRow .thrdRowItem {
+        margin-top: 40px !important;
+    }
+
+    #viewz_partner .sndRow .item {
+        width: 100% !important;
+    }
+
+    #viewz_solution .itemContent {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    #viewz_solution .itemIcon {
+        margin: 0 auto !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .h1Stoke {
+        display: none;
+    }
+
+    /*.navbar button {*/
+    /*    margin-right: 100px;*/
+    /*}*/
+    .about_viewz_Content_Title h3 {
+        text-align: center !important;
+    }
+
+    #about_3rd_block .fstRow::after {
+        width: 0;
+    }
+
+    #why_viewz .fstRow {
+        display: none;
+    }
+
+    #why_viewz .thrdRowItem {
+        margin-top: 40px;
+    }
+
+    #viewz_solution .itemContent {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    #viewz_solution .itemIcon {
+        margin: 0 auto !important;
+    }
+
+    #viewz_partner .sndRow .item {
+        width: 100% !important;
+    }
+
+}
