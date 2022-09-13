@@ -284,6 +284,7 @@ a {
     text-transform: capitalize;
 }
 
+
 .block_7_box_title {
     font-family: 'Nunito', serif !important;
     font-weight: 700;
@@ -333,7 +334,7 @@ a {
 
 
 .p-40 {
-    padding: 40px !important;
+    padding: 0 40px !important;
 }
 
 .benefitContent {
@@ -1337,4 +1338,17 @@ hr {
     background: #000A2A;
     width: 100%;
     text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }

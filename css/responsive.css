@@ -4750,7 +4750,7 @@
     }
 
     .about_viewz_Content_Title h1 {
-        font-size: 35px !important;
+        font-size: 32px !important;
     }
 
     #about_3rd_block .fstRow .fstRowTitle h3 {
@@ -4758,7 +4758,7 @@
     }
 
     #about_3rd_block .fstRow .fstRowTitle h1 {
-        font-size: 35px !important;
+        font-size: 32px !important;
     }
 
     #about_3rd_block .sndRow .sndRowContent p {
@@ -4770,7 +4770,7 @@
     }
 
     #about_3rd_block .sndRow .sndRowContent h1 {
-        font-size: 30px !important;
+        font-size: 32px !important;
     }
 
     #about_3rd_block .thrdRow p {
@@ -4798,7 +4798,7 @@
     }
 
     #viewz_solution h1 {
-        font-size: 35px !important;
+        font-size: 32px !important;
     }
 
     #why_viewz .fstRow {
@@ -4806,7 +4806,7 @@
     }
 
     #why_viewz .sndRow h1 {
-        font-size: 35px !important;
+        font-size: 32px !important;
     }
 
     #why_viewz .sndRow p {
@@ -4822,15 +4822,15 @@
     }
 
     .fqe h1 {
-        font-size: 35px !important;
+        font-size: 32px !important;
     }
 
     #viewz_partner h1 {
-        font-size: 35px !important;
+        font-size: 32px !important;
     }
 
     #viewz_team h1 {
-        font-size: 35px !important;
+        font-size: 32px !important;
     }
 }
 
@@ -4935,3 +4935,128 @@
 }
 
 /*// responsive home section //*/
+@media only screen and (max-width: 1199px) {
+    .header_text_custom {
+        font-size: 45px !important;
+    }
+
+    .block_2_title {
+        font-size: 32px !important;
+    }
+
+    .block_2_text {
+        font-size: 20px !important;
+    }
+
+    .block_4_title {
+        font-size: 32px !important;
+    }
+
+    .block_4_content_title {
+        font-size: 32px !important;
+    }
+
+    .block_4_content_text_title {
+        font-size: 20px !important;
+    }
+
+    .block_4_content_text_p {
+        font-size: 16px !important;
+    }
+
+    .block_5_slider_title {
+        font-size: 20px !important;
+    }
+
+    .block_5_slider_text {
+        font-size: 16px !important;
+    }
+
+    .benefitTitle {
+        font-size: 20px !important;
+    }
+
+    .benefitContent .item span {
+        font-size: 16px !important;
+    }
+
+    .pricing-title h3 {
+        font-size: 20px !important;
+    }
+
+    .pricing-price {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .pricing .blue_btn_custom {
+        min-width: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header_text_custom {
+        margin-top: 70px;
+    }
+
+    .scroll-down {
+        bottom: 35px;
+    }
+
+    .block_3_title {
+        line-height: 1.2 !important;
+    }
+
+    .solutionContent .row {
+        justify-content: center;
+    }
+
+    .solutionContent .col-sm-8, .solutionContent .col-sm-12 {
+        padding: 40px 0;
+    }
+
+    .block_5 h6 {
+        margin-bottom: 50px !important;
+    }
+
+    .carousel-control-prev {
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        transform: translateX(-50%);
+    }
+
+    .carousel-control-next {
+        position: absolute;
+        right: 50%;
+        top: 100%;
+        transform: translateX(50%);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header_text_custom {
+        font-size: 35px !important;
+    }
+
+    .gradiant_button_custom {
+        margin-bottom: 10px;
+    }
+
+    .scroll-down img {
+        width: 20px;
+    }
+
+    .scroll-down {
+        bottom: 20px;
+    }
+
+    .block_5 .block_4_title {
+        margin-bottom: 14% !important;
+    }
+
+    .benefitContent .col-sm-6 {
+        margin: 20px 0;
+    }
+}
