@@ -386,6 +386,8 @@ a {
     margin: 5px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    width: 100%;
+    height: 100%;
 }
 
 .topBorderLeftRadius {
@@ -1122,43 +1124,39 @@ hr {
 
 #viewz_solution {
     padding: 120px 0 !important;
+    background: url("../img/solution_back1.svg") no-repeat right;
+    background-size: cover;
 
 }
 
-#viewz_solution .fstRowTitle h1 {
+#viewz_solution h1 {
     font-family: 'Nunito', serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
-    color: #06C4FF;
+    color: #FFFFFF;
     text-align: center;
 
 
 }
 
-#viewz_solution .sndRow {
-    padding: 50px 0;
-    margin-top: 40px;
-}
 
-#viewz_solution .sndRow .item {
-    background: url("../img/item_bg_right.png") right no-repeat;
-    display: flex;
-    flex-wrap: wrap;
-    overflow-y: hidden;
+#viewz_solution .item {
+    /*background: url("../img/solution_back1.svg") right no-repeat;*/
+    padding: 50px;
 
 
 }
 
-.item_left {
-    background: url("../img/item_bg_left.png") left no-repeat !important;
-    justify-content: end;
-    text-align: right;
+.itemSnd {
+    background: url("../img/solutionBack2.svg") left no-repeat !important;
+    padding: 50px;
+
 }
 
-#viewz_solution .sndRow .itemIcon {
+#viewz_solution .itemIcon {
     padding: 10px 10px 50px 10px;
-    background: url("../img/solution_icon_bg.png") no-repeat;
+    background: url("../img/solution_icon_bg.svg") no-repeat;
     max-width: 80px;
     width: 20%;
     height: 120px;
@@ -1168,7 +1166,7 @@ hr {
 
 }
 
-#viewz_solution .sndRow .itemIcon img {
+#viewz_solution .itemIcon img {
     width: 50px;
     position: absolute;
     bottom: 10px;
@@ -1181,7 +1179,7 @@ hr {
     padding: 50px 10px;
 }
 
-#viewz_solution .sndRow .itemText h3 {
+#viewz_solution .itemContentText h3 {
     font-family: 'Nunito', serif !important;
     font-weight: 700;
     font-size: 30px;
@@ -1193,7 +1191,7 @@ hr {
     display: inline-block;
 }
 
-#viewz_solution .sndRow .itemText h3::after {
+#viewz_solution .itemContentText h3::after {
     position: absolute;
     content: '';
     width: 50px;
@@ -1204,15 +1202,27 @@ hr {
 
 }
 
-#viewz_solution .sndRow .itemText p {
+#viewz_solution .itemContentRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#viewz_solution .itemContentText p {
     font-family: 'Source Serif Pro', serif !important;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.5;
-    color: #000A2A;
+    color: #FFFFFF;
     text-align: left;
     margin-top: 30px;
     text-transform: capitalize;
+}
+
+#viewz_solution .itemImg img {
+    width: 100%;
+    max-width: 600px;
 }
 
 #viewz_solution .thrdRow .thrdRowBtn {
@@ -1267,6 +1277,10 @@ hr {
     color: #FFFFFF;
     text-align: center;
     margin-top: 10px;
+}
+
+#viewz_partner {
+    padding: 120px 0
 }
 
 #viewz_partner .fstRowTitle h1 {
