@@ -1191,11 +1191,10 @@ nav .nav_item_custom .nav-link {
 #viewz_solution .itemContentText h3 {
     font-family: 'Nunito', serif !important;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.2;
     color: #FFFFFF;
     text-align: left;
-
     position: relative;
     display: inline-block;
     margin: 20px 0;
