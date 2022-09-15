@@ -735,48 +735,65 @@ hr {
 /*    margin-top: 5px !important;*/
 /*}*/
 /*// about page custom css/*/
+nav .nav_item_custom .nav-link {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
 .about_nav li a:hover {
     border-bottom-color: #06C4FF !important;
 }
 
 #about_header {
     /*background: linear-gradient(to bottom, #ffffff 80%,  rgba(0, 10, 42, 0.1)) !important;*/
-    padding: 120px 0 0 0 !important;
-    background: url('../img/views-About-page01.png') no-repeat;
+    padding: 120px 0 120px 0 !important;
+    background: #FFFFFF;
     background-size: cover;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 
 
 }
 
 #about_header .h1Solid {
-    font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 45px;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-family: 'Nunito', serif;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 1.2;
+    color: #06C4FF;
+    padding: 140px 0;
+    text-align: center;
 }
 
-.h1Stoke {
-    font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 45px;
-    line-height: 1.2 !important;
-    -webkit-text-stroke: 1px #06c4ff;
-    -webkit-text-fill-color: transparent;
-}
 
 .about_headerImg {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 881px;
+    /*max-height: 500px;*/
     object-fit: cover;
-    margin: 50px auto 0 auto;
+    margin: 60px auto 0 auto;
     position: relative;
+    z-index: 1;
+    padding: 140px
 }
 
 .about_headerImg img {
-    box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px -4px 18px 7px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: -95px;
+    left: 0;
+
+}
+
+.headerLay {
+    background: url("../img/SVG/headerLay.svg") no-repeat bottom;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
 }
 
 .about_headerImgBtn {
@@ -785,17 +802,26 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 15px;
+    min-width: 260px;
     font-family: "Nunito", serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
+    border-radius: 20px;
+    background: #06c4ff;
+    color: #fff;
+    border: none;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 #about_viewz {
     padding: 120px 0 !important;
     width: 100%;
-    background: url('../img/Asset 3.png') no-repeat;
+    background: url('../img/SVG/abouViewz.svg') no-repeat;
     background-size: cover;
 
 
@@ -847,40 +873,43 @@ hr {
 
 .about_viewz_Content_Title h1 {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 45px !important;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #06C4FF;
     text-align: justify;
+    padding-bottom: 30px;
+    text-transform: capitalize;
 }
 
 .about_viewz_Content_Title h3 {
     font-family: 'Nunito', serif !important;
     font-weight: 600 !important;
-    font-size: 25px !important;
+    font-size: 22px !important;
     line-height: 1.2 !important;
     color: #06C4FF !important;
-    text-align: justify;
+    text-align: left;
 }
 
 .about_viewz_Content_Title p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500 !important;
-    font-size: 20px !important;
-    line-height: 1.2 !important;
-    color: rgba(239, 248, 255, 0.9) !important;
+    font-weight: 400 !important;
+    font-size: 22px;
+    line-height: 1.2;
+    color: rgba(239, 248, 255, 0.9);
     text-align: justify;
     margin-top: 20px;
     text-transform: capitalize;
+
 }
 
 #about_3rd_block {
-    padding: 100px 0 !important;
+    padding: 120px 0 !important;
 }
 
 #about_3rd_block .fstRow .fstRowTitle h3 {
     font-family: 'Nunito', serif !important;
-    font-weight: 600 !important;
+    font-weight: 700 !important;
     font-size: 30px !important;
     line-height: 1.2 !important;
     color: #06C4FF !important;
@@ -893,7 +922,7 @@ hr {
     font-weight: 900;
     font-size: 45px;
     line-height: 1.2;
-    color: #000A2A !important;
+    color: #000 !important;
     text-align: left;
     margin-top: 10px;
 }
@@ -936,9 +965,9 @@ hr {
 
 #about_3rd_block .sndRow .sndRowContent p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500 !important;
-    font-size: 20px !important;
-    line-height: 1.2 !important;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
     color: #000A2A;
     text-align: justify;
     margin-top: 30px;
@@ -947,10 +976,10 @@ hr {
 
 #about_3rd_block .sndRow .sndRowContent h3 {
     font-family: 'Nunito', serif !important;
-    font-weight: 600 !important;
-    font-size: 30px !important;
-    line-height: 1.2 !important;
-    color: #06C4FF !important;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #06C4FF;
     text-align: left;
     margin-top: 100px;
 }
@@ -967,8 +996,8 @@ hr {
 
 #about_3rd_block .thrdRow p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500 !important;
-    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
     line-height: 1.2 !important;
     color: #000A2A;
     text-align: center;
@@ -976,34 +1005,10 @@ hr {
     text-transform: capitalize;
 }
 
-#about_3rd_block .thrdRowHi_Light h3 {
-    font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;
-    font-size: 30px !important;
-    color: #06C4FF !important;
-    text-align: center;
-    padding: 10px 0 5px 0;
-    position: relative;
-
-}
-
-
-#about_3rd_block .thrdRowHi_Light h3:nth-child(1) {
-    margin-top: 50px;
-}
-
-#about_3rd_block .thrdRowHi_Light img {
-    display: inline-block;
-    width: 50px;
-}
-
-#about_3rd_block .thrdRowHi_Light {
-    text-align: center;
-}
 
 #why_viewz {
     padding: 120px 0 !important;
-    background: url("../img/Asset 6@2x.png") center no-repeat;
+    background: url("../img/Asset 6@2x.png") no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -1040,6 +1045,7 @@ hr {
     color: #FFFFFF;
     text-align: left;
     margin-top: 5px;
+    text-transform: capitalize;
 
 }
 
@@ -1050,12 +1056,13 @@ hr {
     line-height: 1.2;
     color: #06C4FF;
     text-align: center;
+    text-transform: capitalize;
 }
 
 #why_viewz .sndRow p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 22px;
     line-height: 1.2;
     color: #FFFFFF;
     text-align: center;
@@ -1073,7 +1080,7 @@ hr {
 #why_viewz .thrdRow .item {
     padding: 50px 0;
     text-align: center;
-    background: url('../img/Asset 3.png') no-repeat;
+    background: url("../img/Asset 6@2x.png") no-repeat;
     background-size: cover;
     border-radius: 30px;
     position: relative;
@@ -1115,8 +1122,8 @@ hr {
 
 #why_viewz .thrdRow .item .itemText p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 1.2;
     color: #FFFFFF;
     text-align: center;
@@ -1138,6 +1145,7 @@ hr {
     line-height: 1.2;
     color: #FFFFFF;
     text-align: center;
+    text-transform: capitalize;
 
 
 }
@@ -1145,14 +1153,14 @@ hr {
 
 #viewz_solution .item {
     /*background: url("../img/solution_back1.svg") right no-repeat;*/
-    padding: 50px;
+    padding: 50px 50px 100px 50px;
 
 
 }
 
 .itemSnd {
     background: url("../img/solutionBack2.svg") left no-repeat !important;
-    padding: 50px;
+    padding: 50px 50px 100px 50px;
     background-size: cover;
 
 }
@@ -1163,7 +1171,6 @@ hr {
     max-width: 80px;
     height: 120px;
     position: relative;
-    margin: 0 20px;
 
 
 }
@@ -1188,9 +1195,10 @@ hr {
     line-height: 1.2;
     color: #FFFFFF;
     text-align: left;
-    margin-top: 10px;
+
     position: relative;
     display: inline-block;
+    margin: 20px 0;
 }
 
 #viewz_solution .itemContentText h3::after {
@@ -1206,43 +1214,44 @@ hr {
 
 #viewz_solution .itemContentRow {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #viewz_solution .itemContentText p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 22px;
     line-height: 1.5;
     color: #FFFFFF;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 15px;
     text-transform: capitalize;
 }
 
 #viewz_solution .itemImg img {
     width: 100%;
     max-width: 600px;
+    border-radius: 50px;
 }
 
 #viewz_solution .thrdRowBtn {
     padding: 10px 15px;
-    display: inline-block;
     font-family: 'Nunito', serif !important;
     font-weight: 600 !important;
     font-size: 18px !important;
     line-height: 1.2 !important;
     color: #FFFFFF !important;
     background: #06c4ff;
-    border-radius: 30px;
+    border-radius: 15px;
     margin: 0 auto;
-    max-width: 250px;
     text-align: center;
-    box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 0px 18px 7px rgba(0, 0, 0, 0.75);
+    min-width: 250px;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #viewz_team {
@@ -1257,6 +1266,7 @@ hr {
     line-height: 1.2;
     color: #06C4FF;
     text-align: center;
+    text-transform: capitalize;
 }
 
 #viewz_team .sndRow {
@@ -1266,8 +1276,8 @@ hr {
 
 #viewz_team .sndRow .team-name {
     font-family: 'Nunito', serif !important;
-    font-weight: 700 !important;;
-    font-size: 25px !important;
+    font-weight: 800 !important;;
+    font-size: 35px !important;
     line-height: 1.2;
     color: #06c4ff !important;
     text-align: center;
@@ -1277,7 +1287,7 @@ hr {
 #viewz_team .sndRow .team-post {
     font-family: 'Source Serif Pro', serif !important;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.2;
     color: #FFFFFF;
     text-align: center;
@@ -1295,6 +1305,7 @@ hr {
     line-height: 1.2;
     color: #06C4FF;
     text-align: center;
+    text-transform: capitalize;
 }
 
 #viewz_partner .sndRow .items {
@@ -1318,7 +1329,61 @@ hr {
     height: 100%;
 }
 
+.footerLinkSection .lightFont {
+    font-family: 'Nunito', serif !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 1.2 !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+}
 
+.footerLinkSection .footer-text {
+    font-family: 'Source Serif Pro', serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+}
+
+.footerLinkSection .tryBtn {
+    padding: 10px 15px;
+    font-family: 'Nunito', serif !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+    color: #FFFFFF !important;
+    background: #06c4ff;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 250px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinkSection a {
+    font-family: Nunito, serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+}
+
+
+.copyright {
+    font-family: 'Source Serif Pro', serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+}
 /*.parallaxSection{*/
 /*    background-attachment: fixed;*/
 /*    background-position: center;*/
