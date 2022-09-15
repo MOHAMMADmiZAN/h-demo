@@ -1143,7 +1143,7 @@ nav .nav_item_custom .nav-link {
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
-    color: #06c4ff;
+    color: #06c4ff !important;
     text-align: center;
     text-transform: capitalize;
 
