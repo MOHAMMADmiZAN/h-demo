@@ -1588,13 +1588,8 @@ nav .nav_item_custom .nav-link {
 }
 
 .fqeBtn {
-    border-radius: 40px !important;
-    padding: 10px 15px !important;
-    background: linear-gradient(90deg, #06C4FF 0%, #06C4FF 100%) !important;
     min-width: 150px !important;
-    position: absolute;
-    top: 0;
-    right: 0;
+
     height: 100%;
 
 }
@@ -1602,7 +1597,7 @@ nav .nav_item_custom .nav-link {
 .fqeBtn i {
     font-size: 30px;
     margin-right: 20px;
-    color: #FFFFFF !important;
+    color: #06c4ff !important;
 }
 
 /*// supportPage css //*/
