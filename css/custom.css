@@ -839,7 +839,7 @@ nav .nav_item_custom .nav-link {
     color: #FFFFFF;
     font-family: 'Nunito', serif;
     position: relative;
-    text-transform: capitalize;
+    text-transform: none;
     transition: 0.4s;
     cursor: pointer;
 }
@@ -879,7 +879,7 @@ nav .nav_item_custom .nav-link {
     color: #06C4FF;
     text-align: justify;
     padding-bottom: 30px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .about_viewz_Content_Title h3 {
@@ -899,7 +899,7 @@ nav .nav_item_custom .nav-link {
     color: rgba(239, 248, 255, 0.9);
     text-align: justify;
     margin-top: 20px;
-    text-transform: capitalize;
+    text-transform: none;
 
 }
 
@@ -971,7 +971,7 @@ nav .nav_item_custom .nav-link {
     color: #000A2A;
     text-align: justify;
     margin-top: 30px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #about_3rd_block .sndRow .sndRowContent h3 {
@@ -1002,7 +1002,7 @@ nav .nav_item_custom .nav-link {
     color: #000A2A;
     text-align: center;
     margin-top: 30px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 
@@ -1045,7 +1045,7 @@ nav .nav_item_custom .nav-link {
     color: #FFFFFF;
     text-align: left;
     margin-top: 5px;
-    text-transform: capitalize;
+    text-transform: none;
 
 }
 
@@ -1056,7 +1056,7 @@ nav .nav_item_custom .nav-link {
     line-height: 1.2;
     color: #06C4FF;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #why_viewz .sndRow p {
@@ -1067,7 +1067,7 @@ nav .nav_item_custom .nav-link {
     color: #FFFFFF;
     text-align: center;
     margin-top: 30px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #why_viewz .thrdRow {
@@ -1128,7 +1128,7 @@ nav .nav_item_custom .nav-link {
     color: #FFFFFF;
     text-align: center;
     margin-top: 30px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #viewz_solution {
@@ -1145,7 +1145,7 @@ nav .nav_item_custom .nav-link {
     line-height: 1.2;
     color: #06c4ff !important;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
 
 
 }
@@ -1226,7 +1226,7 @@ nav .nav_item_custom .nav-link {
     color: #FFFFFF;
     text-align: left;
     margin-top: 15px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #viewz_solution .itemImg img {
@@ -1265,7 +1265,7 @@ nav .nav_item_custom .nav-link {
     line-height: 1.2;
     color: #06C4FF;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #viewz_team .sndRow {
@@ -1304,7 +1304,7 @@ nav .nav_item_custom .nav-link {
     line-height: 1.2;
     color: #06C4FF;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #viewz_partner .sndRow .items {
@@ -1334,7 +1334,7 @@ nav .nav_item_custom .nav-link {
     font-size: 18px !important;
     line-height: 1.2 !important;
     text-align: left !important;
-    text-transform: capitalize !important;
+    text-transform: none !important;
 }
 
 .footerLinkSection .footer-text {
@@ -1343,7 +1343,7 @@ nav .nav_item_custom .nav-link {
     font-size: 16px !important;
     line-height: 1.2 !important;
     text-align: left !important;
-    text-transform: capitalize !important;
+    text-transform: none !important;
 }
 
 .footerLinkSection .tryBtn {
@@ -1383,6 +1383,7 @@ nav .nav_item_custom .nav-link {
     text-transform: capitalize !important;
     color: #FFFFFF !important;
 }
+
 /*.parallaxSection{*/
 /*    background-attachment: fixed;*/
 /*    background-position: center;*/
@@ -1602,4 +1603,202 @@ nav .nav_item_custom .nav-link {
     font-size: 30px;
     margin-right: 20px;
     color: #FFFFFF !important;
+}
+
+/*// supportPage css //*/
+#supportHeader {
+    padding-top: 85px;
+    background: url("/img/SVG/supportHeader.svg") center no-repeat;
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+#supportHeaderBanner {
+    padding: 120px 0;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px) !important;
+    width: 100%;
+    text-align: center;
+    height: calc(100vh - 85px);
+}
+
+.supportNav {
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+#supportHeaderBanner h1 {
+    font-family: 'Nunito', serif !important;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(5px) !important;
+    margin: 60px auto;
+    border-radius: 35px;
+
+}
+
+#supportHeaderBanner h3 {
+    font-family: 'Nunito', serif !important;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 60px auto;
+
+
+}
+
+#supportHeaderBanner .scroll-down {
+    bottom: 20px;
+}
+
+#support_block_two {
+    padding: 120px 0;
+
+}
+
+#support_block_two .item {
+    padding: 60px 0;
+}
+
+#support_block_two .itemContent h2 {
+    font-family: 'Nunito', serif !important;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #06c4ff;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#support_block_two .itemContent h3 {
+    font-family: 'Nunito', serif !important;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #000A2A;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#support_block_two .itemContent p {
+    font-family: 'Source Serif Pro', serif !important;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #000A2A;
+    text-align: left;
+    margin-top: 15px;
+}
+
+#support_block_two .itemImage {
+    width: 100%;
+    max-width: 600px;
+}
+
+#viewz_tutorials {
+    padding: 120px 0;
+    background: #000A2A;
+}
+
+#viewz_tutorials .sectionTitle h2 {
+    font-family: 'Nunito', serif !important;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #06c4ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#viewz_tutorials .item {
+    margin: 30px 0;
+}
+
+#viewz_tutorials .itemContent {
+    padding: 120px 0;
+    background: #06c4ff;
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#viewz_tutorials .itemContent .itemImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#viewz_tutorials .itemText h4 {
+    font-family: 'Nunito', serif !important;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+#customerSupport {
+    padding: 120px 0;
+
+}
+
+#customerSupport .itemContent h2 {
+    font-family: 'Nunito', serif !important;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #06c4ff;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#customerSupport .itemContent p {
+    font-family: 'Source Serif Pro', serif !important;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #000A2A;
+    text-align: left;
+    margin-top: 15px;
+}
+
+#customerSupport .itemImage {
+    width: 100%;
+    max-width: 600px;
+}
+
+#customerSupport .itemContentBtn .itemBtn {
+    border-radius: 25px !important;
+    padding: 10px 15px !important;
+    background: linear-gradient(90deg, #06C4FF 0%, #06C4FF 100%) !important;
+    min-width: 150px !important;
+    max-width: 350px !important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF !important;
+    font-family: 'Nunito', serif !important;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    min-height: 60px;
+    margin: 20px 0;
 }
