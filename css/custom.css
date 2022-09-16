@@ -41,6 +41,7 @@ a {
     line-height: 1.2;
     margin-bottom: 30px;
     text-align: center;
+    height: 17px;
 
 }
 
@@ -147,9 +148,14 @@ a {
     border: none;
     font-family: 'Nunito', serif;
     padding: 10px 15px;
-    min-height: 60px;
     color: #FFFFFF !important;
     font-size: 16px !important;
+}
+
+.startBtn {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .gradiant_button_custom:hover {
