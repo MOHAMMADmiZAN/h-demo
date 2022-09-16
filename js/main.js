@@ -1939,3 +1939,12 @@ navbarCollapse.addEventListener('click', function (e) {
 
 
 })
+const typed = new Typed('.animated-text', {
+    strings: ['No App', 'No coding', 'Compatible with any browser'],
+    typeSpeed: 60,
+    backSpeed: 60,
+    loop: true,
+    loopCount: Infinity,
+    startDelay: 100,
+
+});
