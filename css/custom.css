@@ -39,9 +39,9 @@ a {
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
-    margin-top: 20px;
+
 }
 
 .a-product {
@@ -128,7 +128,7 @@ a {
     font-size: 32px !important;
     line-height: 1.5;
     color: #FFFFFF;
-    padding: 60px 0;
+    padding: 30px 0;
 
 }
 
@@ -147,6 +147,9 @@ a {
     border: none;
     font-family: 'Nunito', serif;
     padding: 10px 15px;
+    min-height: 60px;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
 }
 
 .gradiant_button_custom:hover {
