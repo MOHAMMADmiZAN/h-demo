@@ -24,8 +24,7 @@ a {
 }
 
 .homeHeader {
-    padding: 120px 0;
-    min-height: 100vh;
+    min-height: 100vh !important;
 }
 
 .homeHeader .typed-cursor {
