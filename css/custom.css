@@ -97,6 +97,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1.5;
+    margin-top: 60px;
 }
 
 .header_2d {
@@ -164,6 +165,7 @@ a {
     font-size: 45px !important;
     color: #06C4FF;
     line-height: 1;
+    text-align: center;
 
 }
 
@@ -174,19 +176,20 @@ a {
     line-height: 1.5 !important;
     color: #000A2A !important;
     margin-top: 10px;
+    text-align: center;
 }
 
 .block_3_title {
     font-family: 'Nunito', serif !important;
     font-weight: 700 !important;
-    font-size: 32px !important;
+    font-size: 45px !important;
     color: #06C4FF !important;
     margin-top: 20px;
 }
 
 .block_3_text {
     font-family: "Source Serif Pro", serif !important;
-    font-size: 16px !important;
+    font-size: 25px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
     color: white !important;
@@ -201,17 +204,6 @@ a {
     position: relative;
     text-transform: capitalize !important;
 
-}
-
-.block_4_title::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 3px;
-    background: #06c4ff;
 }
 
 .block_4_content_title {
@@ -306,9 +298,10 @@ a {
 .block_8_input i {
     position: absolute;
     top: 50%;
-    right: 10px;
+    right: 30px;
     transform: translateY(-50%);
     color: #06c4ff !important;
+    font-size: 30px !important;
 }
 
 .block_9_question {
@@ -656,10 +649,7 @@ i {
     color: #06C4FF !important;
 }
 
-/*// footer*/
-i {
-    color: #06C4FF !important;
-}
+
 
 .small-icon {
     color: #06C4FF !important;
@@ -760,7 +750,7 @@ nav .nav_item_custom .nav-link {
 #about_header .h1Solid {
     font-family: 'Nunito', serif;
     font-weight: 700;
-    font-size: 85px;
+    font-size: 60px;
     line-height: 1.2;
     color: #06C4FF;
     padding: 140px 0;
@@ -960,7 +950,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .sndRow .sndRowContent {
-    padding: 50px;
+    padding: 50px 100px;
     text-align: justify;
 }
 
@@ -987,8 +977,8 @@ nav .nav_item_custom .nav-link {
 
 #about_3rd_block .sndRow .sndRowContent h1 {
     font-family: 'Nunito', serif !important;
-    font-weight: 800;
-    font-size: 35px;
+    font-weight: 900;
+    font-size: 45px;
     line-height: 1.2;
     color: #000A2A !important;
     text-align: left;
@@ -1315,6 +1305,7 @@ nav .nav_item_custom .nav-link {
     align-items: center;
     padding: 50px 0;
     margin-top: 40px;
+
 }
 
 #viewz_partner .sndRow .item {
