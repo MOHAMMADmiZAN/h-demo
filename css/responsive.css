@@ -5070,3 +5070,12 @@
         margin: 20px 0;
     }
 }
+
+@media screen and (max-width: 375px) {
+
+    .gradiant_button_custom {
+        font-size: 14px !important;
+    }
+
+
+}
