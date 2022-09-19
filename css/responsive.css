@@ -5042,15 +5042,16 @@
 @media screen and (max-width: 575px) {
 
     .header_text_custom {
-        font-size: 32px !important;
+        font-size: 30px !important;
     }
 
     .header_2d {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
 
     .gradiant_button_custom {
         margin-bottom: 10px;
+        font-size: 15px !important;
     }
 
     .scroll-down img {
