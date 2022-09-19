@@ -1411,8 +1411,8 @@ nav .nav_item_custom .nav-link {
 /*}*/
 .show {
     display: block;
-    background: rgba(255, 255, 255, 0.2) !important;
-    backdrop-filter: blur(5px) !important;
+    background: #000A2A !important;
+
     width: 100%;
     text-align: center;
 }
