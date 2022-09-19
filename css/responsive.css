@@ -5001,7 +5001,11 @@
 
 @media only screen and (max-width: 767px) {
     .header_text_custom {
-        margin-top: 45px;
+        font-size: 30px !important;
+    }
+
+    .header_2d {
+        font-size: 16px !important;
     }
 
     .scroll-down {
