@@ -1,5 +1,4 @@
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -1373,6 +1372,11 @@ nav .nav_item_custom .nav-link {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footerLinkSection .tryBtn:hover {
+    background: #06c4ff;
+    color: #fff;
 }
 
 .footerLinkSection a {
