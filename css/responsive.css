@@ -4941,7 +4941,7 @@
     }
 
     .header_2d {
-        font-size: 25px !important;
+        font-size: 20px !important;
     }
 
     .block_2_title {
@@ -5001,7 +5001,7 @@
 
 @media only screen and (max-width: 767px) {
     .header_text_custom {
-        margin-top: 70px;
+        margin-top: 45px;
     }
 
     .scroll-down {
@@ -5040,8 +5040,13 @@
 }
 
 @media screen and (max-width: 575px) {
+
     .header_text_custom {
-        font-size: 35px !important;
+        font-size: 32px !important;
+    }
+
+    .header_2d {
+        font-size: 20px !important;
     }
 
     .gradiant_button_custom {

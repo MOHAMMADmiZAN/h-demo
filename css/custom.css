@@ -25,6 +25,8 @@ a {
 
 .homeHeader {
     min-height: 100vh !important;
+    height: 100vh !important;
+
 }
 
 .homeHeader .typed-cursor {
