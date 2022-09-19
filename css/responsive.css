@@ -4997,6 +4997,18 @@
     .pricing .blue_btn_custom {
         min-width: 0 !important;
     }
+
+    .footer-social a {
+        margin: 0 15px;
+    }
+
+    .accordion-title {
+        font-size: 18px !important;
+    }
+
+    .accordion-content p {
+        font-size: 14px !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -5041,6 +5053,7 @@
         top: 100%;
         transform: translateX(50%);
     }
+
 }
 
 @media screen and (max-width: 575px) {
