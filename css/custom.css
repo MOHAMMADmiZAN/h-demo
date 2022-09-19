@@ -25,7 +25,8 @@ a {
 
 .homeHeader {
     min-height: 100vh !important;
-    height: 100vh !important;
+    height: 100vh;
+    padding: 0 !important;
 
 }
 
