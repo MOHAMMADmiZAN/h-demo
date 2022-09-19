@@ -1,12 +1,4 @@
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,500,600,700');
-}
 
-@font-face {
-    font-family: 'Nunito';
-    src: url('https://fonts.googleapis.com/css?family=Nunito:400,500,600,700');
-}
 
 * {
     box-sizing: border-box;
@@ -72,7 +64,7 @@ a {
 /*// View Header*/
 .nav_item_custom li a {
     color: #06C4FF !important;
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-size: 16px !important;
     position: relative;
     padding: 10px;
@@ -113,7 +105,7 @@ a {
 }
 
 .header_text_custom {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 900;
     font-size: 60px !important;
     /*background: -webkit-linear-gradient(90deg, #06c4ff, #0683ff 35%, #fa057f);*/
@@ -126,7 +118,7 @@ a {
 }
 
 .header_2d {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 600;
     font-size: 32px !important;
     line-height: 1.5;
@@ -148,7 +140,7 @@ a {
     background: linear-gradient(90deg, #0614ff, #0683ff, #fa057f) !important;
     border-radius: 25px !important;
     border: none;
-    font-family: 'Nunito', serif;
+    font-family: 'Nunito', sans-serif;
     padding: 10px 15px;
     color: #FFFFFF !important;
     font-size: 16px !important;
@@ -187,7 +179,7 @@ a {
 }
 
 .block_2_title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 45px !important;
     color: #06C4FF;
@@ -197,7 +189,7 @@ a {
 }
 
 .block_2_text {
-    font-family: "Source Serif Pro", serif !important;
+    font-family: 'Source Serif Pro', serif !important;
     font-size: 25px;
     font-weight: 400 !important;
     line-height: 1.5 !important;
@@ -207,7 +199,7 @@ a {
 }
 
 .block_3_title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700 !important;
     font-size: 45px !important;
     color: #06C4FF !important;
@@ -215,7 +207,7 @@ a {
 }
 
 .block_3_text {
-    font-family: "Source Serif Pro", serif !important;
+    font-family: 'Source Serif Pro', serif !important;
     font-size: 25px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
@@ -223,7 +215,7 @@ a {
 }
 
 .block_4_title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700 !important;
     color: #06c4ff !important;
     margin: 70px 0;
@@ -234,7 +226,7 @@ a {
 }
 
 .block_4_content_title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 40px !important;
     color: #06c4ff !important;
@@ -243,7 +235,7 @@ a {
 }
 
 .block_4_content_text_title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-size: 30px;
     font-weight: 600;
     line-height: 1.5;
@@ -252,7 +244,7 @@ a {
 }
 
 .block_4_content_text_p {
-    font-family: "Source Serif Pro", serif !important;
+    font-family: 'Source Serif Pro', serif !important;
     font-size: 25px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
@@ -263,7 +255,7 @@ a {
 
 
 .block_4_content_media_number {
-    font-family: "Source Serif Pro", serif !important;
+    font-family: 'Source Serif Pro', serif !important;
     font-size: 25px;
     font-weight: 600;
     line-height: 1.5;
@@ -271,7 +263,7 @@ a {
 }
 
 .block_4_content_media_title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-size: 25px;
     font-weight: 600;
     line-height: 1.5;
@@ -289,14 +281,14 @@ a {
 }
 
 .block_5_slider_title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 600;
     color: #06c4ff !important;
     font-size: 24px !important;
 }
 
 .block_5_slider_text {
-    font-family: "Source Serif Pro", serif !important;
+    font-family: 'Source Serif Pro', serif !important;
     font-size: 20px;
     font-weight: 400 !important;
     line-height: 1.5 !important;
@@ -306,7 +298,7 @@ a {
 
 
 .block_7_box_title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     color: #06c4ff !important;
     font-size: 20px !important;
@@ -332,7 +324,7 @@ a {
 }
 
 .block_9_question {
-    font-family: "Source Serif Pro", serif !important;
+    font-family: 'Source Serif Pro', serif !important;
     font-size: 14px;
     font-weight: 400 !important;
     line-height: 1.5 !important;
@@ -364,7 +356,7 @@ a {
 }
 
 .benefitTitle {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 600;
     color: #000A2A !important;
     font-size: 25px !important;
@@ -394,7 +386,7 @@ a {
 }
 
 .benefitContent .item span {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-size: 20px !important;
     font-weight: 600;
     text-align: justify;
@@ -444,7 +436,7 @@ a {
 }
 
 .pricing-price {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-size: 40px !important;
     font-weight: 700;
     color: #FFFFFF !important;
@@ -486,7 +478,7 @@ a {
 }
 
 .accordion-title {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 600;
     font-size: 25px;
 }
@@ -565,7 +557,7 @@ a {
 }
 
 .accordion .accordion-content p {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 30px;
@@ -611,7 +603,7 @@ a {
     background: #fa057f !important;
     border-radius: 25px !important;
     border: none;
-    font-family: 'Nunito', serif;
+    font-family: 'Nunito', sans-serif;
     color: white;
 }
 
@@ -774,7 +766,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_header .h1Solid {
-    font-family: 'Nunito', serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 900;
     font-size: 60px;
     line-height: 1.2;
@@ -854,7 +846,7 @@ nav .nav_item_custom .nav-link {
     font-size: 30px;
     font-weight: 600;
     color: #FFFFFF;
-    font-family: 'Nunito', serif;
+    font-family: 'Nunito', sans-serif;
     position: relative;
     text-transform: none;
     transition: 0.4s;
@@ -876,7 +868,7 @@ nav .nav_item_custom .nav-link {
 }
 
 .about_viezwlist h6:hover {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700 !important;
     font-size: 30px !important;
     -webkit-text-stroke: 1px #000A2A;
@@ -889,7 +881,7 @@ nav .nav_item_custom .nav-link {
 
 
 .about_viewz_Content_Title h1 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -900,7 +892,7 @@ nav .nav_item_custom .nav-link {
 }
 
 .about_viewz_Content_Title h3 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 600 !important;
     font-size: 22px !important;
     line-height: 1.2 !important;
@@ -925,7 +917,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .fstRow .fstRowTitle h3 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700 !important;
     font-size: 30px !important;
     line-height: 1.2 !important;
@@ -935,7 +927,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .fstRow .fstRowTitle h1 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 900;
     font-size: 45px;
     line-height: 1.2;
@@ -992,7 +984,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .sndRow .sndRowContent h3 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 30px;
     line-height: 1.2;
@@ -1002,7 +994,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .sndRow .sndRowContent h1 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 900;
     font-size: 45px;
     line-height: 1.2;
@@ -1045,7 +1037,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #why_viewz .fstRow .fstRowTitle h3 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 25px;
     line-height: 1.2;
@@ -1055,7 +1047,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #why_viewz .fstRow .fstRowTitle h1 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 35px;
     line-height: 1.2;
@@ -1067,7 +1059,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #why_viewz .sndRow h1 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -1130,7 +1122,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #why_viewz .thrdRow .item .itemText h3 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.2;
@@ -1156,7 +1148,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_solution h1 {
-    font-family: 'Nunito', serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -1206,7 +1198,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_solution .itemContentText h3 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1254,7 +1246,7 @@ nav .nav_item_custom .nav-link {
 
 #viewz_solution .thrdRowBtn {
     padding: 10px 15px;
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 600 !important;
     font-size: 18px !important;
     line-height: 1.2 !important;
@@ -1276,7 +1268,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_team .fstRowTitle h1 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -1291,7 +1283,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_team .sndRow .team-name {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 800 !important;;
     font-size: 35px !important;
     line-height: 1.2;
@@ -1311,11 +1303,12 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_partner {
-    padding: 120px 0
+    padding: 120px 0;
+    background: #fafafa;
 }
 
 #viewz_partner .fstRowTitle h1 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -1329,8 +1322,8 @@ nav .nav_item_custom .nav-link {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
-    margin-top: 40px;
+    padding: 10px 0;
+    margin-top: 30px;
 
 }
 
@@ -1347,7 +1340,7 @@ nav .nav_item_custom .nav-link {
 }
 
 .footerLinkSection .lightFont {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700 !important;
     font-size: 18px !important;
     line-height: 1.2 !important;
@@ -1366,7 +1359,7 @@ nav .nav_item_custom .nav-link {
 
 .footerLinkSection .tryBtn {
     padding: 10px 15px;
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 600 !important;
     font-size: 14px !important;
     line-height: 1.2 !important;
@@ -1518,7 +1511,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #blogMain .blog-title a {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
@@ -1571,7 +1564,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #blog-single .blog-details-headline {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 900;
     font-size: 32px;
     line-height: 1.2;
@@ -1589,7 +1582,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #blog-single .blog-details-text p:nth-child(1) {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1631,7 +1624,7 @@ nav .nav_item_custom .nav-link {
 
 #supportHeaderBanner {
     padding: 120px 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 10, 42, 0.8);
     backdrop-filter: blur(5px) !important;
     width: 100%;
     text-align: center;
@@ -1639,16 +1632,16 @@ nav .nav_item_custom .nav-link {
 }
 
 .supportNav {
-    background: rgba(255, 255, 255, 0.2) !important;
-    backdrop-filter: blur(5px) !important;
+    background: rgba(0, 10, 42, 0.8);
+    backdrop-filter: blur(5px);
 }
 
 #supportHeaderBanner h1 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 900;
     font-size: 60px;
     line-height: 1.2;
-    color: #FFFFFF;
+    color: #06C4FF;
     text-align: center;
     display: inline-block;
     padding: 20px 30px;
@@ -1660,13 +1653,14 @@ nav .nav_item_custom .nav-link {
 }
 
 #supportHeaderBanner h3 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
     color: #FFFFFF;
     text-align: center;
     margin: 60px auto;
+    text-transform: capitalize;
 
 
 }
@@ -1685,7 +1679,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #support_block_two .itemContent h2 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -1695,7 +1689,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #support_block_two .itemContent h3 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 800;
     font-size: 30px;
     line-height: 1.2;
@@ -1725,7 +1719,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_tutorials .sectionTitle h2 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -1755,7 +1749,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_tutorials .itemText h4 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 25px;
     line-height: 1.2;
@@ -1771,7 +1765,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #customerSupport .itemContent h2 {
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -1806,7 +1800,7 @@ nav .nav_item_custom .nav-link {
     align-items: center;
     justify-content: center;
     color: #FFFFFF !important;
-    font-family: 'Nunito', serif !important;
+    font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 22px;
     line-height: 1.2;
