@@ -4856,6 +4856,47 @@
         margin-top: 30px;
     }
 
+    .aboutDeviceImg {
+        display: block;
+    }
+
+    .about_viewz_Content_img {
+        display: none !important;
+    }
+
+    .itemSmallDeviceImg {
+        display: block;
+    }
+
+    #viewz_solution .itemImg img {
+        display: none;
+    }
+
+    #viewz_team .sndRow .team-name {
+        font-size: 25px !important;
+    }
+
+    #viewz_team .sndRow .team-post {
+        font-size: 16px !important;
+    }
+
+    #viewz_partner .sndRow .item img {
+        width: 100%;
+    }
+
+
+    #viewz_team .sndRow {
+        padding: 0 !important;
+    }
+
+    .itemContentRow {
+        margin-top: 50px;
+    }
+
+    .itemSnd, .item {
+        padding: 0 50px;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -4896,17 +4937,26 @@
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
-    .h1Stoke {
+    .h1Solid {
+        text-align: left !important;
+        padding: 60px 0 30px 0 !important;
+    }
+
+    .about_headerImg {
         display: none;
+    }
+
+    .navbar button {
+        margin-right: 20px;
+    }
+
+    .about_viewz_content {
+        padding: 20px;
     }
 
     /*.navbar button {*/
     /*    margin-right: 100px;*/
     /*}*/
-    .about_viewz_Content_Title h3 {
-        text-align: center !important;
-    }
-
     #about_3rd_block .fstRow::after {
         width: 0;
     }
@@ -4924,6 +4974,14 @@
         text-align: center;
     }
 
+    .itemContentRow {
+        margin-top: 0 !important;
+    }
+
+    .itemSnd, .item {
+        padding: 20px !important;
+    }
+
     #viewz_solution .itemIcon {
         margin: 0 auto !important;
     }
@@ -4932,6 +4990,17 @@
         width: 100% !important;
     }
 
+    .aboutSmallImg {
+        display: block;
+    }
+
+    .headerLay {
+        height: 100px;
+    }
+
+    .smallDeviceContent {
+        display: block;
+    }
 }
 
 /*// responsive home section //*/
@@ -5054,6 +5123,10 @@
         transform: translateX(50%);
     }
 
+    .navbar-brand {
+        width: 100px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -5096,3 +5169,4 @@
 
 
 }
+
