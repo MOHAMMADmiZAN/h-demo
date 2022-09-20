@@ -4934,6 +4934,7 @@
     #viewz_solution .itemIcon {
         margin: 0 auto !important;
     }
+
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
@@ -5000,6 +5001,33 @@
 
     .smallDeviceContent {
         display: block;
+    }
+
+    .footer_custom {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+
+    }
+
+    .footer_custom .lightFont {
+        text-align: center !important;
+    }
+
+    .socialFooter .sc1, .socialFooter .sc2 {
+        justify-content: center !important;
+    }
+
+    .footerLastRow {
+        display: flex;
+    }
+
+    .footerLastRow .sc1 {
+        justify-content: center !important;
+    }
+
+    .footer-link2, .footer-link3, .footer-link4 {
+        width: 30%;
     }
 }
 
