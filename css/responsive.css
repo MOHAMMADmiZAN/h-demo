@@ -5020,6 +5020,7 @@
 
     .footerLastRow {
         display: flex;
+        padding: 20px 0;
     }
 
     .footerLastRow .sc1 {
