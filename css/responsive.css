@@ -4935,6 +4935,28 @@
         margin: 0 auto !important;
     }
 
+    .h1Solid {
+        text-align: left !important;
+        padding: 60px 0 30px !important;
+    }
+
+    .smallDeviceContent {
+        display: block;
+    }
+
+    .about_headerImgBtn {
+        display: none;
+    }
+
+    .smallDeviceContent .scroll-down {
+        display: none;
+    }
+
+    .about_headerImg img {
+        top: -37px;
+        box-shadow: none;
+    }
+
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
@@ -4981,7 +5003,7 @@
     }
 
     #viewz_team {
-        padding: 60px 0 !important;
+        padding: 60px 30px !important;
     }
 
     .team-member figure {
