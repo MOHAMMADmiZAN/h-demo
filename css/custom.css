@@ -1948,7 +1948,8 @@ nav .nav_item_custom .nav-link {
     border-radius: 25px;
     width: 90%;
     margin: 20px auto;
-    padding: 10px 15px;
+    padding: 10px 20px;
+    text-transform: capitalize;
 }
 
 #contact_form .contact_form_btn {
