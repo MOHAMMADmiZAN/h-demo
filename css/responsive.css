@@ -5503,3 +5503,9 @@
 
 
 }
+
+@media screen and (max-width: 767px) {
+    .blog-listing {
+        padding: 10px 30px !important;
+    }
+}
