@@ -2018,3 +2018,7 @@ nav .nav_item_custom .nav-link {
     padding: 0 15px 30px 0;
     text-transform: capitalize;
 }
+
+#customerSupport .smallItemImage {
+    display: none;
+}

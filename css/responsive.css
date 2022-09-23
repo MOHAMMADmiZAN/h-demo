@@ -5465,6 +5465,14 @@
     #customerSupport .itemImage {
         display: none;
     }
+
+    #customerSupport .smallItemImage {
+        display: block;
+    }
+
+    #customerSupport .itemContentTitle h2 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 575px) {
