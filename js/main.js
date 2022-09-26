@@ -1948,3 +1948,7 @@ const typed = new Typed('.animated-text', {
     startDelay: 100,
 
 });
+
+let docFooter = document.querySelector('.footer-website-desktop');
+
+console.log(docFooter);
