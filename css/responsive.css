@@ -5111,7 +5111,9 @@
 
     .footerLastRow {
         display: flex;
-        padding: 20px 0;
+        padding: 20px 0 40px !important;
+        justify-content: space-between;
+
     }
 
     .footerLastRow .sc1 {
