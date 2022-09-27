@@ -143,9 +143,10 @@ a {
     border-radius: 15px !important;
     border: none;
     font-family: 'Nunito', sans-serif;
-    padding: 10px 15px;
+    padding: 15px 20px;
     color: #FFFFFF !important;
     font-size: 16px !important;
+    cursor: pointer !important;
 }
 
 .startBtn {
@@ -389,6 +390,7 @@ a {
     text-align: center;
     margin: 50px 20px;
     font-family: 'Source Serif Pro', serif !important;
+    font-weight: 400 !important;
     font-size: 25px;
 
 }
