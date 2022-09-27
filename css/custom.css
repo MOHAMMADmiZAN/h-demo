@@ -267,6 +267,8 @@ a {
     color: #000A2A !important;
     margin-bottom: 20px;
     text-align: left;
+    letter-spacing: normal !important;
+    margin-top: 10px;
 }
 
 
