@@ -137,7 +137,9 @@ a {
 .gradiant_button_custom {
     min-width: 161px;
     /*background: linear-gradient(90deg, #0614ff, #0683ff, #fa057f) !important;*/
-    background: linear-gradient(90deg, #0683ff 60%, #0614ff 70%, #fa057f 99%) !important;
+    /*background: linear-gradient(90deg, #0683ff 60%, #0614ff 70%, #fa057f 99%) !important;*/
+    background: url("/img/SVG/grade.svg") center no-repeat !important;
+    background-size: 100% 100% !important;
     border-radius: 15px !important;
     border: none;
     font-family: 'Nunito', sans-serif;
