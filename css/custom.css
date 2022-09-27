@@ -137,7 +137,7 @@ a {
 .gradiant_button_custom {
     min-width: 161px;
     /*background: linear-gradient(90deg, #0614ff, #0683ff, #fa057f) !important;*/
-    background: linear-gradient(90deg, #0683ff 60%, #0614ff, #fa057f) !important;
+    background: linear-gradient(90deg, #0683ff 60%, #0614ff 70%, #fa057f 99%) !important;
     border-radius: 15px !important;
     border: none;
     font-family: 'Nunito', sans-serif;
@@ -773,28 +773,26 @@ nav .nav_item_custom .nav-link {
     font-size: 60px;
     line-height: 1.2;
     color: #06C4FF;
-    padding: 140px 0;
     text-align: center;
 }
 
 
-.about_headerImg {
-    max-width: 881px;
+.aboutHeaderImg {
+    max-width: 996px;
     /*max-height: 500px;*/
     object-fit: cover;
     margin: 60px auto 0 auto;
-    position: relative;
+
+}
+
+.aboutBtn {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 50px;
     z-index: 1;
-    padding: 140px
 }
 
-.about_headerImg img {
-    box-shadow: 1px -4px 18px 7px rgba(0, 0, 0, 0.40);
-    position: absolute;
-    top: -95px;
-    left: 0;
-
-}
 
 .headerLay {
     /*background: url("../img/new.svg") no-repeat bottom;*/
@@ -1171,7 +1169,6 @@ nav .nav_item_custom .nav-link {
 
 #viewz_solution {
     padding: 120px 0 !important;
-    background: url("../img/solution_back1.svg") no-repeat right;
     background-size: cover;
 
 }
@@ -1197,7 +1194,6 @@ nav .nav_item_custom .nav-link {
 }
 
 .itemSnd {
-    background: url("../img/solutionBack2.svg") left no-repeat !important;
     padding: 50px 50px 100px 50px;
     background-size: cover;
 
@@ -1231,7 +1227,7 @@ nav .nav_item_custom .nav-link {
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
-    color: #FFFFFF;
+    color: #06c4ff !important;
     text-align: left;
     position: relative;
     display: inline-block;
@@ -1243,7 +1239,7 @@ nav .nav_item_custom .nav-link {
     content: '';
     width: 50px;
     height: 3px;
-    background: #FFFFFF;
+    background: #000A2A;
     bottom: -10px;
     left: 0;
 
@@ -1251,7 +1247,7 @@ nav .nav_item_custom .nav-link {
 
 #viewz_solution .itemContentRow {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -1261,7 +1257,7 @@ nav .nav_item_custom .nav-link {
     font-weight: 400;
     font-size: 25px;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: #000A2A;
     text-align: left;
     margin-top: 15px;
     text-transform: none;
@@ -1293,7 +1289,7 @@ nav .nav_item_custom .nav-link {
 
 #viewz_team {
     padding: 120px 0 !important;
-    background: #FFFFFF;
+    background: #000A2A;
 }
 
 #viewz_team .fstRowTitle h1 {
@@ -1326,7 +1322,7 @@ nav .nav_item_custom .nav-link {
     font-weight: 500;
     font-size: 25px;
     line-height: 1.2;
-    color: #000A2A;
+    color: #FFFFFF;
     text-align: center;
     margin-top: 10px;
 }
@@ -1434,13 +1430,59 @@ nav .nav_item_custom .nav-link {
 
 
 .copyright {
-    font-family: 'Source Serif Pro', serif !important;
-    font-weight: 400 !important;
-    font-size: 16px !important;
-    line-height: 1.2 !important;
-    text-align: center !important;
-    text-transform: capitalize !important;
-    color: #FFFFFF !important;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    max-width: 122px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLastRow {
+    padding: 10px 0 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h5 {
+    margin-bottom: 0 !important;
+}
+
+.footerSocial {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.footerSocial h6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+.footerSocial li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footerSocial li a {
+    font-size: 20px;
+    color: #fff;
 }
 
 /*.parallaxSection{*/
