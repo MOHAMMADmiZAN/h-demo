@@ -1957,9 +1957,8 @@ if (animatedText) {
 
 let tabItems = document.querySelectorAll('.legalTabItems .tab');
 let tabContentItems = document.querySelectorAll('.legalTabContents .tab_content');
-const selectItem = (e) => {
-    const {id} = e.target;
 
+const tabFilter = (id) => {
     let tabContentId = `${id}_content`
     for (const tabContentElement of tabContentItems) {
         if (tabContentElement.id !== tabContentId) {
@@ -1975,8 +1974,36 @@ const selectItem = (e) => {
     }
 }
 
+const selectItem = (e) => {
+    const {id} = e.target;
+    tabFilter(id);
+}
+
 for (const tabItem of tabItems) {
     tabItem.addEventListener('click', selectItem);
 
 }
+
+// footer tab function
+const addTab = (e) => {
+    e.preventDefault()
+    window.location.href = `legal.html?tab=${e.target.id}`
+
+
+}
+(function () {
+    if (window.location.href.includes('tab')) {
+        const id = window.location.href.split('=')[1];
+        tabFilter(id);
+    }
+
+})()
+
+if (document.querySelector('li a#terms')) {
+    document.querySelector('li a#terms').addEventListener('click', addTab)
+}
+if (document.querySelector('li a#privacy')) {
+    document.querySelector('li a#privacy').addEventListener('click', addTab)
+}
+
 
