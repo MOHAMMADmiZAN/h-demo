@@ -1912,7 +1912,6 @@ $('#recent-blog .items').slick({
 // });
 // accordion-start
 const items = document.querySelectorAll(".accordion button");
-console.log(items);
 
 function toggleAccordion() {
     const itemToggle = this.getAttribute('aria-expanded');
@@ -1939,16 +1938,45 @@ navbarCollapse.addEventListener('click', function (e) {
 
 
 })
-const typed = new Typed('.animated-text', {
-    strings: ['No App', 'No coding', 'Compatible with any browser'],
-    typeSpeed: 60,
-    backSpeed: 60,
-    loop: true,
-    loopCount: Infinity,
-    startDelay: 100,
+let animatedText = document.querySelector('.animated-text');
 
-});
+if (animatedText) {
+    const typed = new Typed('.animated-text', {
+        strings: ['No App', 'No coding', 'Compatible with any browser'],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop: true,
+        loopCount: Infinity,
+        startDelay: 100,
 
-let docFooter = document.querySelector('.footer-website-desktop');
+    });
+}
 
-console.log(docFooter);
+
+// legal page tab function
+
+let tabItems = document.querySelectorAll('.legalTabItems .tab');
+let tabContentItems = document.querySelectorAll('.legalTabContents .tab_content');
+const selectItem = (e) => {
+    const {id} = e.target;
+
+    let tabContentId = `${id}_content`
+    for (const tabContentElement of tabContentItems) {
+        if (tabContentElement.id !== tabContentId) {
+            tabContentElement.classList.remove('tabActive');
+            if (id !== tabContentElement.id.split('_')[0]) {
+                document.getElementById(tabContentElement.id.split('_')[0]).classList.remove('tabItemActive')
+            }
+
+        } else {
+            document.getElementById(id).classList.add('tabItemActive');
+            tabContentElement.classList.add('tabActive');
+        }
+    }
+}
+
+for (const tabItem of tabItems) {
+    tabItem.addEventListener('click', selectItem);
+
+}
+

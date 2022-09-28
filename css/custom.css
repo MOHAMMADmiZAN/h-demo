@@ -135,7 +135,8 @@ a {
 }
 
 .gradiant_button_custom {
-    min-width: 161px;
+    width: 233px;
+    height: 46px;
     /*background: linear-gradient(90deg, #0614ff, #0683ff, #fa057f) !important;*/
     /*background: linear-gradient(90deg, #0683ff 60%, #0614ff 70%, #fa057f 99%) !important;*/
     background: url("/img/SVG/grade.svg") center no-repeat !important;
@@ -2062,4 +2063,143 @@ footer h5 {
 
 #customerSupport .smallItemImage {
     display: none;
+}
+
+/*// legal Page //*/
+#legal {
+    padding: 85px 0;
+
+}
+
+#legalTitle h1 {
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 1.2;
+    color: #06C4FF;
+    text-align: Left;
+    text-transform: capitalize;
+
+
+}
+
+#legalTitle {
+    padding: 15px 0;
+    box-shadow: 1px 14px 25px -14px rgba(0, 10, 42, 0.3);
+    -webkit-box-shadow: 1px 14px 25px -14px rgba(0, 10, 42, 0.3);
+    -moz-box-shadow: 1px 14px 25px -14px rgba(0, 10, 42, 0.3);
+    z-index: 222;
+    position: fixed;
+    width: 100%;
+    background: #FFFFFF;
+
+
+}
+
+
+#LegalContent {
+    padding: 120px 0;
+    z-index: 1;
+}
+
+.legalTabItems {
+    position: fixed;
+}
+
+.legalTabItems .tab {
+    padding: 30px 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000A2A;
+    text-align: left;
+    text-transform: capitalize;
+    border-bottom: 1px solid #000A2A;
+    cursor: pointer;
+
+}
+
+.legalTabItems .tab:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.legalTabContents .tab_content {
+
+    display: none;
+    padding: 30px
+}
+
+.legalTabContents .tab_content .tab_content_title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #000A2A;
+    text-align: left;
+    text-transform: Uppercase;
+    border-bottom: 3px solid #000A2A;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.tabActive {
+    display: block !important;
+}
+
+.tabItemActive {
+    font-weight: 900 !important;
+}
+
+.legalTabContents .tab_content p {
+    font-family: 'Source Serif Pro', serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: justify;
+    text-transform: none;
+    margin: 30px 0;
+
+}
+
+.legalTabContents .tab_content a {
+    color: blue;
+    text-decoration: underline
+}
+
+
+/*// error page css //*/
+#error-404 {
+    padding: 120px 0;
+    height: 100vh;
+    width: 100%;
+    background: #000A2A;
+}
+
+.errorContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.errorContent img {
+    max-width: 879px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.errorContent a {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
 }
