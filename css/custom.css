@@ -962,6 +962,7 @@ nav .nav_item_custom .nav-link {
     color: #06C4FF !important;
     text-align: left;
     margin-top: 20px;
+    text-transform: uppercase;
 }
 
 #about_3rd_block .fstRow .fstRowTitle h1 {
@@ -1061,7 +1062,7 @@ nav .nav_item_custom .nav-link {
     font-size: 25px !important;
     line-height: 1.2 !important;
     color: #000A2A;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
     text-transform: none;
 }
