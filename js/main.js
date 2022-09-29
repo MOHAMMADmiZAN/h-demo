@@ -2008,7 +2008,15 @@ footerTabItems.forEach((item) => {
     document.querySelector(item) && document.querySelector(item).addEventListener('click', addTab);
 })
 
+// control scroll to top legal page
+window.addEventListener('scroll', () => {
+    let scroll = window.scrollY;
+    let legalContent = document.querySelector('.legalTabContents')
 
 
-
-
+    if (scroll > (legalContent.clientHeight - 270)) {
+        document.querySelector('.legalTabItems').style.position = 'relative';
+    } else {
+        document.querySelector('.legalTabItems').style.position = 'fixed';
+    }
+})
