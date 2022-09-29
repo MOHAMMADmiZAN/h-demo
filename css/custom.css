@@ -2113,13 +2113,14 @@ footer h5 {
     position: fixed;
     width: 100%;
     background: #FFFFFF;
+    top: 85px;
 
 
 }
 
 
 #LegalContent {
-    padding: 120px 0;
+    padding: 70px 0;
     z-index: 1;
 }
 

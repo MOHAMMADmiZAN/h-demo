@@ -2012,6 +2012,14 @@ footerTabItems.forEach((item) => {
 window.addEventListener('scroll', () => {
     let scrollY = window.scrollY;
     let legalContent = document.querySelector('.legalTabContents')
-    scrollY > (legalContent.clientHeight - 270) ? document.querySelector('.legalTabItems').style.position = 'relative' : document.querySelector('.legalTabItems').style.position = 'fixed';
+    if (scrollY > (legalContent.clientHeight - 270)) {
+        // document.querySelector('.legalTabItems').style.position = 'relative'
+        document.querySelector('.legalTabItems').style.cssText = `position: relative; display: flex; flex-direction: column; justify-content: flex-end;`
+
+
+    } else {
+        document.querySelector('.legalTabItems').style.cssText = `position: fixed; `
+    }
+
 
 })
