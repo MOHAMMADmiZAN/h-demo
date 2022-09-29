@@ -1683,8 +1683,8 @@ footer h5 {
 
 #blog-single .blog-details-headline {
     font-family: 'Nunito', sans-serif !important;
-    font-weight: 900;
-    font-size: 32px;
+    font-weight: 700;
+    font-size: 45px;
     line-height: 1.2;
     color: #06C4FF;
     text-align: left;
@@ -1710,8 +1710,8 @@ footer h5 {
 
 #blog-single .blog-details-text p {
     font-family: 'Source Serif Pro', serif !important;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 25px;
     line-height: 1.2;
     color: #000A2A;
     text-align: left;
