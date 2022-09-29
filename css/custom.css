@@ -1009,6 +1009,7 @@ nav .nav_item_custom .nav-link {
 #about_3rd_block .sndRow .sndRowContent {
     padding: 50px 100px;
     text-align: justify;
+    padding-right: 180px !important;
 }
 
 #about_3rd_block .sndRow .sndRowContent p {
