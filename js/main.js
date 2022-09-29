@@ -1840,52 +1840,52 @@ $(document).ready(function () {
 });
 
 
-// slick slider blog page
-$('#recent-blog .items').slick({
-    dots: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoPlay: true,
-    arrows: true,
-    centerPadding: '60px',
-    prevArrow: '<i class="fa-solid fa-circle-chevron-left prev"></i>',
-    nextArrow: '<i class="fa-solid fa-circle-chevron-right next"></i>',
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
-});
+// // slick slider blog page
+// $('#recent-blog .items').slick({
+//     dots: false,
+//     infinite: true,
+//     speed: 300,
+//     slidesToShow: 3,
+//     slidesToScroll: 3,
+//     autoPlay: true,
+//     arrows: true,
+//     centerPadding: '60px',
+//     prevArrow: '<i class="fa-solid fa-circle-chevron-left prev"></i>',
+//     nextArrow: '<i class="fa-solid fa-circle-chevron-right next"></i>',
+//     responsive: [
+//         {
+//             breakpoint: 1024,
+//             settings: {
+//                 slidesToShow: 3,
+//                 slidesToScroll: 3,
+//                 infinite: true,
+//                 dots: true
+//             }
+//         },
+//         {
+//             breakpoint: 600,
+//             settings: {
+//                 slidesToShow: 2,
+//                 slidesToScroll: 2
+//             }
+//         },
+//         {
+//             breakpoint: 480,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1
+//             }
+//         }
+//         // You can unslick at a given breakpoint now by adding:
+//         // settings: "unslick"
+//         // instead of a settings object
+//     ]
+// });
 
 
 // /// variables////
 // const win = $(window);
-// const html_body = $('html, body');
+const html_body = $('html, body');
 // const stk = $('.st-menu');
 // const b2b = $('.back-top');
 // const c_stk = 'stiky';
@@ -1897,19 +1897,21 @@ $('#recent-blog .items').slick({
 //
 //
 // // animation scroll js
-// $('.nav-item a').on('click', function () {
-//     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-//         let target = $(this.hash);
-//         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-//         if (target.length) {
-//             html_body.animate({
-//                 scrollTop: target.offset().top - 88
-//             }, 1500);
-//             return false;
-//         }
-//
-//     }
-// });
+$('.text a').on('click', function () {
+    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+        let target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            html_body.animate({
+                scrollTop: target.offset().top - 0
+            }, 1500);
+            return false;
+        }
+
+    }
+});
+
+
 // accordion-start
 const items = document.querySelectorAll(".accordion button");
 
@@ -1979,9 +1981,11 @@ const selectItem = (e) => {
     tabFilter(id);
 }
 
-for (const tabItem of tabItems) {
-    tabItem.addEventListener('click', selectItem);
+if (tabItems) {
+    for (const tabItem of tabItems) {
+        tabItem.addEventListener('click', selectItem);
 
+    }
 }
 
 // footer tab function
@@ -1998,12 +2002,13 @@ const addTab = (e) => {
     }
 
 })()
+const footerTabItems = ['li a#terms', 'li a#privacy'];
 
-if (document.querySelector('li a#terms')) {
-    document.querySelector('li a#terms').addEventListener('click', addTab)
-}
-if (document.querySelector('li a#privacy')) {
-    document.querySelector('li a#privacy').addEventListener('click', addTab)
-}
+footerTabItems.forEach((item) => {
+    document.querySelector(item) && document.querySelector(item).addEventListener('click', addTab);
+})
+
+
+
 
 

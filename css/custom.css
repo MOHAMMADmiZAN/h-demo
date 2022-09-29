@@ -1021,17 +1021,31 @@ nav .nav_item_custom .nav-link {
     text-transform: none;
 }
 
-#about_3rd_block .sndRow .sndRowContent h3 {
+#about_3rd_block .headRow h3 {
     font-family: 'Nunito', sans-serif !important;
     font-weight: 700;
     font-size: 30px;
     line-height: 1.2;
     color: #06C4FF;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
-#about_3rd_block .sndRow .sndRowContent h1 {
+.headRow {
+    border-left: 3px solid #06c4ff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#about_3rd_block .thrdRow .headRow {
+    width: 40%;
+}
+
+#about_3rd_block .thrdRow p {
+    width: 60%;
+}
+
+#about_3rd_block .headRow h1 {
     font-family: 'Nunito', sans-serif !important;
     font-weight: 900;
     font-size: 45px;
@@ -2077,7 +2091,7 @@ footer h5 {
 
 #legalTitle h1 {
     font-family: 'Nunito', sans-serif !important;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 35px;
     line-height: 1.2;
     color: #06C4FF;
@@ -2170,6 +2184,68 @@ footer h5 {
 .legalTabContents .tab_content a {
     color: blue;
     text-decoration: underline
+}
+
+.privacyTable .tableCard {
+    margin: 0 auto;
+    border: 1px solid #000A2A;
+}
+
+.privacyTable .tableCard .tableCardHeader {
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000A2A;
+    text-align: center;
+    background: rgba(97, 176, 88, 0.3);
+}
+
+.privacyTable .tableItemRow {
+
+    font-family: 'Source Serif Pro', serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: justify;
+    text-transform: none;
+    border-bottom: 1px solid #000A2A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
+
+.privacyTable .tableItemRow:nth-last-child(1) {
+    border-bottom: none !important;
+}
+
+.privacyTable .tableItemRow .num {
+    width: 15%;
+    padding: 0 20px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.privacyTable .tableItemRow .num::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #000A2A;
+}
+
+.privacyTable .tableItemRow .text {
+    width: 85%;
+    padding: 0 20px;
 }
 
 
