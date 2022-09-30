@@ -1961,6 +1961,8 @@ let tabItems = document.querySelectorAll('.legalTabItems .tab');
 let tabContentItems = document.querySelectorAll('.legalTabContents .tab_content');
 
 const tabFilter = (id) => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     let tabContentId = `${id}_content`
     for (const tabContentElement of tabContentItems) {
         if (tabContentElement.id !== tabContentId) {
