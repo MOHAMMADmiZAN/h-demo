@@ -2012,7 +2012,7 @@ footerTabItems.forEach((item) => {
 window.addEventListener('scroll', () => {
     let scrollY = window.scrollY;
     let legalContent = document.querySelector('.legalTabContents')
-    if (scrollY > (legalContent.clientHeight - 300)) {
+    if (scrollY > (legalContent.clientHeight - 320)) {
         // document.querySelector('.legalTabItems').style.position = 'relative'
         document.querySelector('.legalTabItems').style.cssText = `position: relative;`
 
