@@ -4941,9 +4941,6 @@
     }
 
 
-
-
-
     #about_viewz {
         padding: 60px 0 !important;
     }
@@ -4983,7 +4980,6 @@
         text-align: left !important;
         padding: 60px 0 30px 0 !important;
     }
-
 
 
     .navbar button {
@@ -5185,6 +5181,25 @@
     .accordion-content p {
         font-size: 14px !important;
     }
+
+    .smallBenefitContent {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .smallBenefitContent .benefitContentItem {
+        margin: 20px;
+        text-align: left;
+    }
+
+    .benefitContent {
+        display: none;
+    }
+
+    .footerSocial {
+        justify-content: flex-start;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -5247,6 +5262,10 @@
         margin: 10px !important;
     }
 
+    .copyright {
+        margin-bottom: 20px !important;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -5305,6 +5324,32 @@
     #ques {
         padding: 60px 0;
     }
+
+    .smallBenefitContent {
+        flex-direction: column-reverse;
+    }
+
+    .smallBenefitContent .benefitContentItem {
+        text-align: center;
+    }
+
+    .footerSocial {
+        flex-direction: column;
+
+    }
+
+    .footerSocial h6 {
+        margin-top: 20px;
+    }
+
+    .footerSocial ul {
+        margin-top: 20px;
+    }
+
+    .benefitContentItem {
+        padding: 0 30px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {

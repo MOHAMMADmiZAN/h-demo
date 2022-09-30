@@ -751,6 +751,10 @@ hr {
     margin: 20px 0;
 }
 
+.smallBenefitContent {
+    display: none;
+}
+
 
 /*.mt5{*/
 /*    margin-top: 5px !important;*/
