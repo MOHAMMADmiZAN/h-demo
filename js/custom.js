@@ -55,19 +55,19 @@ const html_body = $('html, body');
 //
 //
 // // animation scroll js
-$('.text a').on('click', function () {
-    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-        let target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-            html_body.animate({
-                scrollTop: target.offset().top - 0
-            }, 1500);
-            return false;
-        }
-
-    }
-});
+// $('.text a').on('click', function () {
+//     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+//         let target = $(this.hash);
+//         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+//         if (target.length) {
+//             html_body.animate({
+//                 scrollTop: target.offset().top - 0
+//             }, 1500);
+//             return false;
+//         }
+//
+//     }
+// });
 
 
 // accordion-start
@@ -117,6 +117,8 @@ if (animatedText) {
 
 let tabItems = document.querySelectorAll('.legalTabItems .tab');
 let tabContentItems = document.querySelectorAll('.legalTabContents .tab_content');
+let legalIcon = document.querySelector('.legalIcon')
+let legalItems = document.querySelector('.legalTabItems')
 
 const tabFilter = (id) => {
     document.body.scrollTop = 0;
@@ -136,8 +138,20 @@ const tabFilter = (id) => {
     }
 }
 
+
+// label icon click  function
+const legalIconClick = () => {
+    if (legalItems.style.display === 'block') {
+        legalItems.style.display = 'none'
+    } else {
+        legalItems.style.display = 'block'
+    }
+}
 const selectItem = (e) => {
     const {id} = e.target;
+    if (window.innerWidth < 768) {
+        legalIconClick()
+    }
     tabFilter(id);
 }
 
@@ -147,6 +161,7 @@ if (tabItems) {
 
     }
 }
+legalIcon.addEventListener('click', legalIconClick)
 
 // footer tab function
 const addTab = (e) => {
@@ -166,6 +181,7 @@ const footerTabItems = ['li a#terms', 'li a#privacy'];
 
 footerTabItems.forEach((item) => {
     document.querySelector(item) && document.querySelector(item).addEventListener('click', addTab);
+
 })
 
 // control scroll to top legal page
@@ -177,14 +193,29 @@ window.addEventListener('scroll', () => {
     if (legalContent) {
         if (scrollY > (legalContent.clientHeight - 320)) {
 
-
-            document.querySelector('.legalTabItems').style.cssText = `position: relative !important;`
+            if (window.innerWidth >= 768) {
+                document.querySelector('.legalTabItems').style.cssText = `position: relative !important;`
+            }
 
 
         } else {
+            if (document.querySelector('.legalTabItems').style.display === 'block') {
+                document.querySelector('.legalTabItems').style.cssText = `position: fixed !important; display: block !important;`
+                return;
+            }
             document.querySelector('.legalTabItems').style.cssText = `position: fixed !important;`
+
+
         }
     }
 
 
 })
+// legal toggler //
+document.querySelector('#legal .navbar-toggler').addEventListener('click', () => {
+    if (legalItems.style.display === 'block') {
+        legalItems.style.display = 'none'
+    }
+})
+
+

@@ -1535,10 +1535,19 @@ footer h5 {
 .show {
     display: block;
     background: #000A2A !important;
-
     width: 100%;
     text-align: center;
+    padding: 20px 0;
+    margin-right: 0 !important;
 }
+
+.socialSection {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 20px !important;
+}
+
 
 .carousel-control-prev, .carousel-control-next {
     width: 30px;
@@ -2110,7 +2119,7 @@ footer h5 {
 }
 
 #legalTitle {
-    padding: 15px 0;
+    padding: 15px 50px;
     box-shadow: 1px 14px 25px -14px rgba(0, 10, 42, 0.3);
     -webkit-box-shadow: 1px 14px 25px -14px rgba(0, 10, 42, 0.3);
     -moz-box-shadow: 1px 14px 25px -14px rgba(0, 10, 42, 0.3);
@@ -2125,13 +2134,15 @@ footer h5 {
 
 
 #LegalContent {
-    padding: 70px 0;
+    padding: 70px 50px;
     z-index: 1;
 }
 
 .legalTabItems {
     position: fixed;
+    z-index: 111;
 }
+
 
 .legalTabItems .tab {
     padding: 30px 0;
@@ -2224,7 +2235,8 @@ footer h5 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 50px;
+    min-height: 50px;
+    height: 100%;
 }
 
 .privacyTable .tableItemRow:nth-last-child(1) {
@@ -2257,6 +2269,24 @@ footer h5 {
     padding: 0 20px;
 }
 
+.legalIcon {
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+}
+
+.legalTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#legal .show {
+    position: fixed;
+    top: 130px;
+    padding: 30px 0;
+    z-index: 222;
+}
 
 /*// error page css //*/
 #error-404 {
