@@ -4832,6 +4832,15 @@
     #viewz_team h1 {
         font-size: 32px !important;
     }
+
+    #about_3rd_block .headRow h3 {
+
+        font-size: 25px !important;
+    }
+
+    #about_3rd_block .headRow h1 {
+        font-size: 32px !important;
+    }
 }
 
 
@@ -4893,8 +4902,25 @@
         margin-top: 50px;
     }
 
-    .itemSnd, .item {
+    .item {
         padding: 0 50px;
+    }
+
+    #about_3rd_block .sndRow .sndRowContent {
+        padding-right: 50px !important;
+    }
+
+    #about_3rd_block .thrdRow p {
+        width: 50%;
+    }
+
+    #about_3rd_block .thrdRow .headRow {
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    #about_3rd_block .sndRow {
+        margin-top: 20px !important;
     }
 
 }
@@ -4971,6 +4997,54 @@
 
     #why_viewz .fstRow {
         top: -26px;
+    }
+
+    #about_3rd_block .sndRow .sndRowContent {
+        padding-right: 30px !important;
+    }
+
+    #about_3rd_block .thrdRow .headRow {
+        width: 100%;
+
+    }
+
+    #about_3rd_block .thrdRow p {
+        width: 100%;
+    }
+
+    #about_3rd_block .sndRow {
+        margin-top: 30px !important;
+    }
+
+    #about_3rd_block .headRow {
+        padding: 0 10px !important;
+    }
+
+    #about_3rd_block .sndRow {
+        padding: 0 !important;
+    }
+
+
+    #viewz_solution .item {
+        padding-bottom: 0 !important;
+
+    }
+
+    .footerLastRow {
+        flex-direction: column-reverse;
+    }
+
+    .footer-logo {
+        margin: 20px 0;
+    }
+
+    .copyright {
+        margin-bottom: 0 !important;
+        text-align: center;
+    }
+
+    .footerSocial {
+        justify-content: center !important;
     }
 
 }
@@ -5094,6 +5168,24 @@
 
     .footer-link2, .footer-link3, .footer-link4 {
         width: 100%;
+    }
+
+    .copyright {
+        margin-bottom: 0 !important;
+        text-align: center;
+    }
+
+
+    #about_3rd_block .thrdRow .headRow {
+        width: 100%;
+    }
+
+    #about_3rd_block .thrdRow p {
+        width: 100%;
+    }
+
+    #about_3rd_block .sndRow .sndRowContent {
+        padding-right: 30px !important;
     }
 
 }

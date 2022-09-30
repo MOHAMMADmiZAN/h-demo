@@ -169,18 +169,20 @@ footerTabItems.forEach((item) => {
 })
 
 // control scroll to top legal page
-let scrollY = window.scrollY;
+
 window.addEventListener('scroll', () => {
 
     let legalContent = document.querySelector('.legalTabContents')
+    let scrollY = window.scrollY;
     if (legalContent) {
         if (scrollY > (legalContent.clientHeight - 320)) {
 
-            document.querySelector('.legalTabItems').style.cssText = `position: relative;`
+
+            document.querySelector('.legalTabItems').style.cssText = `position: relative !important;`
 
 
         } else {
-            document.querySelector('.legalTabItems').style.cssText = `position: fixed; `
+            document.querySelector('.legalTabItems').style.cssText = `position: fixed !important;`
         }
     }
 
