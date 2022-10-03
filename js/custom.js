@@ -218,4 +218,12 @@ document.querySelector('#legal .navbar-toggler').addEventListener('click', () =>
     }
 })
 
+// solution section read more button
+const readMoreBtn = (e) => {
+    e.preventDefault()
+    console.log(e.target.id)
+    let id = e.target.id;
+    window.location.href = `about.html?#${id.split('_')[0]}`
+
+}
 
