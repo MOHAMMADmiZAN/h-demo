@@ -161,7 +161,9 @@ if (tabItems) {
 
     }
 }
-legalIcon.addEventListener('click', legalIconClick)
+if (legalIcon) {
+    legalIcon.addEventListener('click', legalIconClick)
+}
 
 // footer tab function
 const addTab = (e) => {
@@ -212,18 +214,46 @@ window.addEventListener('scroll', () => {
 
 })
 // legal toggler //
-document.querySelector('#legal .navbar-toggler').addEventListener('click', () => {
-    if (legalItems.style.display === 'block') {
-        legalItems.style.display = 'none'
-    }
-})
+let legalPageSmallMenu = document.querySelector('#legal .navbar-toggler')
+if (legalPageSmallMenu) {
+    legalPageSmallMenu.addEventListener('click', () => {
+        if (legalItems.style.display === 'block') {
+            legalItems.style.display = 'none'
+        }
+    })
 
+}
+
+//Shrink nav on scroll - START CODE
+/*==============================================================*/
+
+/*==============================================================*/
+//Shrink nav on scroll - END CODE
+/*==============================================================*/
 // solution section read more button
 const readMoreBtn = (e) => {
     e.preventDefault()
     console.log(e.target.id)
     let id = e.target.id;
     window.location.href = `about.html?#${id.split('_')[0]}`
+
+}
+window.addEventListener('load', () => {
+    // iframe element
+    let iframe = document.querySelectorAll('.a-product');
+    for (const iframeElement of iframe) {
+        console.log(iframeElement)
+
+    }
+
+})
+window.onload = function () {
+    // iframe element
+    let iframe = document.querySelectorAll('.a-product');
+    for (const iframeElement of iframe) {
+        console.log(iframeElement.contentDocument)
+
+    }
 
 }
 
