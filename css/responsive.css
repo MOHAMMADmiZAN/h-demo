@@ -4736,6 +4736,11 @@
 /*------------------------- about Page responsive ----------------------------*/
 
 @media only screen and (max-width: 1199px) {
+    #about_header .h1Solid {
+        font-size: 45px !important;
+        padding: 50px 0 !important;
+    }
+
     .about_viewz_content {
         display: flex;
         align-items: center;
@@ -4843,9 +4848,18 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    #about_header .h1Solid {
+        padding: 30px 0 !important;
+    }
+
+    .aboutHeaderImg {
+        margin-top: 0 !important;
+    }
+}
 
 @media only screen and ( max-width: 991px) {
-    .h1Solid, .h1Stoke {
+    #about_header .h1Solid {
         font-size: 35px !important;
     }
 
