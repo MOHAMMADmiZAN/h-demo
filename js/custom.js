@@ -238,22 +238,13 @@ const readMoreBtn = (e) => {
     window.location.href = `about.html?#${id.split('_')[0]}`
 
 }
-window.addEventListener('load', () => {
-    // iframe element
+
+
+// iframe element
     let iframe = document.querySelectorAll('.a-product');
     for (const iframeElement of iframe) {
-        console.log(iframeElement)
+        console.log(iframeElement.contentWindow.document.querySelector('.button-load-cls'))
 
     }
 
-})
-window.onload = function () {
-    // iframe element
-    let iframe = document.querySelectorAll('.a-product');
-    for (const iframeElement of iframe) {
-        console.log(iframeElement.contentDocument)
-
-    }
-
-}
 
