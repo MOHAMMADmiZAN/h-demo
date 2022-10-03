@@ -1153,6 +1153,7 @@ nav .nav_item_custom .nav-link {
     border-radius: 30px;
     position: relative;
     border: 1px solid #06c4ff;
+    height: 100%;
 }
 
 #why_viewz .thrdRow .item .itemIcon {
