@@ -5374,7 +5374,7 @@
     }
 
     .scroll-down {
-        bottom: 20px;
+        bottom: 30px;
     }
 
     .block_5 .block_4_title {
@@ -5437,6 +5437,7 @@
 
     .benefitContentItem {
         padding: 0 30px;
+        width: 90%;
     }
 
 }
