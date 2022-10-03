@@ -4741,8 +4741,8 @@
         padding: 30px 0 !important;
     }
 
-    #about_header .h1Solid {
-        margin-top: 0 !important;
+    .aboutHeaderImg {
+        margin: 0 auto;
     }
 
 
