@@ -4742,6 +4742,7 @@
     }
 
     .aboutHeaderImg {
+        padding: 80px 0 !important;
         margin: 0 auto;
     }
 
@@ -4834,6 +4835,7 @@
     }
 
     .aboutHeaderImg {
+        padding: 50px 0 !important;
         margin-top: 0 !important;
     }
 }
@@ -5058,15 +5060,13 @@
         padding: 30px 0 !important;
     }
 
-    #why_viewz {
-        padding: 60px 0 !important;
-    }
-
-    #why_viewz .thrdRow {
-        margin-top: 0;
-        padding: 30px;
-    }
-
+    /*#why_viewz {*/
+    /*    padding: 60px 0 !important;*/
+    /*}*/
+    /*#why_viewz .thrdRow {*/
+    /*    margin-top: 0;*/
+    /*    padding: 30px;*/
+    /*}*/
     #viewz_solution {
         padding: 60px 0 !important;
     }

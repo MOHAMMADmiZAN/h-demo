@@ -1870,6 +1870,10 @@ footer h5 {
 
 }
 
+.ctaBtns {
+    flex-wrap: wrap;
+}
+
 .headerSubContent {
     display: flex;
     justify-content: center;
