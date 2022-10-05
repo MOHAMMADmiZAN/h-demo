@@ -4751,106 +4751,81 @@
         align-items: center;
     }
 
-    .about_viewz_Content_Title p {
-        font-size: 16px !important;
-    }
-
-    .about_viewz_Content_Title h3 {
-        font-size: 20px !important;
-    }
-
-    .about_viewz_Content_Title h1 {
-        font-size: 32px !important;
-    }
-
-    #about_3rd_block .fstRow .fstRowTitle h3 {
-        font-size: 25px !important;
-    }
-
-    #about_3rd_block .fstRow .fstRowTitle h1 {
-        font-size: 32px !important;
-    }
-
-    #about_3rd_block .sndRow .sndRowContent p {
-        font-size: 16px !important;
-    }
-
-    #about_3rd_block .sndRow .sndRowContent h3 {
-        font-size: 25px !important;
-    }
-
-    #about_3rd_block .sndRow .sndRowContent h1 {
-        font-size: 32px !important;
-    }
-
-    #about_3rd_block .thrdRow p {
-        font-size: 16px !important;
-    }
-
-    #about_3rd_block .thrdRowHi_Light h3 {
-        font-size: 20px !important;
-    }
-
-    #why_viewz .fstRow .fstRowTitle h1 {
-        font-size: 25px !important;
-    }
-
-    #why_viewz .fstRow .fstRowTitle h3 {
-        font-size: 20px !important;
-    }
-
-    #viewz_solution .itemContentText h3 {
-        font-size: 20px !important;
-    }
-
-    #viewz_solution .itemContentText p {
-        font-size: 16px !important;
-    }
-
-    #viewz_solution h1 {
-        font-size: 32px !important;
-    }
-
-    #why_viewz .fstRow {
-        top: -30px;
-    }
-
-    #why_viewz .sndRow h1 {
-        font-size: 32px !important;
-    }
-
-    #why_viewz .sndRow p {
-        font-size: 16px !important;
-    }
-
-    #why_viewz .thrdRow .item .itemText h3 {
-        font-size: 14px !important;
-    }
-
-    #why_viewz .thrdRow .item .itemText p {
-        font-size: 10px !important;
-    }
-
-    .fqe h1 {
-        font-size: 32px !important;
-    }
-
-    #viewz_partner h1 {
-        font-size: 32px !important;
-    }
-
-    #viewz_team h1 {
-        font-size: 32px !important;
-    }
-
-    #about_3rd_block .headRow h3 {
-
-        font-size: 25px !important;
-    }
-
-    #about_3rd_block .headRow h1 {
-        font-size: 32px !important;
-    }
+    /*.about_viewz_Content_Title p {*/
+    /*    !*font-size: 16px !important;*!*/
+    /*}*/
+    /*.about_viewz_Content_Title h3 {*/
+    /*    !*font-size: 20px !important;*!*/
+    /*}*/
+    /*.about_viewz_Content_Title h1 {*/
+    /*    !*font-size: 32px !important;*!*/
+    /*}*/
+    /*#about_3rd_block .fstRow .fstRowTitle h3 {*/
+    /*    !*font-size: 25px !important;*!*/
+    /*}*/
+    /*#about_3rd_block .fstRow .fstRowTitle h1 {*/
+    /*    !*font-size: 32px !important;*!*/
+    /*}*/
+    /*#about_3rd_block .sndRow .sndRowContent p {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
+    /*#about_3rd_block .sndRow .sndRowContent h3 {*/
+    /*    font-size: 25px !important;*/
+    /*}*/
+    /*#about_3rd_block .sndRow .sndRowContent h1 {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*#about_3rd_block .thrdRow p {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
+    /*#about_3rd_block .thrdRowHi_Light h3 {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*#why_viewz .fstRow .fstRowTitle h1 {*/
+    /*    font-size: 25px !important;*/
+    /*}*/
+    /*#why_viewz .fstRow .fstRowTitle h3 {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*#viewz_solution .itemContentText h3 {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*#viewz_solution .itemContentText p {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
+    /*#viewz_solution h1 {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*#why_viewz .fstRow {*/
+    /*    top: -30px;*/
+    /*}*/
+    /*#why_viewz .sndRow h1 {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*#why_viewz .sndRow p {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
+    /*#why_viewz .thrdRow .item .itemText h3 {*/
+    /*    font-size: 14px !important;*/
+    /*}*/
+    /*#why_viewz .thrdRow .item .itemText p {*/
+    /*    font-size: 10px !important;*/
+    /*}*/
+    /*.fqe h1 {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*#viewz_partner h1 {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*#viewz_team h1 {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*#about_3rd_block .headRow h3 {*/
+    /*    font-size: 25px !important;*/
+    /*}*/
+    /*#about_3rd_block .headRow h1 {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
 }
 
 @media only screen and (max-width: 1024px) {
@@ -4900,14 +4875,12 @@
         display: none;
     }
 
-    #viewz_team .sndRow .team-name {
-        font-size: 25px !important;
-    }
-
-    #viewz_team .sndRow .team-post {
-        font-size: 16px !important;
-    }
-
+    /*#viewz_team .sndRow .team-name {*/
+    /*    font-size: 25px !important;*/
+    /*}*/
+    /*#viewz_team .sndRow .team-post {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
     #viewz_partner .sndRow .item img {
         width: 100%;
     }
@@ -5015,18 +4988,15 @@
         padding: 60px 0 !important;
     }
 
-    #why_viewz .thrdRow {
-        margin-top: 0 !important;
-    }
-
-    #why_viewz .sndRow p {
-        margin-top: 20px !important;
-    }
-
-    #why_viewz .fstRow {
-        top: -26px;
-    }
-
+    /*#why_viewz .thrdRow {*/
+    /*    margin-top: 0 !important;*/
+    /*}*/
+    /*#why_viewz .sndRow p {*/
+    /*    margin-top: 20px !important;*/
+    /*}*/
+    /*#why_viewz .fstRow {*/
+    /*    top: -26px;*/
+    /*}*/
     #about_3rd_block .sndRow .sndRowContent {
         padding-right: 30px !important;
     }
@@ -5120,14 +5090,12 @@
         width: 0;
     }
 
-    #why_viewz .fstRow {
-        display: none;
-    }
-
-    #why_viewz .thrdRowItem {
-        margin-top: 40px;
-    }
-
+    /*#why_viewz .fstRow {*/
+    /*    display: none;*/
+    /*}*/
+    /*#why_viewz .thrdRowItem {*/
+    /*    margin-top: 40px;*/
+    /*}*/
     #viewz_solution .itemContent {
         margin: 30px 0;
         text-align: center;
@@ -5204,12 +5172,14 @@
 
 /*// responsive home section //*/
 @media only screen and (max-width: 1199px) {
-    /*.header_text_custom {*/
-    /*    font-size: 45px !important;*/
-    /*}*/
-    /*.header_2d {*/
-    /*    font-size: 20px !important;*/
-    /*}*/
+    .header_text_custom {
+        font-size: 45px !important;
+    }
+
+    .header_2d {
+        font-size: 20px !important;
+    }
+
     /*.block_2_title {*/
     /*    font-size: 32px !important;*/
     /*}*/
@@ -5463,15 +5433,15 @@
     }
 
     .headerSubContent h3 {
-        font-size: 25px !important;
+        font-size: 24px !important;
     }
 
     #contact_form .contact_form_text h3 {
-        font-size: 25px !important;
+        font-size: 24px !important;
     }
 
     #contact_form .contact_form_text p {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
 }
 
@@ -5527,35 +5497,27 @@
         font-size: 45px !important;
     }
 
-    #supportHeaderBanner h3 {
-        font-size: 25px !important;
-    }
-
-    h2 {
-        font-size: 32px !important;
-    }
-
-    #support_block_two .itemContent p {
-        font-size: 16px !important;
-    }
-
-
-    #support_block_two .itemContent h3 {
-        font-size: 20px !important;
-    }
-
-
-    #viewz_tutorials .itemText h4 {
-        font-size: 20px !important;
-    }
-
-    #customerSupport p {
-        font-size: 20px !important;
-    }
-
-    #customerSupport .itemBtn {
-        font-size: 20px !important;
-    }
+    /*#supportHeaderBanner h3 {*/
+    /*    font-size: 25px !important;*/
+    /*}*/
+    /*h2 {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*#support_block_two .itemContent p {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
+    /*#support_block_two .itemContent h3 {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*#viewz_tutorials .itemText h4 {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*#customerSupport p {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*#customerSupport .itemBtn {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
 
 }
 
@@ -5612,7 +5574,7 @@
 
     #customerSupport .itemBtn {
         margin: 20px auto !important;
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
 
     #viewz_tutorials {
