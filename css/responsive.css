@@ -4742,7 +4742,7 @@
     }
 
     .aboutHeaderImg {
-        padding: 80px 0 !important;
+        padding: 0 80px !important;
         margin: 0 auto;
     }
 
@@ -4835,7 +4835,7 @@
     }
 
     .aboutHeaderImg {
-        padding: 50px 0 !important;
+        padding: 0 50px !important;
         margin-top: 0 !important;
     }
 }
