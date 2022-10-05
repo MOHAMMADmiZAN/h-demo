@@ -102,7 +102,7 @@ let animatedText = document.querySelector('.animated-text');
 
 if (animatedText) {
     const typed = new Typed('.animated-text', {
-        strings: ['No App', 'No coding', 'Compatible with any browser'],
+        strings: ['Minimum Time', 'Minimum Effort', 'No app', 'No coding'],
         typeSpeed: 60,
         backSpeed: 60,
         loop: true,
@@ -110,6 +110,10 @@ if (animatedText) {
         startDelay: 100,
 
     });
+    //Minimum Time
+    // Minimum Effort
+    // No app
+    // No coding
 }
 
 
@@ -241,10 +245,14 @@ const readMoreBtn = (e) => {
 
 
 // iframe element
+(() => {
     let iframe = document.querySelectorAll('.a-product');
     for (const iframeElement of iframe) {
-        console.log(iframeElement.contentWindow.document.querySelector('.button-load-cls'))
+        console.log(iframeElement)
+
 
     }
+})()
+
 
 

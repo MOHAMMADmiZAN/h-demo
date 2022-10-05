@@ -5204,68 +5204,56 @@
 
 /*// responsive home section //*/
 @media only screen and (max-width: 1199px) {
-    .header_text_custom {
-        font-size: 45px !important;
-    }
-
-    .header_2d {
-        font-size: 20px !important;
-    }
-
-    .block_2_title {
-        font-size: 32px !important;
-    }
-
-    .block_2_text {
-        font-size: 20px !important;
-    }
-
-    .block_3_title {
-        font-size: 32px !important;
-    }
-
-    .block_3_text {
-        font-size: 20px !important;
-    }
-
-    .block_4_title {
-        font-size: 32px !important;
-    }
-
-    .block_4_content_title {
-        font-size: 32px !important;
-    }
-
-    .block_4_content_text_title {
-        font-size: 20px !important;
-    }
-
-    .block_4_content_text_p {
-        font-size: 16px !important;
-    }
-
-    .block_5_slider_title {
-        font-size: 20px !important;
-    }
-
-    .block_5_slider_text {
-        font-size: 16px !important;
-    }
-
-    .benefitTitle {
-        font-size: 20px !important;
-    }
-
-    .benefitContentItem {
-        font-size: 16px !important;
-    }
-
-    .pricing-title h3 {
-        font-size: 20px !important;
-    }
-
-    .pricing-price {
-        font-size: 30px !important;
+    /*.header_text_custom {*/
+    /*    font-size: 45px !important;*/
+    /*}*/
+    /*.header_2d {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*.block_2_title {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*.block_2_text {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*.block_3_title {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*.block_3_text {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*.block_4_title {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*.block_4_content_title {*/
+    /*    font-size: 32px !important;*/
+    /*}*/
+    /*.block_4_content_text_title {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*.block_4_content_text_p {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
+    /*.block_5_slider_title {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*.block_5_slider_text {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
+    /*.benefitTitle {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*.benefitContentItem {*/
+    /*    font-size: 16px !important;*/
+    /*}*/
+    /*.pricing-title h3 {*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*.pricing-price {*/
+    /*    font-size: 30px !important;*/
+    /*}*/
+    .nav_item_custom li a {
+        margin: 0 7px !important;;
     }
 }
 
@@ -5278,14 +5266,12 @@
         margin: 0 15px;
     }
 
-    .accordion-title {
-        font-size: 18px !important;
-    }
-
-    .accordion-content p {
-        font-size: 14px !important;
-    }
-
+    /*.accordion-title {*/
+    /*    font-size: 18px !important;*/
+    /*}*/
+    /*.accordion-content p {*/
+    /*    font-size: 14px !important;*/
+    /*}*/
     .smallBenefitContent {
         display: flex;
         align-items: center;
@@ -5321,7 +5307,7 @@
     }
 
     .scroll-down {
-        bottom: 35px;
+        bottom: 30px;
     }
 
     .block_3_title {
@@ -5393,7 +5379,7 @@
     }
 
     .scroll-down {
-        bottom: 30px;
+        bottom: 20px;
     }
 
     .block_5 .block_4_title {

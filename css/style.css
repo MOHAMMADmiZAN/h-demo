@@ -57,7 +57,7 @@ Table of contents
 ====================================== */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     font-size: 13px;
     color: #626262;
