@@ -253,10 +253,9 @@ const readMoreBtn = (e) => {
 
     }
 })()
-
-window.addEventListener('load', () => {
+// preloader
+window.addEventListener("load", function () {
     setTimeout(() => {
         document.getElementById('preloader').style.display = 'none';
     }, 200)
-})
-
+});
