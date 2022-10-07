@@ -1,11 +1,11 @@
 // preloader
-window.addEventListener("load", function () {
-    setTimeout(() => {
-        document.getElementById('preloader').style.display = 'none';
+window.onload = function () {
+
+    document.getElementById('preloader').style.display = 'none';
 
 // /// variables////
 // const win = $(window);
-        const html_body = $('html, body');
+//     const html_body = $('html, body');
 // const stk = $('.st-menu');
 // const b2b = $('.back-top');
 // const c_stk = 'stiky';
@@ -31,194 +31,195 @@ window.addEventListener("load", function () {
 //     }
 // });
 
-        // accordion-start
-        const items = document.querySelectorAll(".accordion button");
+    // accordion-start
+    const items = document.querySelectorAll(".accordion button");
 
-        function toggleAccordion() {
-            const itemToggle = this.getAttribute('aria-expanded');
+    function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
 
-            for (let i = 0; i < items.length; i++) {
-                items[i].setAttribute('aria-expanded', 'false');
-            }
-
-            if (itemToggle === 'false') {
-                this.setAttribute('aria-expanded', 'true');
-            }
+        for (let i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
         }
 
-        items.forEach(item => item.addEventListener('click', toggleAccordion));
+        if (itemToggle === 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+    }
+
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
 // accordion-end
 
 
-        $('.navbar-collapse ul li a').click(() => $('.navbar-toggler:visible').click());
-        let navbarCollapse = document.querySelector('.navbar-toggler');
-        navbarCollapse.addEventListener('click', function (e) {
+    $('.navbar-collapse ul li a').click(() => $('.navbar-toggler:visible').click());
+    let navbarCollapse = document.querySelector('.navbar-toggler');
+    navbarCollapse.addEventListener('click', function (e) {
 
-            document.getElementById('navbarSupportedContent').classList.toggle('show');
-            document.querySelector('.show').style.bgColor = 'red';
+        document.getElementById('navbarSupportedContent').classList.toggle('show');
+        document.querySelector('.show').style.bgColor = 'red';
 
 
-        })
-        let animatedText = document.querySelector('.animated-text');
+    })
+    let animatedText = document.querySelector('.animated-text');
 
-        if (animatedText) {
-            const typed = new Typed('.animated-text', {
-                strings: ['Minimum Time', 'Minimum Effort', 'No app', 'No coding'],
-                typeSpeed: 60,
-                backSpeed: 60,
-                loop: true,
-                loopCount: Infinity,
-                startDelay: 100,
+    if (animatedText) {
+        const typed = new Typed('.animated-text', {
+            strings: ['Minimum Time', 'Minimum Effort', 'No app', 'No coding'],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true,
+            loopCount: Infinity,
+            startDelay: 100,
 
-            });
-            //Minimum Time
-            // Minimum Effort
-            // No app
-            // No coding
-        }
+        });
+        //Minimum Time
+        // Minimum Effort
+        // No app
+        // No coding
+    }
 
 
 // legal page tab function
 
-        let tabItems = document.querySelectorAll('.legalTabItems .tab');
-        let tabContentItems = document.querySelectorAll('.legalTabContents .tab_content');
-        let legalIcon = document.querySelector('.legalIcon')
-        let legalItems = document.querySelector('.legalTabItems')
+    let tabItems = document.querySelectorAll('.legalTabItems .tab');
+    let tabContentItems = document.querySelectorAll('.legalTabContents .tab_content');
+    let legalIcon = document.querySelector('.legalIcon')
+    let legalItems = document.querySelector('.legalTabItems')
 
-        const tabFilter = (id) => {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-            let tabContentId = `${id}_content`
-            for (const tabContentElement of tabContentItems) {
-                if (tabContentElement.id !== tabContentId) {
-                    tabContentElement.classList.remove('tabActive');
-                    if (id !== tabContentElement.id.split('_')[0]) {
-                        document.getElementById(tabContentElement.id.split('_')[0]).classList.remove('tabItemActive')
-                    }
-
-                } else {
-                    document.getElementById(id).classList.add('tabItemActive');
-                    tabContentElement.classList.add('tabActive');
+    const tabFilter = (id) => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        let tabContentId = `${id}_content`
+        for (const tabContentElement of tabContentItems) {
+            if (tabContentElement.id !== tabContentId) {
+                tabContentElement.classList.remove('tabActive');
+                if (id !== tabContentElement.id.split('_')[0]) {
+                    document.getElementById(tabContentElement.id.split('_')[0]).classList.remove('tabItemActive')
                 }
+
+            } else {
+                document.getElementById(id).classList.add('tabItemActive');
+                tabContentElement.classList.add('tabActive');
             }
         }
+    }
 
 
 // label icon click  function
-        const legalIconClick = () => {
-            if (legalItems.style.display === 'block') {
-                legalItems.style.display = 'none'
-            } else {
-                legalItems.style.display = 'block'
-            }
+    const legalIconClick = () => {
+        if (legalItems.style.display === 'block') {
+            legalItems.style.display = 'none'
+        } else {
+            legalItems.style.display = 'block'
         }
-        const selectItem = (e) => {
-            const {id} = e.target;
-            if (window.innerWidth < 768) {
-                legalIconClick()
-            }
+    }
+    const selectItem = (e) => {
+        const {id} = e.target;
+        if (window.innerWidth < 768) {
+            legalIconClick()
+        }
+        tabFilter(id);
+    }
+
+    if (tabItems) {
+        for (const tabItem of tabItems) {
+            tabItem.addEventListener('click', selectItem);
+
+        }
+    }
+    if (legalIcon) {
+        legalIcon.addEventListener('click', legalIconClick)
+    }
+
+// footer tab function
+    const addTab = (e) => {
+        e.preventDefault()
+        window.location.href = `legal.html?tab=${e.target.id}`
+
+
+    }
+    (function () {
+        if (window.location.href.includes('tab')) {
+            const id = window.location.href.split('=')[1];
             tabFilter(id);
         }
 
-        if (tabItems) {
-            for (const tabItem of tabItems) {
-                tabItem.addEventListener('click', selectItem);
+    })()
+    const footerTabItems = ['li a#terms', 'li a#privacy'];
 
-            }
-        }
-        if (legalIcon) {
-            legalIcon.addEventListener('click', legalIconClick)
-        }
+    footerTabItems.forEach((item) => {
+        document.querySelector(item) && document.querySelector(item).addEventListener('click', addTab);
 
-// footer tab function
-        const addTab = (e) => {
-            e.preventDefault()
-            window.location.href = `legal.html?tab=${e.target.id}`
-
-
-        }
-        (function () {
-            if (window.location.href.includes('tab')) {
-                const id = window.location.href.split('=')[1];
-                tabFilter(id);
-            }
-
-        })()
-        const footerTabItems = ['li a#terms', 'li a#privacy'];
-
-        footerTabItems.forEach((item) => {
-            document.querySelector(item) && document.querySelector(item).addEventListener('click', addTab);
-
-        })
+    })
 
 // control scroll to top legal page
 
-        window.addEventListener('scroll', () => {
+    window.addEventListener('scroll', () => {
 
-            let legalContent = document.querySelector('.legalTabContents')
-            let scrollY = window.scrollY;
-            if (legalContent) {
-                if (scrollY > (legalContent.clientHeight - 320)) {
+        let legalContent = document.querySelector('.legalTabContents')
+        let scrollY = window.scrollY;
+        if (legalContent) {
+            if (scrollY > (legalContent.clientHeight - 320)) {
 
-                    if (window.innerWidth >= 768) {
-                        document.querySelector('.legalTabItems').style.cssText = `position: relative !important;`
-                    }
-
-
-                } else {
-                    if (document.querySelector('.legalTabItems').style.display === 'block') {
-                        document.querySelector('.legalTabItems').style.cssText = `position: fixed !important; display: block !important;`
-                        return;
-                    }
-                    document.querySelector('.legalTabItems').style.cssText = `position: fixed !important;`
-
-
+                if (window.innerWidth >= 768) {
+                    document.querySelector('.legalTabItems').style.cssText = `position: relative !important;`
                 }
+
+
+            } else {
+                if (document.querySelector('.legalTabItems').style.display === 'block') {
+                    document.querySelector('.legalTabItems').style.cssText = `position: fixed !important; display: block !important;`
+                    return;
+                }
+                document.querySelector('.legalTabItems').style.cssText = `position: fixed !important;`
+
+
             }
-
-
-        })
-// legal toggler //
-        let legalPageSmallMenu = document.querySelector('#legal .navbar-toggler')
-        if (legalPageSmallMenu) {
-            legalPageSmallMenu.addEventListener('click', () => {
-                if (legalItems.style.display === 'block') {
-                    legalItems.style.display = 'none'
-                }
-            })
-
         }
+
+
+    })
+// legal toggler //
+    let legalPageSmallMenu = document.querySelector('#legal .navbar-toggler')
+    if (legalPageSmallMenu) {
+        legalPageSmallMenu.addEventListener('click', () => {
+            if (legalItems.style.display === 'block') {
+                legalItems.style.display = 'none'
+            }
+        })
+
+    }
 
 //Shrink nav on scroll - START CODE
-        /*==============================================================*/
+    /*==============================================================*/
 
-        /*==============================================================*/
+    /*==============================================================*/
 //Shrink nav on scroll - END CODE
-        /*==============================================================*/
+    /*==============================================================*/
 // solution section read more button
-        const readMoreBtn = (e) => {
-            e.preventDefault()
-            console.log(e.target.id)
-            let id = e.target.id;
-            window.location.href = `about.html?#${id.split('_')[0]}`
+    const readMoreBtn = (e) => {
+        e.preventDefault()
+        console.log(e.target.id)
+        let id = e.target.id;
+        window.location.href = `about.html?#${id.split('_')[0]}`
 
-        }
+    }
 
 
 // iframe element
-        (() => {
-            let iframe = document.querySelectorAll('.a-product');
-            for (const iframeElement of iframe) {
-                console.log(iframeElement)
+    (() => {
+        let iframe = document.querySelectorAll('.a-product');
+        for (const iframeElement of iframe) {
+            console.log(iframeElement)
 
 
-            }
-        })()
+        }
+    })()
 
+    let loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
+    console.log('Page load time is ' + loadTime);
 
-    }, 500)
+}
 
-});
 
 
 // // slick slider blog page

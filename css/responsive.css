@@ -5592,6 +5592,13 @@
 
 }
 
+@media screen and (max-width: 425px) {
+    #supportHeaderBanner h1 {
+        margin: 10px 0 !important;
+    }
+
+}
+
 @media screen and (max-width: 767px) {
     .blog-listing {
         padding: 10px 30px !important;
