@@ -909,6 +909,7 @@ nav .nav_item_custom .nav-link {
     line-height: 1.2 !important;
     color: #06C4FF !important;
     text-align: justify !important;
+    text-transform: capitalize;
 }
 
 .about_viewz_Content_Title p {
@@ -1242,6 +1243,7 @@ nav .nav_item_custom .nav-link {
     position: relative;
     display: inline-block;
     margin: 20px 0;
+    text-transform: none;
 }
 
 #viewz_solution .itemContentText h3::after {
