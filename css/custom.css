@@ -386,10 +386,11 @@ a {
 
 
 .block_7_box_title {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Nunito', sans-serif ;
     font-weight: 700;
-    color: #06c4ff !important;
-    font-size: 20px !important;
+    color: #06c4ff ;
+    font-size: 20px ;
+    text-transform: capitalize !important;
 }
 
 .block_8_input {
@@ -2305,4 +2306,50 @@ footer h5 {
     line-height: 1.2;
     text-align: center;
 }
+/*// price toogle btn css //*/
+* {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
 
+
+
+
+
+
+.toggle_btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #06C4FF;
+    border-radius: 30px;
+
+    margin: 30px auto;
+    max-width: 250px;
+
+
+
+}
+
+.toggle_btn button{
+    width: 50%;
+    height: 50px;
+    border: none;
+    background: transparent;
+    color: #06C4FF;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px;
+    /*border-radius: 30px;*/
+
+}
+.price_month{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.price_annual{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
