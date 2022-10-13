@@ -973,6 +973,7 @@ nav .nav_item_custom .nav-link {
 
 #about_3rd_block .fstRow {
     position: relative;
+    padding-left: 20px;
 }
 
 #about_3rd_block .fstRow::after {
