@@ -534,15 +534,16 @@ a {
 }
 
 .accordion .accordion-item {
-    border-left: 2px solid #06c4ff;
-    box-shadow: 5px 5px 24px -17px #000A2A;
+    border-top: 1px solid #06c4ff;
+    border-bottom: 1px solid #06c4ff;
+    /*box-shadow: 5px 5px 24px -17px #000A2A;*/
     margin-bottom: 20px;
     padding: 0 30px;
 }
 
 .accordion-title {
     font-family: 'Oswald', sans-serif !important;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
 }
 
@@ -1315,45 +1316,7 @@ nav .nav_item_custom .nav-link {
     align-items: center;
 }
 
-/*#viewz_team {*/
-/*    padding: 120px 0 !important;*/
-/*    background: #000A2A;*/
-/*}*/
 
-/*#viewz_team .fstRowTitle h1 {*/
-/*    font-family: 'Oswald', sans-serif !important;*/
-/*    font-weight: 700;*/
-/*    font-size: 45px;*/
-/*    line-height: 1.2;*/
-/*    color: #06C4FF;*/
-/*    text-align: center;*/
-/*    text-transform: none;*/
-/*}*/
-
-/*#viewz_team .sndRow {*/
-/*    padding: 50px 0;*/
-/*    margin-top: 40px;*/
-/*}*/
-
-/*#viewz_team .sndRow .team-name {*/
-/*    font-family: 'Oswald', sans-serif !important;*/
-/*    font-weight: 800 !important;;*/
-/*    font-size: 35px !important;*/
-/*    line-height: 1.2;*/
-/*    color: #06c4ff !important;*/
-/*    text-align: center;*/
-/*    margin-top: 10px;*/
-/*}*/
-
-/*#viewz_team .sndRow .team-post {*/
-/*    font-family: 'Source Serif Pro', serif !important;*/
-/*    font-weight: 500;*/
-/*    font-size: 25px;*/
-/*    line-height: 1.2;*/
-/*    color: #FFFFFF;*/
-/*    text-align: center;*/
-/*    margin-top: 10px;*/
-/*}*/
 
 #viewz_partner {
     padding: 80px 0;
