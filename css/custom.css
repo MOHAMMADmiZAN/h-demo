@@ -147,7 +147,7 @@ a {
 /*// View Header*/
 .nav_item_custom li a {
     color: #06C4FF !important;
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-size: 20px !important;
     position: relative;
     padding: 10px;
@@ -190,7 +190,7 @@ a {
 }
 
 .header_text_custom {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 900;
     font-size: 55px !important;
     /*background: -webkit-linear-gradient(90deg, #06c4ff, #0683ff 35%, #fa057f);*/
@@ -204,7 +204,7 @@ a {
 }
 
 .header_2d {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 600;
     font-size: 24px !important;
     line-height: 1.5;
@@ -231,7 +231,7 @@ a {
     background-size: 100% 100% !important;
     border-radius: 15px !important;
     border: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
     padding: 15px 20px;
     color: #FFFFFF !important;
     font-size: 16px !important;
@@ -276,9 +276,9 @@ a {
 }
 
 .block_2_title {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
-    font-size: 32px !important;
+    font-size: 44px !important;
     color: #06C4FF;
     line-height: 1;
     text-align: center;
@@ -296,7 +296,7 @@ a {
 
 .block_2_text {
     font-family: 'Source Serif Pro', serif !important;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400 !important;
     line-height: 1.5 !important;
     color: #000A2A !important;
@@ -305,29 +305,32 @@ a {
 }
 
 .block_3_title {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700 !important;
-    font-size: 32px !important;
+    font-size: 44px !important;
     color: #06C4FF !important;
-    margin: 20px;
+    margin: 20px 20px 40px 20px!important;
     letter-spacing: 0 !important;
     text-transform: capitalize;
+
+
 }
 
 .block_3_text {
     font-family: 'Source Serif Pro', serif !important;
-    font-size: 16px !important;
+    font-size: 20px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
     color: white !important;
+
 }
 
 .block_4_title {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700 !important;
     color: #06c4ff !important;
     margin: 30px 0;
-    font-size: 32px !important;
+    font-size: 44px !important;
     position: relative;
     text-transform: capitalize !important;
     letter-spacing: 0 !important;
@@ -336,18 +339,19 @@ a {
 
 
 .block_4_content_title {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
-    font-size: 24px !important;
+    font-size: 35px !important;
     color: #06c4ff !important;
     margin: 20px 0;
     text-align: left;
+    text-transform: capitalize !important;
 }
 
 
 .block_4_content_text_p {
     font-family: 'Source Serif Pro', serif !important;
-    font-size: 16px !important;
+    font-size: 20px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
     color: #000A2A !important;
@@ -368,16 +372,16 @@ a {
 }
 
 .block_5_slider_title {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 600;
     color: #06c4ff !important;
-    font-size: 24px !important;
+    font-size: 35px !important;
     text-transform: capitalize !important;
 }
 
 .block_5_slider_text {
     font-family: 'Source Serif Pro', serif !important;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400 !important;
     line-height: 1.5 !important;
     color: #FFFFFF !important;
@@ -386,7 +390,7 @@ a {
 
 
 .block_7_box_title {
-    font-family: 'Nunito', sans-serif ;
+    font-family: 'Oswald', sans-serif ;
     font-weight: 700;
     color: #06c4ff ;
     font-size: 20px ;
@@ -449,11 +453,15 @@ a {
 
 .benefitContentItem {
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin: 50px 20px;
     font-family: 'Source Serif Pro', serif !important;
     font-weight: 400 !important;
-    font-size: 16px;
+    font-size: 20px;
+    color: #000A2A;
+    border-left: 1px solid #06C4FF;
+    padding-left: 20px;
+
 
 }
 
@@ -489,7 +497,7 @@ a {
 }
 
 .pricing-price {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-size: 40px !important;
     font-weight: 700;
     color: #FFFFFF !important;
@@ -531,7 +539,7 @@ a {
 }
 
 .accordion-title {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 16px;
 }
@@ -610,7 +618,7 @@ a {
 }
 
 .accordion .accordion-content p {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 30px;
@@ -657,7 +665,7 @@ a {
     background: #fa057f !important;
     border-radius: 25px !important;
     border: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: white;
 }
 
@@ -833,7 +841,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_header .h1Solid {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 900;
     font-size: 55px !important;
     line-height: 1.2;
@@ -893,7 +901,7 @@ nav .nav_item_custom .nav-link {
 
 
 .about_viewz_Content_Title h1 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -904,7 +912,7 @@ nav .nav_item_custom .nav-link {
 }
 
 .about_viewz_Content_Title h3 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 600 !important;
     font-size: 24px !important;
     line-height: 1.2 !important;
@@ -940,7 +948,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .fstRow .fstRowTitle h3 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700 !important;
     font-size: 24px !important;
     line-height: 1.2 !important;
@@ -951,7 +959,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .fstRow .fstRowTitle h1 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1010,7 +1018,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .headRow h3 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.2;
@@ -1035,7 +1043,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .headRow h1 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 900;
     font-size: 32px;
     line-height: 1.2;
@@ -1078,7 +1086,7 @@ nav .nav_item_custom .nav-link {
 /*}*/
 
 /*#why_viewz .fstRow .fstRowTitle h3 {*/
-/*    font-family: 'Nunito', sans-serif !important;*/
+/*    font-family: 'Oswald', sans-serif !important;*/
 /*    font-weight: 700;*/
 /*    font-size: 25px;*/
 /*    line-height: 1.2;*/
@@ -1088,7 +1096,7 @@ nav .nav_item_custom .nav-link {
 /*}*/
 
 /*#why_viewz .fstRow .fstRowTitle h1 {*/
-/*    font-family: 'Nunito', sans-serif !important;*/
+/*    font-family: 'Oswald', sans-serif !important;*/
 /*    font-weight: 700;*/
 /*    font-size: 35px;*/
 /*    line-height: 1.2;*/
@@ -1100,7 +1108,7 @@ nav .nav_item_custom .nav-link {
 /*}*/
 
 /*#why_viewz .sndRow h1 {*/
-/*    font-family: 'Nunito', sans-serif !important;*/
+/*    font-family: 'Oswald', sans-serif !important;*/
 /*    font-weight: 700;*/
 /*    font-size: 45px;*/
 /*    line-height: 1.2;*/
@@ -1164,7 +1172,7 @@ nav .nav_item_custom .nav-link {
 /*}*/
 
 /*#why_viewz .thrdRow .item .itemText h3 {*/
-/*    font-family: 'Nunito', sans-serif !important;*/
+/*    font-family: 'Oswald', sans-serif !important;*/
 /*    font-weight: 700;*/
 /*    font-size: 18px;*/
 /*    line-height: 1.2;*/
@@ -1191,7 +1199,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_solution h1 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1235,7 +1243,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_solution .itemContentText h3 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.2;
@@ -1284,7 +1292,7 @@ nav .nav_item_custom .nav-link {
 
 #viewz_solution .thrdRowBtn {
     padding: 10px 15px;
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 600 !important;
     font-size: 16px !important;
     line-height: 1.2 !important;
@@ -1306,7 +1314,7 @@ nav .nav_item_custom .nav-link {
 /*}*/
 
 /*#viewz_team .fstRowTitle h1 {*/
-/*    font-family: 'Nunito', sans-serif !important;*/
+/*    font-family: 'Oswald', sans-serif !important;*/
 /*    font-weight: 700;*/
 /*    font-size: 45px;*/
 /*    line-height: 1.2;*/
@@ -1321,7 +1329,7 @@ nav .nav_item_custom .nav-link {
 /*}*/
 
 /*#viewz_team .sndRow .team-name {*/
-/*    font-family: 'Nunito', sans-serif !important;*/
+/*    font-family: 'Oswald', sans-serif !important;*/
 /*    font-weight: 800 !important;;*/
 /*    font-size: 35px !important;*/
 /*    line-height: 1.2;*/
@@ -1346,7 +1354,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_partner .fstRowTitle h1 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1392,7 +1400,7 @@ nav .nav_item_custom .nav-link {
 }
 
 .footerLinkSection .lightFont {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700 !important;
     font-size: 16px !important;
     line-height: 1.2 !important;
@@ -1411,7 +1419,7 @@ nav .nav_item_custom .nav-link {
 
 .footerLinkSection .tryBtn {
     padding: 10px 15px;
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 600 !important;
     font-size: 14px !important;
     line-height: 1.2 !important;
@@ -1479,7 +1487,7 @@ footer h5 {
 }
 
 .footerSocial h6 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 1.2;
@@ -1623,7 +1631,7 @@ footer h5 {
 }
 
 #blogMain .blog-title a {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 16px !important;
     line-height: 1.2;
@@ -1676,7 +1684,7 @@ footer h5 {
 }
 
 #blog-single .blog-details-headline {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1694,7 +1702,7 @@ footer h5 {
 }
 
 #blog-single .blog-details-text p:nth-child(1) {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1749,7 +1757,7 @@ footer h5 {
 }
 
 #supportHeaderBanner h1 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 3.5vw;
     line-height: 1.2;
@@ -1766,7 +1774,7 @@ footer h5 {
 }
 
 #supportHeaderBanner h3 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.2;
@@ -1795,7 +1803,7 @@ footer h5 {
 }
 
 #support_block_two .itemContent h2 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.2;
@@ -1806,7 +1814,7 @@ footer h5 {
 }
 
 #support_block_two .itemContent h3 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.2;
@@ -1837,7 +1845,7 @@ footer h5 {
 }
 
 #viewz_tutorials .sectionTitle h2 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1868,7 +1876,7 @@ footer h5 {
 }
 
 #viewz_tutorials .itemText h4 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.2;
@@ -1884,7 +1892,7 @@ footer h5 {
 }
 
 #customerSupport .itemContent h2 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1925,7 +1933,7 @@ footer h5 {
 /*    align-items: center;*/
 /*    justify-content: center;*/
 /*    color: #FFFFFF !important;*/
-/*    font-family: 'Nunito', sans-serif !important;*/
+/*    font-family: 'Oswald', sans-serif !important;*/
 /*    font-weight: 700;*/
 /*    font-size: 16px;*/
 /*    line-height: 1.2;*/
@@ -1947,7 +1955,7 @@ footer h5 {
 }
 
 .contact_us_banner h1 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 900;
     font-size: 55px;
     line-height: 1.2;
@@ -1968,7 +1976,7 @@ footer h5 {
 }
 
 .headerSubContent h3 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -1982,7 +1990,7 @@ footer h5 {
     display: flex;
     justify-content: center;
     margin: 60px auto;
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 600;
     font-size: 25px;
     line-height: 1.2;
@@ -2002,7 +2010,7 @@ footer h5 {
 }
 
 #contact_form .contact_form_text h3 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.2;
@@ -2039,7 +2047,7 @@ footer h5 {
 }
 
 #contact_form .contact_form_btn {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 600;
     font-size: 25px;
     line-height: 1.2;
@@ -2073,7 +2081,7 @@ footer h5 {
 }
 
 #blogMain .blog-title a {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
@@ -2093,7 +2101,7 @@ footer h5 {
 }
 
 #legalTitle h1 {
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 800;
     font-size: 35px;
     line-height: 1.2;
@@ -2132,7 +2140,7 @@ footer h5 {
 
 .legalTabItems .tab {
     padding: 30px 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
@@ -2155,7 +2163,7 @@ footer h5 {
 }
 
 .legalTabContents .tab_content .tab_content_title {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 1.2;
@@ -2199,7 +2207,7 @@ footer h5 {
 
 .privacyTable .tableCard .tableCardHeader {
     padding: 15px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
@@ -2301,7 +2309,7 @@ footer h5 {
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
