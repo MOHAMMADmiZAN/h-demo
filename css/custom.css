@@ -490,6 +490,8 @@ a {
 
 .price_box_custom {
     transition: 0.4s;
+    height: 100%!important;
+
 }
 
 .pricing-box {
@@ -658,6 +660,10 @@ a {
 
 .pricing-box:hover .pricing-title {
     border-color: #fa057f !important;
+}
+.pricing-action{
+    position: absolute;
+    bottom: -20px;
 }
 
 .price_box_custom:hover .pricing-action a {
@@ -2361,4 +2367,56 @@ footer h5 {
 .price_annual{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+
+
+.plan_title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #06C4FF;
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Source Serif Pro', serif !important;
+
+}
+.plan_ar, .plan_price{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+.plan_content{
+    position: relative;
+
+
+}
+.plan_content:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 1px;
+    background: #06c4ff;
+
+}
+.plan_ex{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Source Serif Pro', serif !important;
+    padding: 20px 5px;
+}
+.price_box_custom:hover .plan_title{
+    color: #ff0084;
+}
+
+.price_box_custom:hover .plan_content:after{
+    color: #ff0084;
 }
