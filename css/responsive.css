@@ -5228,9 +5228,7 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .pricing .blue_btn_custom {
-        min-width: 0 !important;
-    }
+
 
     .footer-social a {
         margin: 0 15px;

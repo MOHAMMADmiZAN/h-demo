@@ -663,8 +663,10 @@ a {
     border-color: #fa057f !important;
 }
 .pricing-action{
-    position: absolute;
-    bottom: -20px;
+    position: absolute!important;
+    bottom: -20px!important;
+    left: 50%!important;
+    transform: translateX(-50%)!important;
 }
 
 .price_box_custom:hover .pricing-action a {
@@ -2279,4 +2281,7 @@ footer h5 {
 .blueOutlineBtn:hover{
     background: #06C4FF;
     color: #000A2A;
+}
+.pricing-title h3{
+    font-size: 35px!important;
 }
