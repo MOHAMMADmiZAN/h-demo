@@ -1286,8 +1286,9 @@ nav .nav_item_custom .nav-link {
 
 #viewz_solution .itemImg img {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 50px;
+    margin-left: 20px;
 }
 
 #viewz_solution .thrdRowBtn {
