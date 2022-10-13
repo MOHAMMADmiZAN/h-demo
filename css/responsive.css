@@ -4993,16 +4993,11 @@
     #about_3rd_block {
         padding: 60px 0 !important;
     }
+    #about_3rd_block .thrdRow p{
+        padding-left: 0 !important;
+        margin: 10px 0 !important;
+    }
 
-    /*#why_viewz .thrdRow {*/
-    /*    margin-top: 0 !important;*/
-    /*}*/
-    /*#why_viewz .sndRow p {*/
-    /*    margin-top: 20px !important;*/
-    /*}*/
-    /*#why_viewz .fstRow {*/
-    /*    top: -26px;*/
-    /*}*/
     #about_3rd_block .sndRow .sndRowContent {
         padding-right: 30px !important;
     }
@@ -5018,6 +5013,7 @@
 
     #about_3rd_block .sndRow {
         margin-top: 30px !important;
+
     }
 
     #about_3rd_block .headRow {
@@ -5062,6 +5058,10 @@
 
     #about_3rd_block .sndRow {
         padding: 30px 0 !important;
+    }
+    #about_3rd_block .thrdRow p{
+        padding-left: 0 !important;
+        margin: 10px 0 !important;
     }
 
     /*#why_viewz {*/
