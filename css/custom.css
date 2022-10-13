@@ -224,7 +224,7 @@ a {
 
 .gradiant_button_custom {
     width: 233px;
-    height: 46px;
+
     /*background: linear-gradient(90deg, #0614ff, #0683ff, #fa057f) !important;*/
     /*background: linear-gradient(90deg, #0683ff 60%, #0614ff 70%, #fa057f 99%) !important;*/
     background: url("/img/SVG/grade.svg") center no-repeat !important;
@@ -2253,4 +2253,25 @@ footer h5 {
 
 .price_box_custom:hover .plan_content:after{
     background: #ff0084;
+}
+.blueOutlineBtn{
+    background: transparent;
+    border: 1px solid #06C4FF;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    padding: 7px 20px;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px ;
+    min-width: 253px;
+
+
+}
+.blueOutlineBtn:hover{
+    background: #06C4FF;
+    color: #000A2A;
 }
