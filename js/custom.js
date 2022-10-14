@@ -1,7 +1,11 @@
 // preloader
 window.onload = function () {
 
-    document.getElementById('preloader').style.display = 'none';
+    if (document.getElementById('preloader')){
+        document.getElementById('preloader').style.display = 'none';
+    }
+
+
 
 // /// variables////
 // const win = $(window);
@@ -204,41 +208,41 @@ window.onload = function () {
 
     }
 
-    const priceMonth = document.querySelector('.price_month');
-    const priceYear = document.querySelector('.price_annual');
-
-    priceYear.click();
-   const priceYearStatus = true;
-
- const  priceMonthFunc = () => {
-       priceYear.style.backgroundColor = 'transparent';
-     priceYear.style.color = '#06C4FF';
-       priceMonth.style.backgroundColor = '#06C4FF';
-         priceMonth.style.color = '#fff';
-
-
-       document.querySelector('.individuals').innerHTML = ` <span class="price-unit">€</span>36<span class="price-tenure">/mo</span>`
-       document.querySelector('.startup').innerHTML = ` <span class="price-unit">€</span>124<span class="price-tenure">/mo</span>`
-       document.querySelector('.sme').innerHTML = ` <span class="price-unit">€</span>211<span class="price-tenure">/mo</span>`
-       document.querySelector('.business').innerHTML = ` <span class="price-unit">€</span>375<span class="price-tenure">/mo</span>`
-   }
-
-
-   const priceYearFunc = () => {
-       priceMonth.style.backgroundColor = 'transparent';
-         priceMonth.style.color = '#06C4FF';
-       priceYear.style.backgroundColor = '#06C4FF';
-         priceYear.style.color = '#fff';
-       document.querySelector('.individuals').innerHTML = ` <span class="price-unit">€</span>29<span class="price-tenure">/mo</span>`
-       document.querySelector('.startup').innerHTML = ` <span class="price-unit">€</span>99<span class="price-tenure">/mo</span>`
-       document.querySelector('.sme').innerHTML = ` <span class="price-unit">€</span>169<span class="price-tenure">/mo</span>`
-       document.querySelector('.business').innerHTML = ` <span class="price-unit">€</span>299<span class="price-tenure">/mo</span>`
-   }
-   priceYearFunc();
-
-    priceMonth.addEventListener('click',priceMonthFunc)
-    priceYear.addEventListener('click', priceYearFunc)
-
+ //    const priceMonth = document.querySelector('.price_month');
+ //    const priceYear = document.querySelector('.price_annual');
+ //
+ //    priceYear.click();
+ //   const priceYearStatus = true;
+ //
+ // const  priceMonthFunc = () => {
+ //       priceYear.style.backgroundColor = 'transparent';
+ //     priceYear.style.color = '#06C4FF';
+ //       priceMonth.style.backgroundColor = '#06C4FF';
+ //         priceMonth.style.color = '#fff';
+ //
+ //
+ //       document.querySelector('.individuals').innerHTML = ` <span class="price-unit">€</span>36<span class="price-tenure">/mo</span>`
+ //       document.querySelector('.startup').innerHTML = ` <span class="price-unit">€</span>124<span class="price-tenure">/mo</span>`
+ //       document.querySelector('.sme').innerHTML = ` <span class="price-unit">€</span>211<span class="price-tenure">/mo</span>`
+ //       document.querySelector('.business').innerHTML = ` <span class="price-unit">€</span>375<span class="price-tenure">/mo</span>`
+ //   }
+ //
+ //
+ //   const priceYearFunc = () => {
+ //       priceMonth.style.backgroundColor = 'transparent';
+ //         priceMonth.style.color = '#06C4FF';
+ //       priceYear.style.backgroundColor = '#06C4FF';
+ //         priceYear.style.color = '#fff';
+ //       document.querySelector('.individuals').innerHTML = ` <span class="price-unit">€</span>29<span class="price-tenure">/mo</span>`
+ //       document.querySelector('.startup').innerHTML = ` <span class="price-unit">€</span>99<span class="price-tenure">/mo</span>`
+ //       document.querySelector('.sme').innerHTML = ` <span class="price-unit">€</span>169<span class="price-tenure">/mo</span>`
+ //       document.querySelector('.business').innerHTML = ` <span class="price-unit">€</span>299<span class="price-tenure">/mo</span>`
+ //   }
+ //   priceYearFunc();
+ //
+ //    priceMonth.addEventListener('click',priceMonthFunc)
+ //    priceYear.addEventListener('click', priceYearFunc)
+ //
 
 
 
