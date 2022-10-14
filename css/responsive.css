@@ -4881,12 +4881,7 @@
         display: none;
     }
 
-    /*#viewz_team .sndRow .team-name {*/
-    /*    font-size: 25px !important;*/
-    /*}*/
-    /*#viewz_team .sndRow .team-post {*/
-    /*    font-size: 16px !important;*/
-    /*}*/
+
     #viewz_partner .sndRow .item img {
         width: 100%;
     }
@@ -5064,13 +5059,7 @@
         margin: 10px 0 !important;
     }
 
-    /*#why_viewz {*/
-    /*    padding: 60px 0 !important;*/
-    /*}*/
-    /*#why_viewz .thrdRow {*/
-    /*    margin-top: 0;*/
-    /*    padding: 30px;*/
-    /*}*/
+
     #viewz_solution {
         padding: 60px 0 !important;
     }
@@ -5094,12 +5083,6 @@
         width: 0;
     }
 
-    /*#why_viewz .fstRow {*/
-    /*    display: none;*/
-    /*}*/
-    /*#why_viewz .thrdRowItem {*/
-    /*    margin-top: 40px;*/
-    /*}*/
     #viewz_solution .itemContent {
         margin: 30px 0;
         text-align: center;
@@ -5184,48 +5167,7 @@
         font-size: 20px !important;
     }
 
-    /*.block_2_title {*/
-    /*    font-size: 32px !important;*/
-    /*}*/
-    /*.block_2_text {*/
-    /*    font-size: 20px !important;*/
-    /*}*/
-    /*.block_3_title {*/
-    /*    font-size: 32px !important;*/
-    /*}*/
-    /*.block_3_text {*/
-    /*    font-size: 20px !important;*/
-    /*}*/
-    /*.block_4_title {*/
-    /*    font-size: 32px !important;*/
-    /*}*/
-    /*.block_4_content_title {*/
-    /*    font-size: 32px !important;*/
-    /*}*/
-    /*.block_4_content_text_title {*/
-    /*    font-size: 20px !important;*/
-    /*}*/
-    /*.block_4_content_text_p {*/
-    /*    font-size: 16px !important;*/
-    /*}*/
-    /*.block_5_slider_title {*/
-    /*    font-size: 20px !important;*/
-    /*}*/
-    /*.block_5_slider_text {*/
-    /*    font-size: 16px !important;*/
-    /*}*/
-    /*.benefitTitle {*/
-    /*    font-size: 20px !important;*/
-    /*}*/
-    /*.benefitContentItem {*/
-    /*    font-size: 16px !important;*/
-    /*}*/
-    /*.pricing-title h3 {*/
-    /*    font-size: 20px !important;*/
-    /*}*/
-    /*.pricing-price {*/
-    /*    font-size: 30px !important;*/
-    /*}*/
+
     .nav_item_custom li a {
         margin: 0 7px !important;;
     }
@@ -5238,12 +5180,7 @@
         margin: 0 15px;
     }
 
-    /*.accordion-title {*/
-    /*    font-size: 18px !important;*/
-    /*}*/
-    /*.accordion-content p {*/
-    /*    font-size: 14px !important;*/
-    /*}*/
+
     .smallBenefitContent {
         display: flex;
         align-items: center;
