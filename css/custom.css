@@ -305,7 +305,7 @@ a {
 
 }
 
-.block_4_title {
+.section_title {
     font-family: 'Oswald', sans-serif ;
     font-weight: 700 ;
     color: #06c4ff ;
@@ -2134,4 +2134,11 @@ footer h5 {
 }
 .pricing-title h3{
     font-size: 35px;
+}
+
+.font_30{
+    font-size: 30px;
+}
+.mt_10{
+    margin-top: 10px;
 }

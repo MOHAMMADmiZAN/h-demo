@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Viewz_Landing.iml" filepath="$PROJECT_DIR$/.idea/Viewz_Landing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/viewz_landing.iml" filepath="$PROJECT_DIR$/.idea/viewz_landing.iml" />
     </modules>
   </component>
 </project>
