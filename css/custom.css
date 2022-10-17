@@ -227,22 +227,18 @@ a {
 
 .gradiant_button_custom:hover {
     border: none;
-    color: white;
+    color: white!important;
 }
 
-.scroll_down_custom {
-    background: #06C4FF !important;
-    border-radius: 50%;
-    color: #fff !important;
-}
+
 
 .video_background_custom {
-    background: rgba(0, 10, 42, 0.5) !important;
+    background: rgba(0, 10, 42, 0.5) ;
     background-size: cover;
 }
 
 .cover_bg {
-    background: #FFFFFF !important;
+    background: #FFFFFF ;
 }
 
 .block_2 {
@@ -1315,10 +1311,10 @@ footer h5 {
 }
 
 .socialSection {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    margin-bottom: 20px !important;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    margin-bottom: 20px ;
 }
 
 
