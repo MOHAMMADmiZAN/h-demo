@@ -137,7 +137,7 @@ window.onload = function () {
 // footer tab function
     const addTab = (e) => {
         e.preventDefault()
-        window.location.href = `legal.html?tab=${e.target.id}`
+        window.location.href = `legal?tab=${e.target.id}`
 
 
     }
@@ -200,13 +200,7 @@ window.onload = function () {
 //Shrink nav on scroll - END CODE
     /*==============================================================*/
 // solution section read more button
-    const readMoreBtn = (e) => {
-        e.preventDefault()
-        console.log(e.target.id)
-        let id = e.target.id;
-        window.location.href = `about.html?#${id.split('_')[0]}`
 
-    }
 
  //    const priceMonth = document.querySelector('.price_month');
  //    const priceYear = document.querySelector('.price_annual');
