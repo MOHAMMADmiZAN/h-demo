@@ -5356,7 +5356,7 @@
 
 @media only screen and (max-width: 575px) {
 
-    .contact_us_banner {
+    #contact_us_banner {
         padding: 60px 0;
     }
 
