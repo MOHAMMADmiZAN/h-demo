@@ -5340,7 +5340,9 @@
 
 @media only screen and (max-width: 575px) {
 
-
+    footer .footer-middle {
+        padding: 0 30px;
+    }
 }
 
 /*// help and support page css //*/
