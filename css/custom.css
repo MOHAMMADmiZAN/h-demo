@@ -380,11 +380,18 @@ a {
 .block_8_input {
     position: relative;
     margin-top: 20px;
+
 }
 
 .block_8_input input {
     border-radius: 40px;
     padding: 10px 15px;
+    border: 2px solid #06c4ff;
+    background: transparent;
+}
+
+.block_8_input input:focus {
+    outline: none;
 }
 
 .block_8_input i {
@@ -600,14 +607,15 @@ a {
 
 
 .fqe {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .fqe h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 1.5;
+    text-transform: capitalize;
 
 }
 
@@ -1583,124 +1591,124 @@ footer h5 {
 
 
 /*// contact us css//*/
-#contact_us_header {
-    padding: 120px 0;
-    height: 100vh;
-    background: url('/img/SVG/contact_bg.svg') no-repeat;
-    background-size: cover
+/*#contact_us_header {*/
+/*    padding: 120px 0;*/
+/*    height: 100vh;*/
+/*    background: url('/img/SVG/contact_bg.svg') no-repeat;*/
+/*    background-size: cover*/
 
-}
+/*}*/
 
-#contact_us_banner h1 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 1.2;
-    color: #06C4FF;
-    text-align: center;
-    padding: 120px 0 60px 0;
-
-
-}
-
-.ctaBtns {
-    flex-wrap: wrap;
-}
-
-.headerSubContent {
-    display: flex;
-    justify-content: center;
-}
-
-.headerSubContent h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.2;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0 15px;
-    text-transform: capitalize;
-}
-
-#contact_us_header .headerBtn {
-    display: flex;
-    justify-content: center;
-    margin: 60px auto;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1.2;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: capitalize;
-    background: #06c4ff;
-    padding: 15px 20px;
-    border-radius: 15px;
-    min-width: 336px;
+/*#contact_us_banner h1 {*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*    font-weight: 700;*/
+/*    font-size: 55px;*/
+/*    line-height: 1.2;*/
+/*    color: #06C4FF;*/
+/*    text-align: center;*/
+/*    padding: 120px 0 60px 0;*/
 
 
-}
+/*}*/
 
-#contact_form {
-    padding: 120px 0;
-}
+/*.ctaBtns {*/
+/*    flex-wrap: wrap;*/
+/*}*/
 
-#contact_form .contact_form_text h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.2;
-    color: #000A2A;
-    text-align: left;
-    padding: 0 15px 30px 0;
-    text-transform: capitalize;
-    width: 90%;
-    margin: 0 auto;
-}
+/*.headerSubContent {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
 
-#contact_form .contact_form_text p {
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 1.2;
-    color: #000A2A;
-    text-align: justify;
-    padding: 0 15px 30px 0;
-    width: 90%;
-    margin: 0 auto;
-}
+/*.headerSubContent h3 {*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*    font-weight: 700;*/
+/*    font-size: 32px;*/
+/*    line-height: 1.2;*/
+/*    color: #FFFFFF;*/
+/*    text-align: center;*/
+/*    padding: 0 15px;*/
+/*    text-transform: capitalize;*/
+/*}*/
 
-#contact_form .contact_form_input {
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
-    border-radius: 25px;
-    width: 90%;
-    margin: 20px auto;
-    padding: 10px 20px;
-    text-transform: capitalize;
-}
+/*#contact_us_header .headerBtn {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin: 60px auto;*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-size: 25px;*/
+/*    line-height: 1.2;*/
+/*    color: #FFFFFF;*/
+/*    text-align: center;*/
+/*    text-transform: capitalize;*/
+/*    background: #06c4ff;*/
+/*    padding: 15px 20px;*/
+/*    border-radius: 15px;*/
+/*    min-width: 336px;*/
 
-#contact_form .contact_form_btn {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1.2;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: capitalize;
-    background: #06c4ff;
-    padding: 15px 20px;
-    border-radius: 25px;
-    min-width: 336px;
-    width: 90%;
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+/*}*/
+
+/*#contact_form {*/
+/*    padding: 120px 0;*/
+/*}*/
+
+/*#contact_form .contact_form_text h3 {*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*    font-weight: 700;*/
+/*    font-size: 32px;*/
+/*    line-height: 1.2;*/
+/*    color: #000A2A;*/
+/*    text-align: left;*/
+/*    padding: 0 15px 30px 0;*/
+/*    text-transform: capitalize;*/
+/*    width: 90%;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*#contact_form .contact_form_text p {*/
+/*    font-family: 'Source Serif Pro', serif;*/
+/*    font-weight: 400;*/
+/*    font-size: 25px;*/
+/*    line-height: 1.2;*/
+/*    color: #000A2A;*/
+/*    text-align: justify;*/
+/*    padding: 0 15px 30px 0;*/
+/*    width: 90%;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*#contact_form .contact_form_input {*/
+/*    font-family: 'Source Serif Pro', serif;*/
+/*    font-weight: 400;*/
+/*    font-size: 18px;*/
+/*    line-height: 1.2;*/
+/*    border-radius: 25px;*/
+/*    width: 90%;*/
+/*    margin: 20px auto;*/
+/*    padding: 10px 20px;*/
+/*    text-transform: capitalize;*/
+/*}*/
+
+/*#contact_form .contact_form_btn {*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-size: 25px;*/
+/*    line-height: 1.2;*/
+/*    color: #FFFFFF;*/
+/*    text-align: center;*/
+/*    text-transform: capitalize;*/
+/*    background: #06c4ff;*/
+/*    padding: 15px 20px;*/
+/*    border-radius: 25px;*/
+/*    min-width: 336px;*/
+/*    width: 90%;*/
+/*    margin: 20px auto;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 
 /*// blog part custom css //*/
 .blog-image {
@@ -2081,4 +2089,115 @@ footer h5 {
 
 .mt_10 {
     margin-top: 10px;
+}
+
+/*// custom contact page css //*/
+#contact_main {
+    background: url("https://avrhub.com/images/AVR-Virtual-Reality.png") no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+    padding: 120px 0;
+
+
+}
+
+.contact_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    /*background: rgba(0, 10, 42, 0.8);*/
+    background: #000A2A;
+    opacity: 0.8;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.contact_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0;
+
+}
+
+.contact_form {
+    z-index: 2;
+    position: relative;
+}
+
+.contact_form_title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 30px 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+}
+
+.contact_form_title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 30px 0;
+    font-family: 'Source Serif Pro', serif;
+    text-transform: capitalize;
+}
+
+.contact_form_input {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 15px !important;
+    border: none;
+}
+
+.contact_us_feature_img {
+    width: 100%;
+    max-width: 551px;
+    height: 100%;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.footer_link_title_span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #06c4ff;
+    text-align: center
+}
+
+.footer_link_title_span i {
+    font-size: 15px;
+}
+
+footer .footer-middle {
+    padding: 20px 0;
+}
+
+.wide-separator-line {
+    margin: 10px 0;
 }
