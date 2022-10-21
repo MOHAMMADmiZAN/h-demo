@@ -116,7 +116,7 @@ a {
     font-size: 14px;
     font-weight: 600;
     color: #fff;
-    line-height: 1.2;
+    line-height: 1.5;
     margin-bottom: 30px;
     text-align: center;
     height: 17px;
@@ -253,7 +253,7 @@ a {
     font-weight: 700;
     font-size: 44px;
     color: #06C4FF;
-    line-height: 1;
+    line-height: 1.5;
     text-align: center;
 
 }
@@ -817,7 +817,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 44px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF;
     text-align: center;
     text-transform: capitalize;
@@ -870,7 +870,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 44px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF;
     text-align: justify;
     padding-bottom: 30px;
@@ -881,7 +881,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF;
     text-align: justify;
     text-transform: capitalize;
@@ -891,7 +891,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Source Serif Pro', serif;
     font-weight: 400;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: rgba(239, 248, 255, 0.9);
     text-align: justify;
     margin-top: 20px;
@@ -917,7 +917,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF;
     text-align: left;
     margin-top: 20px;
@@ -971,7 +971,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Source Serif Pro', serif;
     font-weight: 400;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: justify;
     margin-top: 30px;
@@ -982,7 +982,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF;
     text-align: left;
 
@@ -1012,7 +1012,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
     margin-top: 10px;
@@ -1022,7 +1022,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Source Serif Pro', serif;
     font-weight: 400;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: justify;
     margin-top: 30px;
@@ -1075,7 +1075,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 30px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06c4ff;
     text-align: left;
     position: relative;
@@ -1126,7 +1126,7 @@ nav .nav_item_custom .nav-link {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #FFFFFF;
     background: #06c4ff;
     border-radius: 15px;
@@ -1196,6 +1196,7 @@ nav .nav_item_custom .nav-link {
     font-size: 16px;
     text-align: justify;
     text-transform: none;
+    line-height: 1.5;
 }
 
 
@@ -1205,6 +1206,7 @@ nav .nav_item_custom .nav-link {
     font-size: 16px;
     text-align: left;
     text-transform: capitalize;
+    line-height: 2;
 }
 
 
@@ -1324,7 +1326,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 16px !important;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF !important;
     text-align: left;
 }
@@ -1333,7 +1335,7 @@ footer h5 {
     font-family: 'Source Serif Pro', serif !important;
     font-weight: 500;
     font-size: 16px !important;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
 }
@@ -1342,7 +1344,7 @@ footer h5 {
     font-family: 'Source Serif Pro', serif !important;
     font-weight: 400;
     font-size: 10px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
 }
@@ -1360,7 +1362,7 @@ footer h5 {
     font-family: 'Source Serif Pro', serif !important;
     font-weight: 400;
     font-size: 15px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
     margin: 0 10px;
@@ -1377,7 +1379,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF;
     text-align: left;
 }
@@ -1395,7 +1397,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 32px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
 }
@@ -1404,7 +1406,7 @@ footer h5 {
     font-family: 'Source Serif Pro', serif !important;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
 }
@@ -1448,7 +1450,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 44px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF;
     text-align: center;
     display: inline-block;
@@ -1465,7 +1467,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06c4ff;
     text-align: center;
     margin: 60px auto;
@@ -1494,7 +1496,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 35px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06c4ff;
     text-align: left;
     margin-bottom: 20px;
@@ -1505,7 +1507,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: justify;
     margin-bottom: 20px;
@@ -1516,7 +1518,7 @@ footer h5 {
     font-family: 'Source Serif Pro', serif;
     font-weight: 400;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: justify;
     margin-top: 15px;
@@ -1556,7 +1558,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #FFFFFF;
     text-align: center;
     margin-top: 20px;
@@ -1573,7 +1575,7 @@ footer h5 {
     font-family: 'Source Serif Pro', serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: justify;
     margin-top: 15px;
@@ -1604,7 +1606,7 @@ footer h5 {
 /*    font-family: 'Oswald', sans-serif;*/
 /*    font-weight: 700;*/
 /*    font-size: 55px;*/
-/*    line-height: 1.2;*/
+/*    line-height: 1.5;*/
 /*    color: #06C4FF;*/
 /*    text-align: center;*/
 /*    padding: 120px 0 60px 0;*/
@@ -1625,7 +1627,7 @@ footer h5 {
 /*    font-family: 'Oswald', sans-serif;*/
 /*    font-weight: 700;*/
 /*    font-size: 32px;*/
-/*    line-height: 1.2;*/
+/*    line-height: 1.5;*/
 /*    color: #FFFFFF;*/
 /*    text-align: center;*/
 /*    padding: 0 15px;*/
@@ -1639,7 +1641,7 @@ footer h5 {
 /*    font-family: 'Oswald', sans-serif;*/
 /*    font-weight: 600;*/
 /*    font-size: 25px;*/
-/*    line-height: 1.2;*/
+/*    line-height: 1.5;*/
 /*    color: #FFFFFF;*/
 /*    text-align: center;*/
 /*    text-transform: capitalize;*/
@@ -1659,7 +1661,7 @@ footer h5 {
 /*    font-family: 'Oswald', sans-serif;*/
 /*    font-weight: 700;*/
 /*    font-size: 32px;*/
-/*    line-height: 1.2;*/
+/*    line-height: 1.5;*/
 /*    color: #000A2A;*/
 /*    text-align: left;*/
 /*    padding: 0 15px 30px 0;*/
@@ -1672,7 +1674,7 @@ footer h5 {
 /*    font-family: 'Source Serif Pro', serif;*/
 /*    font-weight: 400;*/
 /*    font-size: 25px;*/
-/*    line-height: 1.2;*/
+/*    line-height: 1.5;*/
 /*    color: #000A2A;*/
 /*    text-align: justify;*/
 /*    padding: 0 15px 30px 0;*/
@@ -1684,7 +1686,7 @@ footer h5 {
 /*    font-family: 'Source Serif Pro', serif;*/
 /*    font-weight: 400;*/
 /*    font-size: 18px;*/
-/*    line-height: 1.2;*/
+/*    line-height: 1.5;*/
 /*    border-radius: 25px;*/
 /*    width: 90%;*/
 /*    margin: 20px auto;*/
@@ -1696,7 +1698,7 @@ footer h5 {
 /*    font-family: 'Oswald', sans-serif;*/
 /*    font-weight: 600;*/
 /*    font-size: 25px;*/
-/*    line-height: 1.2;*/
+/*    line-height: 1.5;*/
 /*    color: #FFFFFF;*/
 /*    text-align: center;*/
 /*    text-transform: capitalize;*/
@@ -1720,7 +1722,7 @@ footer h5 {
     font-family: 'Source Serif Pro', serif !important;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: justify;
     padding: 0 15px 30px 0;
@@ -1730,7 +1732,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif !important;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     text-align: left;
     padding: 0 15px 30px 0;
     text-transform: capitalize;
@@ -1750,7 +1752,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 800;
     font-size: 35px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #06C4FF;
     text-align: Left;
     text-transform: capitalize;
@@ -1789,7 +1791,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
     text-transform: capitalize;
@@ -1812,7 +1814,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 45px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: left;
     text-transform: Uppercase;
@@ -1856,7 +1858,7 @@ footer h5 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #000A2A;
     text-align: center;
     background: rgba(97, 176, 88, 0.3);
@@ -1957,7 +1959,7 @@ footer h5 {
     transform: translateX(-50%);
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -2146,7 +2148,7 @@ footer h5 {
 .contact_form_title h2 {
     font-size: 20px;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #FFFFFF;
     text-align: left;
     margin: 30px 0;
@@ -2157,7 +2159,7 @@ footer h5 {
 .contact_form_title p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #FFFFFF;
     text-align: left;
     margin: 30px 0;
