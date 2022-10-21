@@ -218,7 +218,7 @@ a {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    line-height: 1.5;
+    line-height: 1.5 !important;
 }
 
 .startBtn {
@@ -2123,7 +2123,7 @@ footer h5 {
     background: none !important;
     height: 100%;
     width: 100%;
-    border-radius: 15px;
+
 }
 
 
