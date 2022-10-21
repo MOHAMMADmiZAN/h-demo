@@ -2170,11 +2170,14 @@ footer h5 {
 }
 
 .contact_form_input {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
     border-radius: 15px !important;
     border: none;
+}
+
+.contact_form_input:focus {
+    border: none;
+    outline: none;
 }
 
 .contact_us_feature_img {
