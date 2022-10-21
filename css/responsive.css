@@ -5333,48 +5333,13 @@
 
 
 @media only screen and (max-width: 767px ) {
-    .contact_us_banner h1 {
-        font-size: 35px;
-    }
-
-    .headerSubContent h3 {
-        font-size: 20px;
-    }
-
-    #contact_form .contact_form_text h3 {
-        font-size: 20px;
-    }
-
-    #contact_form .contact_form_text p {
-        font-size: 16px;
-    }
-
-    #contact_form {
-        padding: 60px 0;
+    .contact_overlay {
+        position: relative;
     }
 }
 
 @media only screen and (max-width: 575px) {
 
-    #contact_us_banner {
-        padding: 60px 0;
-    }
-
-    .headerSubContent h3 {
-        padding: 0 10px
-    }
-
-    #contact_us_header .headerBtn {
-        min-width: 260px;
-        font-size: 20px;
-
-    }
-
-
-    #contact_form .contact_form_btn {
-        min-width: 260px;
-        font-size: 20px;
-    }
 
 }
 
