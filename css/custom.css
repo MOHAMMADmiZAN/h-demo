@@ -218,6 +218,7 @@ a {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    line-height: 1.5;
 }
 
 .startBtn {
@@ -2073,6 +2074,7 @@ footer h5 {
     justify-content: center;
     margin: 15px;
     min-width: 253px;
+    line-height: 1.5;
 
 
 }
