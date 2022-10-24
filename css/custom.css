@@ -112,7 +112,7 @@ a {
 }
 
 .homeHeader .animated-text {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: #fff;
@@ -269,7 +269,7 @@ a {
 }
 
 .block_2_text {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -297,7 +297,7 @@ a {
 }
 
 .block_3_text {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -331,7 +331,7 @@ a {
 
 
 .block_4_content_text_p {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -361,7 +361,7 @@ a {
 }
 
 .block_5_slider_text {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
@@ -432,7 +432,7 @@ a {
     width: 100%;
     text-align: left;
     margin: 50px 20px;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #000A2A;
@@ -889,7 +889,7 @@ nav .nav_item_custom .nav-link {
 }
 
 .about_viewz_Content_Title p {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
@@ -969,7 +969,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .sndRow .sndRowContent p {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
@@ -1020,7 +1020,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #about_3rd_block .thrdRow p {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
@@ -1104,7 +1104,7 @@ nav .nav_item_custom .nav-link {
 }
 
 #viewz_solution .itemContentText p {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
@@ -1192,7 +1192,7 @@ nav .nav_item_custom .nav-link {
 }
 
 .footerLinkSection .footer-text {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-align: justify;
@@ -1202,7 +1202,7 @@ nav .nav_item_custom .nav-link {
 
 
 .footerLinkSection a {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-align: left;
@@ -1212,7 +1212,7 @@ nav .nav_item_custom .nav-link {
 
 
 .copyright {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-align: left;
@@ -1333,7 +1333,7 @@ footer h5 {
 }
 
 #blogMain .blog-short-description {
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 500;
     font-size: 16px !important;
     line-height: 1.5;
@@ -1342,7 +1342,7 @@ footer h5 {
 }
 
 #blogMain .blog-date, #blogMain .blog-date a {
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 400;
     font-size: 10px;
     line-height: 1.5;
@@ -1352,7 +1352,7 @@ footer h5 {
 
 #blogMain a {
     color: #000A2A !important;
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #blogMain .pagination {
@@ -1360,7 +1360,7 @@ footer h5 {
 }
 
 .paginationBlog a {
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 400;
     font-size: 15px;
     line-height: 1.5;
@@ -1391,7 +1391,7 @@ footer h5 {
 
 #blog-single a {
     color: #000A2A !important;
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #blog-single .blog-details-text p:nth-child(1) {
@@ -1404,7 +1404,7 @@ footer h5 {
 }
 
 #blog-single .blog-details-text p {
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -1516,7 +1516,7 @@ footer h5 {
 }
 
 #support_block_two .itemContent p {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
@@ -1573,7 +1573,7 @@ footer h5 {
 
 
 #customerSupport .itemContent p {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -1672,7 +1672,7 @@ footer h5 {
 /*}*/
 
 /*#contact_form .contact_form_text p {*/
-/*    font-family: 'Source Serif Pro', serif;*/
+/*    font-family: 'Open Sans', sans-serif;*/
 /*    font-weight: 400;*/
 /*    font-size: 25px;*/
 /*    line-height: 1.5;*/
@@ -1684,7 +1684,7 @@ footer h5 {
 /*}*/
 
 /*#contact_form .contact_form_input {*/
-/*    font-family: 'Source Serif Pro', serif;*/
+/*    font-family: 'Open Sans', sans-serif;*/
 /*    font-weight: 400;*/
 /*    font-size: 18px;*/
 /*    line-height: 1.5;*/
@@ -1720,7 +1720,7 @@ footer h5 {
 }
 
 #blogMain .blog-short-description {
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
@@ -1833,7 +1833,7 @@ footer h5 {
 }
 
 .legalTabContents .tab_content p {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -1867,7 +1867,7 @@ footer h5 {
 
 .privacyTable .tableItemRow {
 
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -2009,7 +2009,7 @@ footer h5 {
     color: #06C4FF;
     text-align: center;
     margin: 30px 0;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
 
 }
@@ -2048,7 +2048,7 @@ footer h5 {
     color: #FFFFFF;
     text-align: center;
     margin: 30px 0;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 20px 5px;
 }
 
@@ -2098,95 +2098,128 @@ footer h5 {
 
 /*// custom contact page css //*/
 #contact_main {
-    background: url("https://avrhub.com/images/AVR-Virtual-Reality.png") no-repeat center;
-    background-size: cover;
     min-height: 100vh;
     height: 100%;
 
 
 }
 
-.contact_overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    /*background: rgba(0, 10, 42, 0.8);*/
-    background: #000A2A;
-    opacity: 0.8;
-}
 
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 100%;
-    width: 100%;
-
-}
-
-
-.mapouter {
-    position: relative;
-    text-align: right;
-    height: 100%;
-    width: 100%;
-}
 
 .contact_row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
     padding: 120px 0;
 
 }
 
-.contact_form {
-    z-index: 2;
-    position: relative;
-}
 
 .contact_form_title h2 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 44px;
+    font-weight: 700;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: #000A2A;
     text-align: left;
-    margin: 30px 0;
+    margin: 10px 0;
     font-family: 'Oswald', sans-serif;
     text-transform: capitalize;
 }
 
 .contact_form_title p {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: #000A2A;
     text-align: left;
-    margin: 30px 0;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
 }
 
 .contact_form_input {
 
     border-radius: 15px !important;
-    border: none;
+    border: 1px solid rgba(42, 42, 42, 0.4);
+}
+
+.contact_form_input::placeholder {
+    color: rgba(42, 42, 42, 0.4);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
 }
 
 .contact_form_input:focus {
-    border: none;
     outline: none;
 }
 
-.contact_us_feature_img {
-    width: 100%;
-    max-width: 551px;
-    height: 100%;
-    position: relative;
-    border-radius: 15px;
-    overflow: hidden;
+.contact_form_btn {
+    background: #06C4FF;
+    border-radius: 25px;
+    font-family: 'open sans', sans-serif;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    min-width: 90%;
+    line-height: 1.5;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+
+}
+
+.contact_form_btn:hover {
+    background: #0c63e4;
+
+}
+
+.contact_content_item {
+    padding: 20px 0;
+}
+
+.contact_content_item_title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    margin: 10px 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+}
+
+.contact_content_item_content a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+.contact_content_item_content a:hover {
+    color: #06C4FF;
+}
+
+.contact_content_item_content p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
 }
 
 .footer_link_title_span {
