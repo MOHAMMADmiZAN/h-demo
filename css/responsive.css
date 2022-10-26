@@ -4769,10 +4769,6 @@
 }
 
 @media only screen and ( max-width: 991px) {
-    #about_header .h1Solid {
-        font-size: 35px;
-    }
-
     .section_title {
         font-size: 35px;
     }
