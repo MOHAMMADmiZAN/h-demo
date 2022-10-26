@@ -5097,9 +5097,9 @@
 /*// responsive home section //*/
 @media only screen and (max-width: 1199px) {
 
-
-    .header_2d {
-        font-size: 20px;
+    .header_text_custom {
+        margin-top: 30px;
+        padding-top: 100px;
     }
 
 
