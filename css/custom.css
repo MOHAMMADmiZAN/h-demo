@@ -173,7 +173,6 @@ a {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 44px;
-    /*background: -webkit-linear-gradient(90deg, #06c4ff, #0683ff 35%, #fa057f);*/
     background: -webkit-linear-gradient(#06c4ff, #0683ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
