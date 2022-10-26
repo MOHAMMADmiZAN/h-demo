@@ -2220,19 +2220,6 @@ footer h5 {
     font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
 }
-
-.footer_link_title_span {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid #06c4ff;
-    text-align: center
-}
-
-.footer_link_title_span i {
-    font-size: 15px;
-}
-
 footer .footer-middle {
     padding: 20px 0;
 }
