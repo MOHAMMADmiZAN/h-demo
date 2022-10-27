@@ -137,7 +137,7 @@ window.onload = function () {
 // footer tab function
     const addTab = (e) => {
         e.preventDefault()
-        window.location.href = `legal?tab=${e.target.id}`
+        window.location.href = `legal.html?tab=${e.target.id}`
 
 
     }

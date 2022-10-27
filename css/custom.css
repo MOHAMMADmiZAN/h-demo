@@ -522,7 +522,7 @@ a {
 .accordion-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .accordion button {
@@ -599,9 +599,9 @@ a {
 }
 
 .accordion .accordion-content p {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 30px;
     text-align: justify;
 }
@@ -910,17 +910,17 @@ nav .nav_item_custom .nav-link {
 }
 
 
-#about_3rd_block {
-    padding: 120px 0;
+#why-viewz {
+    padding: 80px 0;
 }
 
-#about_3rd_block .fstRow .fstRowTitle h3 {
+#why-viewz .fstRow .fstRowTitle h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 35px;
     line-height: 1.5;
     color: #06C4FF;
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     text-transform: uppercase;
 }
@@ -933,42 +933,48 @@ nav .nav_item_custom .nav-link {
     width: 30px;
 }
 
-#about_3rd_block .fstRow {
-    position: relative;
-    padding-left: 20px;
+#why-viewz .fstRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#about_3rd_block .fstRow::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 3px;
-    height: 305px;
-    background: #06c4ff;
+#why-viewz .fstRow h2 {
+    padding-bottom: 15px;
 }
 
-#about_3rd_block .sndRow {
+#why-viewz .fstRow p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: none;
+}
+
+#why-viewz .sndRow {
 
     margin-top: 100px;
 }
 
-#about_3rd_block .sndRow .sndRowImg {
+#why-viewz .sndRow .sndRowImg {
     object-fit: cover;
 }
 
-#about_3rd_block .sndRow .sndRowImg img {
+#why-viewz .sndRow .sndRowImg img {
     max-width: 551px;
     width: 100%;
 }
 
-#about_3rd_block .sndRow .sndRowContent {
+#why-viewz .sndRow .sndRowContent {
     padding: 50px;
     text-align: justify;
 
 }
 
-#about_3rd_block .sndRow .sndRowContent p {
+#why-viewz .sndRow .sndRowContent p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -979,7 +985,7 @@ nav .nav_item_custom .nav-link {
     text-transform: none;
 }
 
-#about_3rd_block .headRow h3 {
+#why-viewz .headRow h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -996,20 +1002,20 @@ nav .nav_item_custom .nav-link {
 
 }
 
-#about_3rd_block .thrdRow {
+#why-viewz .thrdRow {
     padding: 30px;
 }
 
-#about_3rd_block .thrdRow .headRow {
+#why-viewz .thrdRow .headRow {
     width: 50%;
     padding-left: 100px;
 }
 
-#about_3rd_block .thrdRow p {
+#why-viewz .thrdRow p {
     width: 50%;
 }
 
-#about_3rd_block .headRow h2 {
+#why-viewz .headRow h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -1019,7 +1025,7 @@ nav .nav_item_custom .nav-link {
     margin-top: 10px;
 }
 
-#about_3rd_block .thrdRow p {
+#why-viewz .thrdRow p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -1116,10 +1122,15 @@ nav .nav_item_custom .nav-link {
 
 #viewz_solution .itemImg img {
     width: 100%;
-    max-width: 500px;
     border-radius: 50px;
-    margin-top: 120px;
+    margin-top: 200px;
 
+}
+
+#viewz_solution .itemImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #viewz_solution .thrdRowBtn {
@@ -2071,11 +2082,35 @@ footer h5 {
     margin: 15px;
     min-width: 253px;
     line-height: 1.5;
+    transition: 0.4s;
 
 
 }
 
 .blueOutlineBtn:hover {
+    background: #06C4FF;
+    color: #000A2A;
+}
+
+.blueFillBtn {
+    background: #06C4FF;
+    border: 1px solid #06c4ff;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    min-width: 253px;
+    line-height: 1.5;
+    transition: 0.4s;
+}
+
+.blueFillBtn:hover {
     background: #06C4FF;
     color: #000A2A;
 }
