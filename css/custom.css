@@ -1534,7 +1534,12 @@ footer h5 {
 
 #support_block_two .itemImage {
     width: 100%;
-    max-width: 600px;
+    max-width: 551px;
+
+}
+
+#support_block_two .itemImage img {
+    border-radius: 30px;
 }
 
 #viewz_tutorials {
