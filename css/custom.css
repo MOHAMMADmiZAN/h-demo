@@ -2104,8 +2104,9 @@ footer h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 15px;
+    margin: 15px auto;
     min-width: 253px;
+    max-width: 253px;
     line-height: 1.5;
     transition: 0.4s;
 }
