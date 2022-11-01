@@ -1,39 +1,32 @@
 // preloader
 window.onload = function () {
 
-    if (document.getElementById('preloader')){
-        document.getElementById('preloader').style.display = 'none';
-    }
-
+    setTimeout(() => {
+        if (document.getElementById('preloader')) {
+            document.getElementById('preloader').style.display = 'none';
+        }
+    }, 500)
 
 
 // /// variables////
-// const win = $(window);
-//     const html_body = $('html, body');
-// const stk = $('.st-menu');
-// const b2b = $('.back-top');
-// const c_stk = 'stiky';
-// const bdy = $('body');
-//
-//
-// //stiky-header//
-// win.scroll(() => win.scrollTop() > 300 ? stk.addClass(c_stk) : stk.removeClass(c_stk));
-//
-//
+    const win = $(window);
+    const html_body = $('html, body');
+
+
 // // animation scroll js
-// $('.text a').on('click', function () {
-//     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-//         let target = $(this.hash);
-//         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-//         if (target.length) {
-//             html_body.animate({
-//                 scrollTop: target.offset().top - 0
-//             }, 1500);
-//             return false;
-//         }
-//
-//     }
-// });
+    $('a').on('click', function () {
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+            let target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                html_body.animate({
+                    scrollTop: target.offset().top - 0
+                }, 1500);
+                return false;
+            }
+
+        }
+    });
 
     // accordion-start
     const items = document.querySelectorAll(".accordion button");

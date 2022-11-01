@@ -1280,20 +1280,7 @@ footer h5 {
     top: 0;
 }
 
-/*.parallaxSection{*/
-/*    background-attachment: fixed;*/
-/*    background-position: center;*/
-/*    background-size: cover;*/
-/*    height: 100vh;*/
-/*    width: 100%;*/
-/*    color: #FFFFFF;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-/*.parallaxBackgroundImg{*/
-/*    background-image: url("../images/parallax-img6.jpg");*/
-/*}*/
+
 .show {
     display: block;
     background: #000A2A !important;
@@ -1684,7 +1671,7 @@ footer h5 {
 .legalTabItems .tab {
     padding: 30px 0;
     font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
     color: #000A2A;
@@ -1724,6 +1711,7 @@ footer h5 {
 
 .tabItemActive {
     font-weight: 700 !important;
+    color: #06C4FF !important;
 }
 
 .legalTabContents .tab_content p {
