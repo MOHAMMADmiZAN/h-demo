@@ -1606,125 +1606,7 @@ footer h5 {
 }
 
 
-/*// contact us css//*/
-/*#contact_us_header {*/
-/*    padding: 120px 0;*/
-/*    height: 100vh;*/
-/*    background: url('/img/SVG/contact_bg.svg') no-repeat;*/
-/*    background-size: cover*/
 
-/*}*/
-
-/*#contact_us_banner h1 {*/
-/*    font-family: 'Oswald', sans-serif;*/
-/*    font-weight: 700;*/
-/*    font-size: 55px;*/
-/*    line-height: 1.5;*/
-/*    color: #06C4FF;*/
-/*    text-align: center;*/
-/*    padding: 120px 0 60px 0;*/
-
-
-/*}*/
-
-/*.ctaBtns {*/
-/*    flex-wrap: wrap;*/
-/*}*/
-
-/*.headerSubContent {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*.headerSubContent h3 {*/
-/*    font-family: 'Oswald', sans-serif;*/
-/*    font-weight: 700;*/
-/*    font-size: 32px;*/
-/*    line-height: 1.5;*/
-/*    color: #FFFFFF;*/
-/*    text-align: center;*/
-/*    padding: 0 15px;*/
-/*    text-transform: capitalize;*/
-/*}*/
-
-/*#contact_us_header .headerBtn {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    margin: 60px auto;*/
-/*    font-family: 'Oswald', sans-serif;*/
-/*    font-weight: 600;*/
-/*    font-size: 25px;*/
-/*    line-height: 1.5;*/
-/*    color: #FFFFFF;*/
-/*    text-align: center;*/
-/*    text-transform: capitalize;*/
-/*    background: #06c4ff;*/
-/*    padding: 15px 20px;*/
-/*    border-radius: 15px;*/
-/*    min-width: 336px;*/
-
-
-/*}*/
-
-/*#contact_form {*/
-/*    padding: 120px 0;*/
-/*}*/
-
-/*#contact_form .contact_form_text h3 {*/
-/*    font-family: 'Oswald', sans-serif;*/
-/*    font-weight: 700;*/
-/*    font-size: 32px;*/
-/*    line-height: 1.5;*/
-/*    color: #000A2A;*/
-/*    text-align: left;*/
-/*    padding: 0 15px 30px 0;*/
-/*    text-transform: capitalize;*/
-/*    width: 90%;*/
-/*    margin: 0 auto;*/
-/*}*/
-
-/*#contact_form .contact_form_text p {*/
-/*    font-family: 'Open Sans', sans-serif;*/
-/*    font-weight: 400;*/
-/*    font-size: 25px;*/
-/*    line-height: 1.5;*/
-/*    color: #000A2A;*/
-/*    text-align: justify;*/
-/*    padding: 0 15px 30px 0;*/
-/*    width: 90%;*/
-/*    margin: 0 auto;*/
-/*}*/
-
-/*#contact_form .contact_form_input {*/
-/*    font-family: 'Open Sans', sans-serif;*/
-/*    font-weight: 400;*/
-/*    font-size: 18px;*/
-/*    line-height: 1.5;*/
-/*    border-radius: 25px;*/
-/*    width: 90%;*/
-/*    margin: 20px auto;*/
-/*    padding: 10px 20px;*/
-/*    text-transform: capitalize;*/
-/*}*/
-
-/*#contact_form .contact_form_btn {*/
-/*    font-family: 'Oswald', sans-serif;*/
-/*    font-weight: 600;*/
-/*    font-size: 25px;*/
-/*    line-height: 1.5;*/
-/*    color: #FFFFFF;*/
-/*    text-align: center;*/
-/*    text-transform: capitalize;*/
-/*    background: #06c4ff;*/
-/*    padding: 15px 20px;*/
-/*    border-radius: 25px;*/
-/*    min-width: 336px;*/
-/*    width: 90%;*/
-/*    margin: 20px auto;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
 
 /*// blog part custom css //*/
 .blog-image {
@@ -2298,4 +2180,10 @@ footer .footer-middle {
     text-align: center;
     margin: 60px auto;
     text-transform: capitalize;
+}
+
+.blog-comment .comment-reply {
+    background: #06c4ff;
+    font-size: 16px;
+
 }
