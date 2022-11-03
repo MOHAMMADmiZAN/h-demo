@@ -4755,6 +4755,11 @@
         padding: 0 50px 50px 50px;
     }
 
+    #viewz_solution .itemImg img {
+        height: auto;
+
+    }
+
 }
 
 @media only screen and (max-width: 1070px) {

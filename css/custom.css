@@ -1106,7 +1106,6 @@ nav .nav_item_custom .nav-link {
 
 #viewz_solution .itemContentRow {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -1125,6 +1124,8 @@ nav .nav_item_custom .nav-link {
 #viewz_solution .itemImg img {
     width: 100%;
     border-radius: 50px;
+    height: 92%;
+    margin-top: 60px;
 
 }
 
@@ -1132,6 +1133,7 @@ nav .nav_item_custom .nav-link {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 #viewz_solution .thrdRowBtn {
