@@ -513,7 +513,7 @@ a {
     border-bottom: 1px solid #06c4ff;
     border-right: none;
     border-left: none;
-    /*box-shadow: 5px 5px 24px -17px #000A2A;*/
+    box-shadow: 5px 5px 24px -17px #000A2A;
     margin-bottom: 20px;
     padding: 0 30px;
 }
