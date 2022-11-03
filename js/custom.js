@@ -14,19 +14,19 @@ window.onload = function () {
 
 
 // // animation scroll js
-//     $('a').on('click', function () {
-//         if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-//             let target = $(this.hash);
-//             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-//             if (target.length) {
-//                 html_body.animate({
-//                     scrollTop: target.offset().top - 0
-//                 }, 1500);
-//                 return false;
-//             }
-//
-//         }
-//     });
+    $('a').on('click', function () {
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+            let target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                html_body.animate({
+                    scrollTop: target.offset().top - 80
+                }, 10);
+                return false;
+            }
+
+        }
+    });
 
     // accordion-start
     const items = document.querySelectorAll(".accordion button");
