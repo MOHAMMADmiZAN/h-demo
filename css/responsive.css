@@ -5330,11 +5330,8 @@
         width: 90%;
     }
 
-    .pricing-action {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
+    .free_plan {
+        margin-bottom: 120px;
     }
 
 }
