@@ -195,43 +195,106 @@ window.onload = function () {
 // solution section read more button
 
 
- //    const priceMonth = document.querySelector('.price_month');
- //    const priceYear = document.querySelector('.price_annual');
- //
- //    priceYear.click();
- //   const priceYearStatus = true;
- //
- // const  priceMonthFunc = () => {
- //       priceYear.style.backgroundColor = 'transparent';
- //     priceYear.style.color = '#06C4FF';
- //       priceMonth.style.backgroundColor = '#06C4FF';
- //         priceMonth.style.color = '#fff';
- //
- //
- //       document.querySelector('.individuals').innerHTML = ` <span class="price-unit">€</span>36<span class="price-tenure">/mo</span>`
- //       document.querySelector('.startup').innerHTML = ` <span class="price-unit">€</span>124<span class="price-tenure">/mo</span>`
- //       document.querySelector('.sme').innerHTML = ` <span class="price-unit">€</span>211<span class="price-tenure">/mo</span>`
- //       document.querySelector('.business').innerHTML = ` <span class="price-unit">€</span>375<span class="price-tenure">/mo</span>`
- //   }
- //
- //
- //   const priceYearFunc = () => {
- //       priceMonth.style.backgroundColor = 'transparent';
- //         priceMonth.style.color = '#06C4FF';
- //       priceYear.style.backgroundColor = '#06C4FF';
- //         priceYear.style.color = '#fff';
- //       document.querySelector('.individuals').innerHTML = ` <span class="price-unit">€</span>29<span class="price-tenure">/mo</span>`
- //       document.querySelector('.startup').innerHTML = ` <span class="price-unit">€</span>99<span class="price-tenure">/mo</span>`
- //       document.querySelector('.sme').innerHTML = ` <span class="price-unit">€</span>169<span class="price-tenure">/mo</span>`
- //       document.querySelector('.business').innerHTML = ` <span class="price-unit">€</span>299<span class="price-tenure">/mo</span>`
- //   }
- //   priceYearFunc();
- //
- //    priceMonth.addEventListener('click',priceMonthFunc)
- //    priceYear.addEventListener('click', priceYearFunc)
- //
+    const priceMonth = document.querySelector('.price_month');
+    const priceYear = document.querySelector('.price_annual');
+    const free_plan = document.querySelector('.free_plan');
+    const individual_plan = document.querySelector('.individual_plan');
+    const startup_plan = document.querySelector('.startup_plan');
+    const sme_plan = document.querySelector('.sme_plan');
+    const enterprise_plan = document.querySelector('.enterprise_plan');
+    const business_plan = document.querySelector('.business_plan');
+
+    const priceYearFunc = () => {
+        priceMonth.style.backgroundColor = 'transparent';
+        priceMonth.style.color = '#06C4FF';
+        priceYear.style.backgroundColor = '#06C4FF';
+        priceYear.style.color = '#fff';
+        free_plan.innerHTML =
+            ` <h6 class="plan_title">Annually payment:</h6>
+              <div class="plan_ar">⁓AR Experiences</div>
+               <div class="plan_price">0$/mo</div>
+            `
+        individual_plan.innerHTML =
+            `
+              <h6 class="plan_title">Annually payment:</h6>
+              <div class="plan_ar"><span class="font_30">50</span>AR Experiences</div>
+              <div class="plan_price"><span class="font_30">29</span>$/mo- <span class="font_30">348</span>$/yr</div>
+            `
+        startup_plan.innerHTML =
+            `
+             <h6 class="plan_title">Annually payment:</h6>
+             <div class="plan_ar"><span class="font_30">200</span>AR Experiences</div>
+             <div class="plan_price"><span class="font_30">99</span>$/mo- <span class="font_30">1188</span>$/yr</div>
+            `
+        sme_plan.innerHTML =
+            `
+             <h6 class="plan_title">Annually payment:</h6>
+             <div class="plan_ar"><span class="font_30">500</span>AR Experiences</div>
+             <div class="plan_price"><span class="font_30">169</span>$/mo- <span class="font_30">2028</span>$/yr</div>
+            `
+        business_plan.innerHTML =
+            `
+             <h6 class="plan_title">Annually payment: </h6>
+             <div class="plan_ar"><span class="font_30">1500</span>AR Experiences</div>
+             <div class="plan_price"><span class="font_30">299</span>$/mo- <span class="font_30">3588</span>$/yr</div>
+            `
+        enterprise_plan.innerHTML =
+            `
+            <h6 class="plan_title">Annually payment:</h6>
+            <div class="plan_ar">⁓AR Experiences</div>
+            <div class="plan_price">Custom$/mo</div>
+            `
+
+    }
+
+    const priceMonthFunc = () => {
+        priceYear.style.backgroundColor = 'transparent';
+        priceYear.style.color = '#06C4FF';
+        priceMonth.style.backgroundColor = '#06C4FF';
+        priceMonth.style.color = '#fff';
+        free_plan.innerHTML =
+            `  
+            <h6 class="plan_title">Monthly payment:</h6>
+            <div class="plan_ar"><span class="font_30">3</span>AR Experiences</div>
+            <div class="plan_price">0$/mo</div>
+           `
+        individual_plan.innerHTML =
+            `
+             <h6 class="plan_title">Monthly payment:</h6>
+             <div class="plan_ar"><span class="font_30">25</span>AR Experiences</div>
+             <div class="plan_price"><span class="font_30">36</span>$/mo</div>
+           `
+        startup_plan.innerHTML =
+            `
+              <h6 class="plan_title">Monthly payment:</h6>
+              <div class="plan_ar"><span class="font_30">100</span>AR Experiences</div>
+              <div class="plan_price"><span class="font_30">124</span>$/mo</div>
+            `
+        sme_plan.innerHTML =
+            `
+              <h6 class="plan_title">Monthly payment:</h6>
+              <div class="plan_ar"><span class="font_30">250</span>AR Experiences</div>
+              <div class="plan_price"><span class="font_30">211</span>$/mo</div>
+            `
+        business_plan.innerHTML =
+            `
+              <h6 class="plan_title">Monthly payment:</h6>
+              <div class="plan_ar"><span class="font_30">500</span>AR Experiences</div>
+              <div class="plan_price"><span class="font_30">375</span>$/mo</div>
+            `
+        enterprise_plan.innerHTML =
+            `
+            <h6 class="plan_title">Monthly payment:</h6>
+            <div class="plan_ar">⁓AR Experiences</div>
+            <div class="plan_price">Custom$/mo</div>
+            `
+    }
 
 
+    priceYearFunc();
+
+    priceMonth.addEventListener('click', priceMonthFunc)
+    priceYear.addEventListener('click', priceYearFunc)
 
 
 // iframe element
