@@ -5425,6 +5425,23 @@
         font-size: 16px;
     }
 
+    #customerSupport .itemContentTitle .section_title {
+        text-align: center;
+    }
+
+    #customerSupport .blueFillBtn {
+        margin: 20px auto;
+    }
+
+    #customerSupport .itemContent p {
+        text-align: center;
+    }
+
+    .accordion button .icon {
+        right: -25px;
+    }
+
+
     #viewz_tutorials {
         padding: 60px 0;
     }
