@@ -1382,42 +1382,6 @@ footer h5 {
 
 }
 
-#blog-single .blog-details-headline {
-    font-family: 'Oswald', sans-serif !important;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.5;
-    color: #06C4FF;
-    text-align: left;
-}
-
-.bg-darkBlue {
-    background: #000A2A !important;
-}
-
-#blog-single a {
-    color: #000A2A !important;
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-#blog-single .blog-details-text p:nth-child(1) {
-    font-family: 'Oswald', sans-serif !important;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.5;
-    color: #000A2A;
-    text-align: left;
-}
-
-#blog-single .blog-details-text p {
-    font-family: 'Open Sans', sans-serif !important;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #000A2A;
-    text-align: left;
-}
-
 .fqeBtn {
     min-width: 150px !important;
     height: 100%;
@@ -2196,14 +2160,9 @@ footer .footer-middle {
 .blog-single-img {
     width: 100%;
     height: 100%;
-    text-align: center;
 
 }
 
-.blog-single-img img {
-    max-height: 748px;
-    max-width: 1516px;
-}
 
 .blog_single_title h2 {
     font-size: 44px;
@@ -2214,5 +2173,467 @@ footer .footer-middle {
     margin: 10px 0;
     font-family: 'Oswald', sans-serif;
     text-transform: capitalize;
-    padding: 20px 20px 20px 120px;
+    padding: 15px;
+}
+
+.blog_single_post {
+    align-items: center;
+    padding: 0 15px 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.blog_single_post p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+
+
+}
+
+.blog_single_post h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #06c4ff;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 10px;
+
+
+}
+
+.blog_single_content p {
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.blog_single_content_title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.text_blue {
+    color: #06c4ff !important;
+}
+
+.blog_single_content_img {
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.quote_text {
+    background: #06c4ff;
+    padding: 80px;
+    margin: 15px;
+
+}
+
+.quote_text h3 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+}
+
+.blog_single_content_tags h6 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    padding: 10px 15px;
+
+}
+
+.blog_single_content_tags_list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+.blog_single_content_tags_list a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #06c4ff;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 10px 10px 10px 0;
+
+}
+
+.blog_author {
+    padding: 20px;
+    background: rgba(6, 196, 255, 0.2);
+    margin: 15px;
+
+}
+
+.blog_auth {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.blog_auth_img {
+    width: 90px;
+    height: 90px;
+}
+
+.blog_auth_img img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+
+}
+
+.blog_auth_text h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000A2A;
+    padding: 10px 5px 5px 15px;
+}
+
+.single_blog_share {
+    text-align: center;
+    padding: 80px 15px;
+    border-bottom: 2px solid #06c4ff;
+}
+
+.single_blog_share ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.single_blog_share ul li a {
+    font-size: 45px;
+}
+
+.blog_comment_item_text {
+    padding-left: 20px;
+}
+
+.blog_comment_item {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.blog_comment_section h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.blog_comment_item_img {
+    margin: 15px 0 0 15px;
+}
+
+.blog_comment_item_img img {
+    min-width: 90px;
+    min-height: 90px;
+    max-width: 90px;
+    max-height: 90px;
+    background-size: cover;
+}
+
+.blog_comment_form {
+    margin-top: 50px;
+}
+
+.blog_comment_form h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.blog_comment_form input, .blog_comment_form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.blog_comment_form input::placeholder, .blog_comment_form textarea::placeholder {
+    text-transform: capitalize;
+}
+
+.blog_comment_replay_btn {
+    background: #06c4ff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    margin: 15px;
+
+}
+
+.blog_comment_item_text p {
+    margin-bottom: 20px;
+}
+
+.blog_search form {
+    position: relative;
+}
+
+.blog_search form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.blog_search form button {
+    background: transparent;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blog_search form button i {
+    font-size: 25px;
+    color: #06c4ff;
+}
+
+.blog_category h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.blog_category .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+.blog_category .item a {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.blog_category .item p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #06c4ff;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 3px;
+    padding: 0;
+}
+
+.blog_popular_post h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.blog_popular_post .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+.blog_popular_post_text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.blog_popular_post_text span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 3px;
+    padding: 0;
+    color: #000A2A;
+}
+
+.blog_tag_cloud {
+    margin-top: 30px;
+}
+
+.blog_tag_cloud h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.blog_tag_cloud .items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+.blog_tag_cloud .items a {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px;
+    color: #06c4ff;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 10px;
+    border: 1px solid #06c4ff;
+    display: inline-block;
+}
+
+.blog_recent_comment {
+    margin-top: 30px;
+}
+
+.blog_recent_comment h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.blog_recent_comment .item {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.blog_recent_comment .item span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 3px;
+    padding: 0;
+    color: #000A2A;
+}
+
+.blog_archive {
+    margin-top: 30px;
+}
+
+.blog_archive h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.blog_archive .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+.blog_archive .item a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000A2A;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+}
+
+.blog_archive .item p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #06c4ff;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 3px;
+    padding: 0;
 }
