@@ -4923,7 +4923,8 @@
     }
 
     #why-viewz .thrdRow p {
-        padding-left: 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         margin: 10px 0;
     }
 
@@ -4995,6 +4996,7 @@
 
     #why-viewz .thrdRow p {
         padding-left: 0;
+        padding-right: 0;
         margin: 10px 0;
     }
 
