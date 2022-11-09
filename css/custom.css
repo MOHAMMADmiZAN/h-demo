@@ -201,7 +201,7 @@ a {
 }
 
 .gradiant_button_custom {
-    width: 233px;
+    min-width: 253px;
     max-width: 233px;
     background: linear-gradient(90deg, #06c4ff, #0683ff 35%, #fa057f);
     border-radius: 15px;
@@ -214,15 +214,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 15px auto;
     line-height: 1.5 !important;
 }
 
-.startBtn {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .gradiant_button_custom:hover {
     border: none;
@@ -2647,4 +2643,8 @@ footer .footer-middle {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.margin-x-20 {
+    margin: 0 20px;
 }
