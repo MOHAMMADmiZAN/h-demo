@@ -5367,6 +5367,14 @@
     #support_block_two .itemContent h2 {
         font-size: 25px;
     }
+
+    #support_block_two .itemImage {
+        display: none;
+    }
+
+    #support_block_two .smallItemImage {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 767px) {
