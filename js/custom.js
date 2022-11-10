@@ -294,11 +294,22 @@ window.onload = function () {
     document.querySelectorAll('.price_box_custom').forEach((item) => {
         item.addEventListener('mouseover', () => {
             for (let child of item.children) {
-                child.classList.forEach((item) => {
-                    console.log(item)
-                })
+                for (let child1 of child.children) {
+                    if (child1.classList.contains('plan_ar')) {
+                        child1.children[1].setAttribute('src', '/img/ar-ico-purple.png')
+                    }
+                }
             }
-            console.dir()
+
+        })
+        item.addEventListener('mouseout', () => {
+            for (let child of item.children) {
+                for (let child1 of child.children) {
+                    if (child1.classList.contains('plan_ar')) {
+                        child1.children[1].setAttribute('src', '/img/ar-ico.png')
+                    }
+                }
+            }
 
         })
 
