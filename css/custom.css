@@ -274,7 +274,7 @@ a {
 
 .block_3 {
     margin-top: 0;
-    padding: 70px 0;
+    padding: 80px 0;
     background: #000A2A;
 }
 
@@ -350,13 +350,13 @@ a {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     color: #06c4ff;
-    font-size: 35px;
+    font-size: 25px;
     text-transform: capitalize;
 }
 
 .block_5_slider_text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     color: #FFFFFF;
@@ -1304,7 +1304,7 @@ footer h5 {
 .carousel-control-prev, .carousel-control-next {
     width: 30px;
     height: 30px;
-    background: #FFFFFF;
+    background: #06c4ff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -1312,6 +1312,10 @@ footer h5 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.block_5 i {
+    color: #000A2A !important;
 }
 
 
