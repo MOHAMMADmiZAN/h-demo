@@ -204,6 +204,7 @@ window.onload = function () {
     const enterprise_plan = document.querySelector('.enterprise_plan');
     const business_plan = document.querySelector('.business_plan');
 
+
     const priceYearFunc = () => {
         priceMonth.style.backgroundColor = 'transparent';
         priceMonth.style.color = '#06C4FF';
@@ -290,6 +291,18 @@ window.onload = function () {
     priceMonth.addEventListener('click', priceMonthFunc)
     priceYear.addEventListener('click', priceYearFunc)
 
+    document.querySelectorAll('.price_box_custom').forEach((item) => {
+        item.addEventListener('mouseover', () => {
+            for (let child of item.children) {
+                child.classList.forEach((item) => {
+                    console.log(item)
+                })
+            }
+            console.dir()
+
+        })
+
+    })
 
 // iframe element
 //     (() => {

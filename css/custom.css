@@ -226,7 +226,6 @@ a {
 }
 
 
-
 .gradiant_button_custom:hover {
     border: none;
     color: white !important;
@@ -636,9 +635,7 @@ a {
     border-top: 2px solid #fa057f;
 }
 
-.price_box_custom:hover .pricing-features ul li {
-    color: #FFFFFF;
-}
+
 
 .pricing-box:hover {
     background: linear-gradient(0deg, #fa057f, rgba(250, 5, 127, 0.05) 75%, #000A2A);
@@ -660,7 +657,7 @@ a {
     min-width: 161px;
     background: #fa057f;
     border-radius: 25px;
-    border: none;
+    border: 1px solid #FFFFFF;
     font-family: 'Oswald', sans-serif;
     color: white;
 }
@@ -672,14 +669,17 @@ a {
 .pricing-action .blue_btn_custom::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
     background: #06C4FF;
-    z-index: -1;
-    border-radius: 30px;
     transition: all 0.3s ease-in-out;
+}
+
+.price_box_custom:hover .pricing-action .blue_btn_custom::before {
+    background: #fa057f;
 }
 
 .blue_btn_custom {
@@ -694,6 +694,9 @@ a {
     justify-content: center;
     align-items: center;
     min-width: 161px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 
 }
 
@@ -1914,8 +1917,6 @@ footer h5 {
 }
 
 
-
-
 .plan_ex {
     font-size: 16px;
     font-weight: 700;
@@ -1930,9 +1931,6 @@ footer h5 {
     color: #ff0084;
 }
 
-.price_box_custom:hover {
-    background: #ff0084;
-}
 
 .blueOutlineBtn {
     background: transparent;
@@ -2698,6 +2696,7 @@ footer .footer-middle {
 .font_51 {
     font-size: 51px;
     font-family: "Oswald", sans-serif;
+    padding-right: 10px;
 }
 
 .font_27 {
