@@ -210,39 +210,37 @@ window.onload = function () {
         priceYear.style.backgroundColor = '#06C4FF';
         priceYear.style.color = '#fff';
         free_plan.innerHTML =
-            ` <h6 class="plan_title">Annually payment:</h6>
-              <div class="plan_ar">⁓AR Experiences</div>
-               <div class="plan_price">0$/mo</div>
+            ` 
+              <div class="plan_ar"><span class="font_35">3</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+              
             `
         individual_plan.innerHTML =
             `
-              <h6 class="plan_title">Annually payment:</h6>
-              <div class="plan_ar"><span class="font_30">50</span>AR Experiences</div>
-              <div class="plan_price"><span class="font_30">29</span>$/mo- <span class="font_30">348</span>$/yr</div>
+               <div class="plan_price"><span class="font_51">29</span>$/mo</div>
+              <div class="plan_ar"><span class="font_35">50</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+             
             `
         startup_plan.innerHTML =
             `
-             <h6 class="plan_title">Annually payment:</h6>
-             <div class="plan_ar"><span class="font_30">200</span>AR Experiences</div>
-             <div class="plan_price"><span class="font_30">99</span>$/mo- <span class="font_30">1188</span>$/yr</div>
+            <div class="plan_price"><span class="font_51">99</span>$/mo</div>
+
+             <div class="plan_ar"><span class="font_35">200</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
             `
         sme_plan.innerHTML =
             `
-             <h6 class="plan_title">Annually payment:</h6>
-             <div class="plan_ar"><span class="font_30">500</span>AR Experiences</div>
-             <div class="plan_price"><span class="font_30">169</span>$/mo- <span class="font_30">2028</span>$/yr</div>
+             <div class="plan_price"><span class="font_51">169</span>$/mo</div>
+
+             <div class="plan_ar"><span class="font_35">500</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
             `
         business_plan.innerHTML =
             `
-             <h6 class="plan_title">Annually payment: </h6>
-             <div class="plan_ar"><span class="font_30">1500</span>AR Experiences</div>
-             <div class="plan_price"><span class="font_30">299</span>$/mo- <span class="font_30">3588</span>$/yr</div>
+             <div class="plan_price"><span class="font_51">299</span>$/mo</div>
+             <div class="plan_ar"><span class="font_35">1500</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+             
             `
         enterprise_plan.innerHTML =
             `
-            <h6 class="plan_title">Annually payment:</h6>
-            <div class="plan_ar">⁓AR Experiences</div>
-            <div class="plan_price">Custom$/mo</div>
+            <div class="plan_price">Custom</div>
             `
 
     }
@@ -254,39 +252,35 @@ window.onload = function () {
         priceMonth.style.color = '#fff';
         free_plan.innerHTML =
             `  
-            <h6 class="plan_title">Monthly payment:</h6>
-            <div class="plan_ar"><span class="font_30">3</span>AR Experiences</div>
-            <div class="plan_price">0$/mo</div>
+            <div class="plan_ar"><span class="font_35">0</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+            
            `
         individual_plan.innerHTML =
             `
-             <h6 class="plan_title">Monthly payment:</h6>
-             <div class="plan_ar"><span class="font_30">25</span>AR Experiences</div>
-             <div class="plan_price"><span class="font_30">36</span>$/mo</div>
+             <div class="plan_price"><span class="font_51">36</span>$/mo</div>
+             <div class="plan_ar"><span class="font_35">25</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+             
            `
         startup_plan.innerHTML =
             `
-              <h6 class="plan_title">Monthly payment:</h6>
-              <div class="plan_ar"><span class="font_30">100</span>AR Experiences</div>
-              <div class="plan_price"><span class="font_30">124</span>$/mo</div>
+             <div class="plan_price"><span class="font_51">124</span>$/mo</div>
+             <div class="plan_ar"><span class="font_35">100</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+              
             `
         sme_plan.innerHTML =
-            `
-              <h6 class="plan_title">Monthly payment:</h6>
-              <div class="plan_ar"><span class="font_30">250</span>AR Experiences</div>
-              <div class="plan_price"><span class="font_30">211</span>$/mo</div>
+            `  <div class="plan_price"><span class="font_51">211</span>$/mo</div>
+              <div class="plan_ar"><span class="font_35">250</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+              
             `
         business_plan.innerHTML =
             `
-              <h6 class="plan_title">Monthly payment:</h6>
-              <div class="plan_ar"><span class="font_30">500</span>AR Experiences</div>
-              <div class="plan_price"><span class="font_30">375</span>$/mo</div>
+              <div class="plan_price"><span class="font_51">375</span>$/mo</div>
+              <div class="plan_ar"><span class="font_35">500</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+              
             `
         enterprise_plan.innerHTML =
             `
-            <h6 class="plan_title">Monthly payment:</h6>
-            <div class="plan_ar">⁓AR Experiences</div>
-            <div class="plan_price">Custom$/mo</div>
+           <div class="plan_price">Custom</div>
             `
     }
 

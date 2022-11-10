@@ -124,11 +124,18 @@ a {
 }
 
 .a-product {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 450px
+    display: flex;
+    flex-direction: column;
 
+}
+
+.a-product a {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.a-product a img {
+    max-width: 150px;
 }
 
 
@@ -430,9 +437,13 @@ a {
     font-weight: 400;
     font-size: 20px;
     color: #000A2A;
-    border-left: 1px solid #06C4FF;
-    padding-left: 20px;
+    display: flex;
 
+}
+
+.benefitContentItem i {
+    padding-top: 4px;
+    padding-right: 10px;
 
 }
 
@@ -654,6 +665,22 @@ a {
     color: white;
 }
 
+.pricing-action .blue_btn_custom {
+    position: relative;
+}
+
+.pricing-action .blue_btn_custom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #06C4FF;
+    z-index: -1;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
 
 .blue_btn_custom {
     padding: 10px;
@@ -1867,32 +1894,27 @@ footer h5 {
 }
 
 .plan_ar, .plan_price {
-    font-size: 16px;
+    font-size: 27px;
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
     margin: 30px 0;
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .plan_content {
     position: relative;
+    padding: 60px 0 80px;
 
 
 }
 
-.plan_content:after {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 1px;
-    background: #06c4ff;
 
-}
+
 
 .plan_ex {
     font-size: 16px;
@@ -1908,7 +1930,7 @@ footer h5 {
     color: #ff0084;
 }
 
-.price_box_custom:hover .plan_content:after {
+.price_box_custom:hover {
     background: #ff0084;
 }
 
@@ -1965,8 +1987,10 @@ footer h5 {
     font-size: 35px;
 }
 
-.font_30 {
-    font-size: 30px;
+.font_35 {
+    font-size: 35px;
+    padding-right: 10px;
+    font-weight: 400;
 }
 
 .mt_10 {
@@ -2651,4 +2675,32 @@ footer .footer-middle {
 
 .margin-x-20 {
     margin: 0 20px;
+}
+
+.margin-y-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.price_promo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #06c4ff;
+    text-align: center;
+}
+
+.border_white {
+    border: 1px solid #fff;
+}
+
+.font_51 {
+    font-size: 51px;
+    font-family: "Oswald", sans-serif;
+}
+
+.font_27 {
+    font-size: 27px;
+    font-family: "Oswald", sans-serif;
 }
