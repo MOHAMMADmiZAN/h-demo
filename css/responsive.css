@@ -4963,12 +4963,6 @@
 
 }
 
-@media (min-width: 375px) and (max-width: 575px) {
-    .h1Solid {
-        text-align: left !important;
-        padding: 60px 0 30px 35px !important;
-    }
-}
 
 @media (min-width: 320px) and (max-width: 575px) {
     .h1Solid {
