@@ -5331,6 +5331,10 @@
         width: 90%;
     }
 
+    .free_plan, .enterprise_plan {
+        padding-bottom: 120px !important;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
