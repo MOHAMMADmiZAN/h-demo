@@ -5603,6 +5603,10 @@
     .single_blog_share {
         padding: 30px 15px;
     }
+
+    .blog_auth_text h6, .blog_comment_section h6 {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
