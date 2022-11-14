@@ -216,7 +216,7 @@ a {
     font-family: 'Oswald', sans-serif;
     padding: 10px 15px;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer !important;
     display: flex;
     align-items: center;
@@ -696,7 +696,7 @@ a {
     min-width: 161px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
@@ -1939,7 +1939,7 @@ footer h5 {
     color: #FFFFFF;
     font-family: 'Oswald', sans-serif;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1964,7 +1964,7 @@ footer h5 {
     color: #FFFFFF;
     font-family: 'Oswald', sans-serif;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
