@@ -4898,9 +4898,6 @@
         text-align: center;
     }
 
-    #viewz_solution .itemIcon {
-        margin: 0 auto;
-    }
 
     .h1Solid {
         text-align: left;
@@ -5022,7 +5019,6 @@
 
     #viewz_solution .itemContent {
         margin: 30px 0;
-        text-align: center;
     }
 
     .itemContentRow {
@@ -5037,9 +5033,6 @@
         padding: 20px;
     }
 
-    #viewz_solution .itemIcon {
-        margin: 0 auto;
-    }
 
     #viewz_partner .sndRow .item {
         width: 100%;
