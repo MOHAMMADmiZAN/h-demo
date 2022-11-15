@@ -5305,9 +5305,6 @@
         padding: 60px 0;
     }
 
-    .smallBenefitContent {
-        flex-direction: column-reverse;
-    }
 
     .smallBenefitContent .benefitContentItem {
         text-align: center;
