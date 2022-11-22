@@ -210,11 +210,11 @@ window.onload = function () {
         priceMonth.style.color = '#06C4FF';
         priceYear.style.backgroundColor = '#06C4FF';
         priceYear.style.color = '#fff';
-        free_plan.innerHTML =
-            ` 
-              <div class="plan_ar"><span class="font_35">3</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
-              
-            `
+        // free_plan.innerHTML =
+        //     `
+        //       <div class="plan_ar"><span class="font_35">3</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+        //
+        //     `
         individual_plan.innerHTML =
             `
                <div class="plan_price"><span class="font_51">29</span>$/mo</div>
@@ -239,10 +239,10 @@ window.onload = function () {
              <div class="plan_ar"><span class="font_35">1500</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
              
             `
-        enterprise_plan.innerHTML =
-            `
-            <div class="plan_price">Custom</div>
-            `
+        // enterprise_plan.innerHTML =
+        //     `
+        //     <div class="plan_price">Custom</div>
+        //     `
 
     }
 
@@ -251,11 +251,11 @@ window.onload = function () {
         priceYear.style.color = '#06C4FF';
         priceMonth.style.backgroundColor = '#06C4FF';
         priceMonth.style.color = '#fff';
-        free_plan.innerHTML =
-            `  
-            <div class="plan_ar"><span class="font_35">0</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
-            
-           `
+        // free_plan.innerHTML =
+        //     `
+        //     <div class="plan_ar"><span class="font_35">0</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
+        //
+        //    `
         individual_plan.innerHTML =
             `
              <div class="plan_price"><span class="font_51">36</span>$/mo</div>
@@ -279,10 +279,10 @@ window.onload = function () {
               <div class="plan_ar"><span class="font_35">500</span><img src="/img/ar-ico.png" alt="/img/ar-ico.png"></div>
               
             `
-        enterprise_plan.innerHTML =
-            `
-           <div class="plan_price">Custom</div>
-            `
+        // enterprise_plan.innerHTML =
+        //     `
+        //    <div class="plan_price">Custom</div>
+        //     `
     }
 
 
