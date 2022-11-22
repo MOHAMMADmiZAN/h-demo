@@ -331,7 +331,6 @@ window.onload = function () {
 }
 
 
-
 // // slick slider blog page
 // $('#recent-blog .items').slick({
 //     dots: false,
