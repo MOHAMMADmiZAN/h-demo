@@ -2702,3 +2702,16 @@ footer .footer-middle {
     font-size: 27px;
     font-family: "Oswald", sans-serif;
 }
+
+
+.nav_item_custom:nth-child(2) li:nth-child(2) a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    margin: 0;
+    background: #06c4ff;
+    color: white !important;
+    border-radius: 5px;
+}
