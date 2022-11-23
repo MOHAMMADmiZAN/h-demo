@@ -1911,7 +1911,7 @@ footer h5 {
 
 .plan_content {
     position: relative;
-    padding: 60px 0 80px;
+    padding: 20px 0 80px;
 
 
 }
@@ -2705,10 +2705,7 @@ footer .footer-middle {
 
 
 .nav_item_custom:nth-child(2) li:nth-child(2) a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: inline-block;
     padding: 10px 15px;
     margin: 0;
     background: #06c4ff;
